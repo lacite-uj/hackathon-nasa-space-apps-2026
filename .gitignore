@@ -1,0 +1,6 @@
+.vscode/
+.venv/
+
+# Databases
+**/database.raw
+**/database.zarr

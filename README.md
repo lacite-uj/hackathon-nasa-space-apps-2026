@@ -1,3 +1,4 @@
 # README
 
-informações sobre datasets: [dataset.md](./dataset.md)
+- Informações sobre datasets: [datasets/datasets.md](./datasets/datasets.md)
+- Informações sobre a apresentação: [presentation/presentation.md](./presentation/presentation.md)

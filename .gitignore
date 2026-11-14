@@ -2,5 +2,4 @@
 .venv/
 
 # Databases
-**/database.raw
-**/database.zarr
+**/database.*/

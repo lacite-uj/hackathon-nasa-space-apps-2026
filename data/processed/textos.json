@@ -1,0 +1,139 @@
+[
+  {
+    "planilha_id": "base-v1-1",
+    "aba": "Resumo",
+    "bloco": "introducao",
+    "titulo": null,
+    "linhas": [
+      "Escala de 0 a 3 (0 = não serve, 3 = forte). Vazio = a medir, não entra na média.",
+      "Base de referência v1.1 – 14/11/2026"
+    ]
+  },
+  {
+    "planilha_id": "base-v1-1",
+    "aba": "Resumo",
+    "bloco": "como-o-coeficiente-e-calculado",
+    "titulo": "Como o coeficiente é calculado",
+    "linhas": [
+      "Nota da variável (aba Critérios): o valor do local cai numa faixa definida pela distância ao alvo. Sentido “maior”: valor ≥ limite 3 → 3; ≥ limite 2 → 2; ≥ limite 1 → 1; senão 0. Sentido “menor”: o mesmo com ≤.",
+      "Nota da utilidade (aba Matriz) = média simples das notas das variáveis daquela utilidade e alvo que já têm valor.",
+      "Aderência do local ao alvo (tabela acima) = média simples das notas das utilidades já avaliadas.",
+      "Todas as variáveis e utilidades têm o mesmo peso por enquanto. A categoria Limitações universais (radiação) aparece nas matrizes, mas fica fora da aderência média."
+    ]
+  },
+  {
+    "planilha_id": "base-v1-1",
+    "aba": "Resumo",
+    "bloco": "historico-de-mudancas",
+    "titulo": "Histórico de mudanças",
+    "linhas": [
+      "v1 – 14/11/2026: base criada com Atacama (Yungay), Haughton e Vale da Morte; 15 utilidades, 41 critérios; radiação separada como limitação universal.",
+      "v1 – 14/11/2026: padrão de documentação aplicado a todas as abas (descrição, data, cabeçalho vermelho). Critérios e notas inalterados.",
+      "v1.1 – 14/11/2026: 4 utilidades novas (U16 vulcanismo basáltico, U17 água ácida e minerais Fe-S, U18 ambientes subterrâneos, U19 hidrotermalismo de impacto) e 7 critérios.",
+      "v1.1 – 14/11/2026: versão em Excel com logo, Calibri 11, filtros nos cabeçalhos e zoom de 75%."
+    ]
+  },
+  {
+    "planilha_id": "lote-2",
+    "aba": "Resumo",
+    "bloco": "introducao",
+    "titulo": null,
+    "linhas": [
+      "Lote 2 – 7 novos locais avaliados com o modelo da base v1.1",
+      "Mesmas utilidades, critérios e fórmulas da base de referência v1.1 (19 utilidades). Dados: NASA POWER e literatura (aba Fontes). Escala 0–3; vazio = a medir."
+    ]
+  },
+  {
+    "planilha_id": "lote-2",
+    "aba": "Resumo",
+    "bloco": "cuidados-ao-ler",
+    "titulo": "Cuidados ao ler",
+    "linhas": [
+      "NASA POWER tem pixel de ~50 km: representa a região, não o ponto exato. Holuhraun e Askja caem no mesmo pixel e têm o mesmo clima.",
+      "Mauna Kea: o pixel está a 636 m; as temperaturas foram corrigidas para 2.800 m (estimadas) e a chuva do pixel superestima o local.",
+      "McMurdo: temperatura média e chuva vêm de estações e medições locais, porque o pixel do POWER inclui o planalto gelado.",
+      "Declividade, rugosidade e amplitude térmica seguem a extrair: as utilidades U03 e U09 ficam fora das médias."
+    ]
+  },
+  {
+    "planilha_id": "lote-2",
+    "aba": "Resumo",
+    "bloco": "leitura-dos-resultados",
+    "titulo": "Leitura dos resultados",
+    "linhas": [
+      "Todos os 7 locais saem mais altos para Marte, inclusive os 4 listados como lunares. O alvo lunar do modelo é o polo sul (base permanente do Artemis); Cinder Lake, Meteor Crater e Islândia foram análogos da geologia equatorial das missões Apollo.",
+      "A Lua é mais difícil de imitar (vácuo, ~40 K, sem vento). Compare locais dentro do mesmo alvo (coluna Lua ou coluna Marte), não Lua contra Marte no mesmo local.",
+      "v1.1: com as utilidades de vulcanismo basáltico, água ácida, ambientes subterrâneos e hidrotermalismo de impacto, Holuhraun, Askja, Mauna Kea e Rio Tinto sobem; mesmo assim, todos seguem mais altos para Marte."
+    ]
+  },
+  {
+    "planilha_id": "lote-3",
+    "aba": "Resumo",
+    "bloco": "introducao",
+    "titulo": null,
+    "linhas": [
+      "Lote 3 – 4 locais brasileiros avaliados com o modelo da base v1.1",
+      "Mesmas utilidades, critérios e fórmulas da base de referência v1.1 (19 utilidades). Dados: NASA POWER e literatura (aba Fontes). Escala 0–3; vazio = a medir."
+    ]
+  },
+  {
+    "planilha_id": "lote-3",
+    "aba": "Resumo",
+    "bloco": "cuidados-ao-ler",
+    "titulo": "Cuidados ao ler",
+    "linhas": [
+      "NASA POWER tem pixel de ~50 km: representa a região, não o ponto exato.",
+      "Toca da Boa Vista: o clima é o da superfície; o interior da caverna é estável (~30 °C) e não foi medido aqui.",
+      "Araguainha: alteração hidrotermal ainda a verificar; a nota de U19 usa só a origem por impacto até lá.",
+      "Declividade, rugosidade e amplitude térmica seguem a extrair: U03 e U09 ficam fora das médias."
+    ]
+  },
+  {
+    "planilha_id": "lote-3",
+    "aba": "Resumo",
+    "bloco": "leitura-dos-resultados",
+    "titulo": "Leitura dos resultados",
+    "linhas": [
+      "Araguainha é o local brasileiro mais aderente (Lua 0,8; Marte 1,0), no nível de McMurdo: forte em geologia de impacto (nota 3). Sua nota 3 em hidrotermalismo de impacto vem só da origem por impacto, porque a alteração hidrotermal ainda está a verificar.",
+      "Vargeão tem nota 3 em hidrotermalismo de impacto, como Haughton, mas em basalto: é a cratera mais parecida com a crosta de Marte entre os 14 locais da rede.",
+      "Toca da Boa Vista é o único local da rede com nota 3 em ambientes subterrâneos (~114 km de galerias). Preenche uma lacuna que nenhum análogo clássico cobre.",
+      "Lençóis Maranhenses tem a menor aderência média (chuva alta), mas o modelo ainda não mede dunas: as barcanas, que são o motivo de estudá-lo para Marte, ficam fora da nota.",
+      "Como nos outros lotes, os 4 locais saem mais altos para Marte do que para a Lua (polo sul)."
+    ]
+  },
+  {
+    "planilha_id": "rede",
+    "aba": "Resumo",
+    "bloco": "introducao",
+    "titulo": null,
+    "linhas": [
+      "Rede de análogos – 14 locais, 19 utilidades, 2 alvos",
+      "As notas vêm das três planilhas (base v1.1, lote 2 e lote 3), calculadas com o mesmo modelo. Escala 0–3; vazio = a medir."
+    ]
+  },
+  {
+    "planilha_id": "rede",
+    "aba": "Resumo",
+    "bloco": "conclusao-apollo-artemis",
+    "titulo": "Conclusão: Apollo × Artemis",
+    "linhas": [
+      "Os análogos lunares clássicos (Cinder Lake, Meteor Crater, Islândia, Mauna Kea) foram escolhidos para a Lua das missões Apollo: equatorial, de basalto e crateras. O alvo de hoje é o polo sul do Artemis: frio de ~40 K, gelo em crateras em sombra e Sol rasante.",
+      "Contra o polo sul, esses locais caem para 0,5–0,6 de aderência. Quem lidera a coluna da Lua são Haughton (1,2) e McMurdo (0,8): lugares polares, com gelo no solo, Sol baixo e logística isolada.",
+      "Recomendação: para a base permanente do Artemis, treinar e testar em análogos polares (Haughton, McMurdo) e usar os análogos Apollo só para geologia de impacto e vulcanismo basáltico.",
+      "A rede cobre 13 de 15 usos avaliados para Marte, mas só 8 de 13 para a Lua. As lacunas lunares são justamente as do Artemis: frio de ~40 K, gelo e extração de água do solo lunar, poeira sem vento e radiação. Para essas, o caminho são câmaras de vácuo e frio, não análogos de campo.",
+      "O Brasil entra na rede com três papéis que faltavam: Toca da Boa Vista (subterrâneo), Vargeão (hidrotermalismo de impacto em basalto) e Araguainha (geologia de impacto em grande escala)."
+    ]
+  },
+  {
+    "planilha_id": "rede",
+    "aba": "Resumo",
+    "bloco": "cuidados-ao-ler",
+    "titulo": "Cuidados ao ler",
+    "linhas": [
+      "A nota de cada utilidade é a média das variáveis com valor; vazio não entra. Araguainha tem nota 3 em U19 só pela origem por impacto (hidrotermalismo a verificar).",
+      "O UV da base usa uma escala 0–3 da literatura; os lotes usam o índice UV do NASA POWER traduzido para a mesma escala. Locais tropicais de baixa altitude ganham nota 3.",
+      "Rajadas de vento: todos os locais do POWER passam de 10 m/s, então U13 Marte não discrimina bem.",
+      "Notas copiadas das três planilhas em 14/11/2026. Se uma delas mudar, atualize a aba Notas."
+    ]
+  }
+]

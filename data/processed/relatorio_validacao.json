@@ -1,0 +1,76 @@
+{
+  "tolerancia": 1e-09,
+  "comparadas": 2681,
+  "divergencias": 0,
+  "por_aba": {
+    "Base_referencia_v1.1.xlsx › Critérios": {
+      "comparadas": 144,
+      "divergencias": 0
+    },
+    "Lote2_7_locais.xlsx › Critérios": {
+      "comparadas": 672,
+      "divergencias": 0
+    },
+    "Lote3_locais_brasileiros.xlsx › Critérios": {
+      "comparadas": 384,
+      "divergencias": 0
+    },
+    "Base_referencia_v1.1.xlsx › Matriz por Utilidade": {
+      "comparadas": 96,
+      "divergencias": 0
+    },
+    "Base_referencia_v1.1.xlsx › Matriz por Categoria": {
+      "comparadas": 60,
+      "divergencias": 0
+    },
+    "Lote2_7_locais.xlsx › Matriz por Utilidade": {
+      "comparadas": 224,
+      "divergencias": 0
+    },
+    "Lote2_7_locais.xlsx › Matriz por Categoria": {
+      "comparadas": 96,
+      "divergencias": 0
+    },
+    "Lote3_locais_brasileiros.xlsx › Matriz por Utilidade": {
+      "comparadas": 128,
+      "divergencias": 0
+    },
+    "Lote3_locais_brasileiros.xlsx › Matriz por Categoria": {
+      "comparadas": 60,
+      "divergencias": 0
+    },
+    "Base_referencia_v1.1.xlsx › Resumo": {
+      "comparadas": 18,
+      "divergencias": 0
+    },
+    "Lote2_7_locais.xlsx › Resumo": {
+      "comparadas": 28,
+      "divergencias": 0
+    },
+    "Lote3_locais_brasileiros.xlsx › Resumo": {
+      "comparadas": 16,
+      "divergencias": 0
+    },
+    "Rede_de_analogos.xlsx › Notas": {
+      "comparadas": 448,
+      "divergencias": 0
+    },
+    "Rede_de_analogos.xlsx › Melhor por utilidade": {
+      "comparadas": 224,
+      "divergencias": 0
+    },
+    "Rede_de_analogos.xlsx › Por local": {
+      "comparadas": 56,
+      "divergencias": 0
+    },
+    "Rede_de_analogos.xlsx › Resumo": {
+      "comparadas": 8,
+      "divergencias": 0
+    },
+    "Base_referencia_v1.1.xlsx › Validação": {
+      "comparadas": 19,
+      "divergencias": 0
+    }
+  },
+  "lista_divergencias": []
+}

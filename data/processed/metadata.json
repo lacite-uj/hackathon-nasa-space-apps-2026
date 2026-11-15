@@ -1,0 +1,76 @@
+{
+  "modelo": "Base de referência v1.1 – 14/11/2026",
+  "data_planilhas": "2026-11-14",
+  "arquivos_origem": [
+    {
+      "planilha_id": "base-v1-1",
+      "arquivo": "Base_referencia_v1.1.xlsx",
+      "sha256": "0293b5aa6c0adff2b3896e620066a4f40bf69c210a0ad8d16bf1fbfa6a36f05a",
+      "abas": [
+        "Catálogo",
+        "Utilidades",
+        "Critérios",
+        "Matriz por Utilidade",
+        "Matriz por Categoria",
+        "Resumo",
+        "Validação",
+        "Leitura preliminar",
+        "Locais",
+        "Fontes"
+      ]
+    },
+    {
+      "planilha_id": "lote-2",
+      "arquivo": "Lote2_7_locais.xlsx",
+      "sha256": "61e50de7db6651cf6cebbb1c69a519c65042cd2f4f268670ff813644af32643c",
+      "abas": [
+        "Resumo",
+        "Locais",
+        "Valores",
+        "Utilidades",
+        "Critérios",
+        "Matriz por Utilidade",
+        "Matriz por Categoria",
+        "Fontes"
+      ]
+    },
+    {
+      "planilha_id": "lote-3",
+      "arquivo": "Lote3_locais_brasileiros.xlsx",
+      "sha256": "d92eb5afe844cc85dbde44c7e3affb234dac51d3d744a3b7fff1ec1424bbf71c",
+      "abas": [
+        "Resumo",
+        "Locais",
+        "Valores",
+        "Utilidades",
+        "Critérios",
+        "Matriz por Utilidade",
+        "Matriz por Categoria",
+        "Fontes"
+      ]
+    },
+    {
+      "planilha_id": "rede",
+      "arquivo": "Rede_de_analogos.xlsx",
+      "sha256": "f502ae7cf14dd54799be02b3060005097016ead8bd7cea184b873a6b7368330a",
+      "abas": [
+        "Resumo",
+        "Notas",
+        "Melhor por utilidade",
+        "Por local",
+        "Locais",
+        "Fontes"
+      ]
+    }
+  ],
+  "escala": {
+    "min": 0,
+    "max": 3,
+    "descricao": "0 = não serve, 3 = forte. null = a medir (não entra na média)."
+  },
+  "versao_etl": "1.0",
+  "gerado_em": "2026-11-15T17:32:16Z",
+  "avisos": [
+    "Texto de 'Condição que o alvo impõe' nos lotes difere da base (usado o da base): U02 (lote-2 e lote-3), U05 (lote-2 e lote-3), U06 (lote-2 e lote-3), U13 (lote-2 e lote-3), U15 (lote-2 e lote-3), U17 (lote-2 e lote-3), U18 (lote-2 e lote-3), U19 (lote-2 e lote-3)"
+  ]
+}

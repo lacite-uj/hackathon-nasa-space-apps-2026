@@ -1,0 +1,406 @@
+[
+  {
+    "id": "atacama",
+    "nome": "Atacama",
+    "nome_completo": "Atacama – Yungay",
+    "aliases": [
+      "Atacama",
+      "Atacama (Yungay)",
+      "Atacama – Yungay"
+    ],
+    "pais": "Chile",
+    "lote": "base-v1-1",
+    "conjunto_criterios": "base-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": -24.1,
+    "lon": -70.01,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Núcleo hiperárido perto da antiga mina de nitrato de Yungay",
+    "por_que_recorte": "É o ponto mais estudado do núcleo hiperárido, com séries de clima e solo publicadas",
+    "justificativa": null,
+    "obs_dados": null,
+    "fonte_ids": [],
+    "leitura_qualitativa": [
+      {
+        "alvo_id": "marte",
+        "grau_hipotese": "Forte",
+        "similar_em": "Secura extrema (~0,6 mm/ano); solos salinos e oxidantes, com perclorato em níveis comparáveis aos do Phoenix; UV mais alto da Terra; vida rara e em manchas",
+        "diferente_em": "Pressão ~125× maior; ~70 °C mais quente que Jezero; radiação ~90× menor; atmosfera com oxigênio e neblina",
+        "utilidade": "Testar detecção de vida e de moléculas orgânicas em solo com perclorato; testar instrumentos e rovers"
+      },
+      {
+        "alvo_id": "lua",
+        "grau_hipotese": "Fraco",
+        "similar_em": "Superfície seca e sem vegetação; insolação e UV altos",
+        "diferente_em": "Tem atmosfera e vento; não tem gelo, regolito lunar nem crateras em sombra; muito mais quente",
+        "utilidade": "Limitada: testar materiais sob UV forte e operações em local árido e isolado"
+      }
+    ]
+  },
+  {
+    "id": "haughton",
+    "nome": "Haughton",
+    "nome_completo": "Haughton",
+    "aliases": [
+      "Haughton"
+    ],
+    "pais": "Canadá",
+    "lote": "base-v1-1",
+    "conjunto_criterios": "base-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": 75.383,
+    "lon": -89.667,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Cratera de impacto inteira (23 km), Ilha Devon",
+    "por_que_recorte": "Única cratera de impacto conhecida em deserto polar; tem permafrost",
+    "justificativa": null,
+    "obs_dados": null,
+    "fonte_ids": [],
+    "leitura_qualitativa": [
+      {
+        "alvo_id": "marte",
+        "grau_hipotese": "Forte",
+        "similar_em": "Cratera de impacto em deserto polar; permafrost e gelo no solo; polígonos de gelo e ravinas de degelo; frio (−16 °C de média)",
+        "diferente_em": "Ainda ~40 °C mais quente que Jezero; pressão e radiação de Terra; tem vegetação esparsa",
+        "utilidade": "Treinar operações humanas (HMP, FMARS, trajes); testar radar para achar gelo; estudar ravinas e polígonos"
+      },
+      {
+        "alvo_id": "lua",
+        "grau_hipotese": "Parcial",
+        "similar_em": "Cratera de impacto com brechas; frio; gelo no subsolo; isolamento e logística polar",
+        "diferente_em": "O gelo lunar está em crateras a ~40 K no vácuo, e não em permafrost; sem atmosfera na Lua; gravidade",
+        "utilidade": "Treinar geologia de impacto e coleta de amostras; ensaiar prospecção de gelo e logística polar"
+      }
+    ]
+  },
+  {
+    "id": "vale-da-morte",
+    "nome": "Vale da Morte",
+    "nome_completo": "Vale da Morte – Badwater e Ubehebe",
+    "aliases": [
+      "Vale da Morte",
+      "Vale da Morte – Badwater e Ubehebe"
+    ],
+    "pais": "EUA",
+    "lote": "base-v1-1",
+    "conjunto_criterios": "base-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": 36.25,
+    "lon": -116.75,
+    "coordenada_aproximada": true,
+    "coordenada_obs": "Aba Locais da base diz 'a confirmar'; usada a célula 36,25 N, −116,75 da fonte F33.",
+    "recorte": "Salar de Badwater (evaporitos) + cratera Ubehebe (maar)",
+    "por_que_recorte": "Dois processos distintos: evaporação de lago e vulcanismo explosivo com água",
+    "justificativa": null,
+    "obs_dados": null,
+    "fonte_ids": [],
+    "leitura_qualitativa": [
+      {
+        "alvo_id": "marte",
+        "grau_hipotese": "Parcial (forte em processos)",
+        "similar_em": "Evaporitos de lago que secou (como lagos antigos de Marte); cratera Ubehebe como análogo de Gale; ar extremamente seco",
+        "diferente_em": "Muito mais quente; pressão de Terra; chuva ocasional; tem vida",
+        "utilidade": "Testar sistemas de pouso (Lander Vision System, 2019); buscar bioassinaturas em evaporitos; entender sedimentação de lagos"
+      },
+      {
+        "alvo_id": "lua",
+        "grau_hipotese": "Fraco",
+        "similar_em": "Terreno árido, sem vegetação; solo que superaquece",
+        "diferente_em": "Atmosfera, vento, água salina, ausência de gelo e de crateras em sombra",
+        "utilidade": "Testar equipamentos em calor extremo (como o meio-dia lunar perto do equador)"
+      }
+    ]
+  },
+  {
+    "id": "cinder-lake",
+    "nome": "Cinder Lake",
+    "nome_completo": "Cinder Lake Crater Field",
+    "aliases": [
+      "Cinder Lake",
+      "Cinder Lake Crater Field"
+    ],
+    "pais": "EUA",
+    "lote": "lote-2",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "lua"
+    ],
+    "lat": 35.3,
+    "lon": -111.45,
+    "coordenada_aproximada": true,
+    "coordenada_obs": "Coordenada aproximada; clima do NASA POWER",
+    "recorte": "Campo de crateras feitas com explosivos (1967–68), a nordeste de Flagstaff",
+    "por_que_recorte": null,
+    "justificativa": "Réplica em escala 1:1 de parte do Mare Tranquillitatis; treino das equipes Apollo e teste de veículos e equipamentos",
+    "obs_dados": "Coordenada aproximada; clima do NASA POWER",
+    "fonte_ids": [],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "meteor-crater",
+    "nome": "Meteor Crater",
+    "nome_completo": "Meteor Crater",
+    "aliases": [
+      "Meteor Crater"
+    ],
+    "pais": "EUA",
+    "lote": "lote-2",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "lua"
+    ],
+    "lat": 35.0275,
+    "lon": -111.0225,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Cratera de impacto (~1,2 km de diâmetro, ~180 m de profundidade)",
+    "por_que_recorte": null,
+    "justificativa": "Cratera de impacto jovem e preservada; treino de astronautas desde a era Apollo",
+    "obs_dados": "Clima do NASA POWER",
+    "fonte_ids": [],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "holuhraun",
+    "nome": "Holuhraun",
+    "nome_completo": "Holuhraun (Islândia)",
+    "aliases": [
+      "Holuhraun",
+      "Holuhraun (Islândia)"
+    ],
+    "pais": "Islândia",
+    "lote": "lote-2",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "lua"
+    ],
+    "lat": 64.87,
+    "lon": -16.83,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Campo de lava basáltica de 2014–15 (~83,5 km²), planalto central",
+    "por_que_recorte": null,
+    "justificativa": "Basalto de inundação, como os mares lunares; estudado como análogo de Elysium Planitia (Marte)",
+    "obs_dados": "Cai no mesmo pixel do POWER que Askja: clima idêntico",
+    "fonte_ids": [],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "mauna-kea",
+    "nome": "Mauna Kea",
+    "nome_completo": "Mauna Kea",
+    "aliases": [
+      "Mauna Kea"
+    ],
+    "pais": "EUA (Havaí)",
+    "lote": "lote-2",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "lua"
+    ],
+    "lat": 19.761,
+    "lon": -155.471,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Pu'u Hiwahine, cone de cinzas a ~2.800 m (local dos testes ISRU de 2010 e 2012)",
+    "por_que_recorte": null,
+    "justificativa": "Material vulcânico fino; testes de extração de recursos, escavação e mobilidade",
+    "obs_dados": "Pixel do POWER a 636 m: temperaturas corrigidas para 2.800 m (estimadas)",
+    "fonte_ids": [],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "mcmurdo",
+    "nome": "McMurdo",
+    "nome_completo": "McMurdo Dry Valleys",
+    "aliases": [
+      "McMurdo",
+      "McMurdo Dry Valleys"
+    ],
+    "pais": "Antártida",
+    "lote": "lote-2",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": -77.52,
+    "lon": 161.85,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Vale Wright",
+    "por_que_recorte": null,
+    "justificativa": "Deserto frio e seco; permafrost seco sobre solo cimentado por gelo; análogo do sítio do Phoenix",
+    "obs_dados": "Temperatura média e chuva da literatura local; o resto do POWER",
+    "fonte_ids": [],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "rio-tinto",
+    "nome": "Rio Tinto",
+    "nome_completo": "Rio Tinto",
+    "aliases": [
+      "Rio Tinto"
+    ],
+    "pais": "Espanha",
+    "lote": "lote-2",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": 37.69,
+    "lon": -6.59,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Nascente do rio, perto de Minas de Riotinto e Nerva",
+    "por_que_recorte": null,
+    "justificativa": "Água ácida (pH ~2,3) e rica em ferro; jarosita e hematita, como em Meridiani Planum",
+    "obs_dados": "Clima do NASA POWER",
+    "fonte_ids": [],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "askja",
+    "nome": "Askja",
+    "nome_completo": "Askja (Islândia)",
+    "aliases": [
+      "Askja",
+      "Askja (Islândia)"
+    ],
+    "pais": "Islândia",
+    "lote": "lote-2",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": 65.03,
+    "lon": -16.75,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Caldeira de Askja",
+    "por_que_recorte": null,
+    "justificativa": "Vulcanismo, gelo e água no mesmo lugar; treino Apollo em 1965 e 1967",
+    "obs_dados": "Cai no mesmo pixel do POWER que Holuhraun",
+    "fonte_ids": [],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "vargeao",
+    "nome": "Vargeão",
+    "nome_completo": "Vargeão",
+    "aliases": [
+      "Vargeão"
+    ],
+    "pais": "Brasil",
+    "lote": "lote-3",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": -26.8167,
+    "lon": -52.1667,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Domo de Vargeão (SC): cratera de impacto de ~12 km em basalto da Bacia do Paraná",
+    "por_que_recorte": null,
+    "justificativa": "Uma das duas únicas crateras da Terra em basalto bem exposto, como a crosta de Marte; sistema hidrotermal gerado pelo impacto (H2, H3, H4)",
+    "obs_dados": "Clima do NASA POWER (pixel ~50 km)",
+    "fonte_ids": [
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "araguainha",
+    "nome": "Araguainha",
+    "nome_completo": "Araguainha",
+    "aliases": [
+      "Araguainha"
+    ],
+    "pais": "Brasil",
+    "lote": "lote-3",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "lua",
+      "marte"
+    ],
+    "lat": -16.78,
+    "lon": -52.99,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Domo de Araguainha (MT/GO): estrutura de impacto de ~40 km, a maior da América do Sul",
+    "por_que_recorte": null,
+    "justificativa": "Cratera complexa com anel de pico, brechas e rochas fundidas pelo impacto (H5, H6)",
+    "obs_dados": "Clima do NASA POWER; alteração hidrotermal a verificar",
+    "fonte_ids": [
+      "H5",
+      "H6"
+    ],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "lencois-maranhenses",
+    "nome": "Lençóis Maranhenses",
+    "nome_completo": "Lençóis Maranhenses",
+    "aliases": [
+      "Lençóis Maranhenses"
+    ],
+    "pais": "Brasil",
+    "lote": "lote-3",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "marte"
+    ],
+    "lat": -2.5,
+    "lon": -43.1,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Campo de dunas barcanas com lagoas entre as dunas (MA)",
+    "por_que_recorte": null,
+    "justificativa": "Dunas barcanas usadas para entender dunas de Marte; lagoas sazonais entre dunas lembram um Marte com água intermitente (H7, H8, N13)",
+    "obs_dados": "Clima do NASA POWER; chuva alta, ao contrário de Marte",
+    "fonte_ids": [
+      "H7",
+      "H8",
+      "N13"
+    ],
+    "leitura_qualitativa": []
+  },
+  {
+    "id": "toca-da-boa-vista",
+    "nome": "Toca da Boa Vista",
+    "nome_completo": "Toca da Boa Vista",
+    "aliases": [
+      "Toca da Boa Vista"
+    ],
+    "pais": "Brasil",
+    "lote": "lote-3",
+    "conjunto_criterios": "lotes-v1-1",
+    "listado_como": [
+      "lua",
+      "marte"
+    ],
+    "lat": -10.1625,
+    "lon": -40.8597,
+    "coordenada_aproximada": false,
+    "coordenada_obs": null,
+    "recorte": "Caverna em dolomito, Campo Formoso (BA)",
+    "por_que_recorte": null,
+    "justificativa": "Maior caverna da América do Sul (~114 km de galerias): treino de operação subterrânea, como em tubos de lava da Lua e de Marte (H11, N14)",
+    "obs_dados": "Clima do NASA POWER (superfície, não o interior da caverna)",
+    "fonte_ids": [
+      "H11",
+      "N14"
+    ],
+    "leitura_qualitativa": []
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "V01",
+    "local_id": "atacama",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U05",
+    "descricao": "Bioassinaturas em solo oxidante",
+    "literatura": "Um dos melhores análogos de Marte: secura extrema, solos salinos e oxidantes",
+    "fonte_ids": [
+      "F13"
+    ],
+    "expectativa": "Alta (≥ 2)",
+    "linha_excel": 13,
+    "regra": "nota >= 2",
+    "nota_modelo": 3.0,
+    "bate": true
+  },
+  {
+    "id": "V02",
+    "local_id": "atacama",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U04",
+    "descricao": "Degradação por UV",
+    "literatura": "Maior radiação UV da Terra",
+    "fonte_ids": [
+      "F13"
+    ],
+    "expectativa": "Alta (≥ 2)",
+    "linha_excel": 14,
+    "regra": "nota >= 2",
+    "nota_modelo": 3.0,
+    "bate": true
+  },
+  {
+    "id": "V03",
+    "local_id": "haughton",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U06",
+    "descricao": "Prospecção de gelo",
+    "literatura": "Permafrost contínuo e polígonos de gelo parecidos com os de Marte",
+    "fonte_ids": [
+      "F2"
+    ],
+    "expectativa": "Alta (≥ 2)",
+    "linha_excel": 15,
+    "regra": "nota >= 2",
+    "nota_modelo": 2.0,
+    "bate": true
+  },
+  {
+    "id": "V04",
+    "local_id": "haughton",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U10",
+    "descricao": "Operações humanas e EVA",
+    "literatura": "HMP e FMARS testam os desafios de viver e trabalhar em Marte",
+    "fonte_ids": [
+      "N1",
+      "F2"
+    ],
+    "expectativa": "Alta (≥ 2)",
+    "linha_excel": 16,
+    "regra": "nota >= 2",
+    "nota_modelo": 3.0,
+    "bate": true
+  },
+  {
+    "id": "V05",
+    "local_id": "haughton",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U11",
+    "descricao": "Geologia de impacto",
+    "literatura": "Única cratera de impacto conhecida em deserto polar, excepcionalmente preservada",
+    "fonte_ids": [
+      "F2"
+    ],
+    "expectativa": "Alta (≥ 2)",
+    "linha_excel": 17,
+    "regra": "nota >= 2",
+    "nota_modelo": 3.0,
+    "bate": true
+  },
+  {
+    "id": "V06",
+    "local_id": "haughton",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U01",
+    "descricao": "Frio extremo",
+    "literatura": "Frio, mas longe de condições tão extremas quanto as de Marte",
+    "fonte_ids": [
+      "F2"
+    ],
+    "expectativa": "Baixa (≤ 1)",
+    "linha_excel": 18,
+    "regra": "nota <= 1",
+    "nota_modelo": 1.0,
+    "bate": true
+  },
+  {
+    "id": "V07",
+    "local_id": "vale-da-morte",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U08",
+    "descricao": "Pouso guiado por visão",
+    "literatura": "O Lander Vision System do Perseverance foi testado lá em 2019",
+    "fonte_ids": [
+      "F18"
+    ],
+    "expectativa": "Alta (≥ 2)",
+    "linha_excel": 19,
+    "regra": "nota >= 2",
+    "nota_modelo": 3.0,
+    "bate": true
+  },
+  {
+    "id": "V08",
+    "local_id": "vale-da-morte",
+    "alvos": [
+      "marte"
+    ],
+    "utilidade_id": "U12",
+    "descricao": "Lagos que secaram",
+    "literatura": "Evaporitos de lago antigo; cratera Ubehebe usada como análogo de Gale",
+    "fonte_ids": [
+      "N8"
+    ],
+    "expectativa": "Alta (≥ 2)",
+    "linha_excel": 20,
+    "regra": "nota >= 2",
+    "nota_modelo": 3.0,
+    "bate": true
+  },
+  {
+    "id": "V09",
+    "local_id": "atacama",
+    "alvos": [
+      "marte",
+      "lua"
+    ],
+    "utilidade_id": null,
+    "descricao": "Aderência geral",
+    "literatura": "O Atacama é estudado como análogo de Marte, não da Lua",
+    "fonte_ids": [
+      "F13"
+    ],
+    "expectativa": "Marte > Lua",
+    "linha_excel": 21,
+    "regra": "aderencia_marte - aderencia_lua > 0",
+    "nota_modelo": 0.5551948051948052,
+    "bate": true
+  }
+]

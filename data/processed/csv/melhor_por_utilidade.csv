@@ -1,0 +1,33 @@
+utilidade_id,alvo_id,categoria_id,melhor_nota,melhor_local_id,empatados,n_empatados,segunda_nota,segundo_local_id,situacao
+U01,lua,engenharia,0.5,mcmurdo,mcmurdo,1,0.0,atacama,Lacuna
+U01,marte,engenharia,1.5,mcmurdo,mcmurdo,1,1.0,haughton,Lacuna
+U02,lua,engenharia,3.0,vale-da-morte,vale-da-morte,1,1.0,cinder-lake,Coberta
+U03,lua,engenharia,,,,0,,,A medir
+U03,marte,engenharia,,,,0,,,A medir
+U04,lua,engenharia,3.0,atacama,atacama; araguainha; lencois-maranhenses; toca-da-boa-vista,4,2.0,cinder-lake,Coberta
+U04,marte,engenharia,3.0,atacama,atacama; araguainha; lencois-maranhenses; toca-da-boa-vista,4,2.0,cinder-lake,Coberta
+U05,marte,ciencia,3.0,atacama,atacama,1,1.0,haughton,Coberta
+U06,lua,recursos,1.5,haughton,haughton; mcmurdo,2,0.5,holuhraun,Lacuna
+U06,marte,recursos,2.0,haughton,haughton; mcmurdo,2,0.5,holuhraun,Coberta
+U07,lua,recursos,1.5,haughton,haughton; mcmurdo,2,0.5,holuhraun,Lacuna
+U07,marte,recursos,2.0,haughton,haughton; mcmurdo,2,0.5,holuhraun,Coberta
+U08,lua,pouso-e-mobilidade,3.0,vale-da-morte,vale-da-morte,1,0.0,atacama,Coberta
+U08,marte,pouso-e-mobilidade,3.0,vale-da-morte,vale-da-morte,1,0.0,atacama,Coberta
+U09,lua,pouso-e-mobilidade,,,,0,,,A medir
+U09,marte,pouso-e-mobilidade,,,,0,,,A medir
+U10,lua,operacoes-humanas,3.0,haughton,haughton; mcmurdo,2,2.0,askja,Coberta
+U10,marte,operacoes-humanas,3.0,haughton,haughton; mcmurdo,2,2.0,askja,Coberta
+U11,lua,ciencia,3.0,haughton,haughton; meteor-crater; vargeao; araguainha,4,1.0,vale-da-morte,Coberta
+U11,marte,ciencia,3.0,haughton,haughton; meteor-crater; vargeao; araguainha,4,1.0,vale-da-morte,Coberta
+U12,marte,ciencia,3.0,vale-da-morte,vale-da-morte,1,2.0,atacama,Coberta
+U13,lua,engenharia,0.0,atacama,atacama; haughton; vale-da-morte; cinder-lake; meteor-crater; holuhraun; mauna-kea; mcmurdo; rio-tinto; askja; vargeao; araguainha; lencois-maranhenses; toca-da-boa-vista,14,,,Lacuna
+U13,marte,engenharia,3.0,atacama,atacama; cinder-lake; meteor-crater; holuhraun; mauna-kea; mcmurdo; rio-tinto; askja; araguainha; toca-da-boa-vista,10,2.0,vargeao,Coberta
+U14,lua,operacoes-humanas,3.0,haughton,haughton; mcmurdo,2,1.0,holuhraun,Coberta
+U15,lua,limitacoes-universais,0.0,atacama,atacama; haughton; vale-da-morte; cinder-lake; meteor-crater; holuhraun; mauna-kea; mcmurdo; rio-tinto; askja; vargeao; araguainha; lencois-maranhenses; toca-da-boa-vista,14,,,Lacuna
+U15,marte,limitacoes-universais,0.0,atacama,atacama; haughton; vale-da-morte; cinder-lake; meteor-crater; holuhraun; mauna-kea; mcmurdo; rio-tinto; askja; vargeao; araguainha; lencois-maranhenses; toca-da-boa-vista,14,,,Lacuna
+U16,lua,ciencia,3.0,holuhraun,holuhraun,1,2.0,vale-da-morte,Coberta
+U16,marte,ciencia,3.0,holuhraun,holuhraun,1,2.0,vale-da-morte,Coberta
+U17,marte,ciencia,3.0,rio-tinto,rio-tinto,1,2.0,haughton,Coberta
+U18,lua,operacoes-humanas,3.0,toca-da-boa-vista,toca-da-boa-vista,1,2.0,araguainha,Coberta
+U18,marte,operacoes-humanas,3.0,toca-da-boa-vista,toca-da-boa-vista,1,2.0,araguainha,Coberta
+U19,marte,ciencia,3.0,haughton,haughton; vargeao; araguainha,3,1.5,meteor-crater,Coberta

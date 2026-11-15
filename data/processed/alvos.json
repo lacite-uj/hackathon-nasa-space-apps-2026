@@ -1,0 +1,22 @@
+[
+  {
+    "id": "lua",
+    "nome": "Lua – polo sul (Shackleton)",
+    "corpo": "moon",
+    "local_referencia": "Shackleton",
+    "lat": -89.67,
+    "lon": 129.78,
+    "recorte": "Borda de Shackleton e Connecting Ridge (regiões candidatas do Artemis III)",
+    "por_que_recorte": "Alvo da base lunar: luz quase contínua nas bordas e gelo nas crateras em sombra"
+  },
+  {
+    "id": "marte",
+    "nome": "Marte – Jezero",
+    "corpo": "mars",
+    "local_referencia": "Jezero",
+    "lat": 18.38,
+    "lon": 77.58,
+    "recorte": "Cratera Jezero e seu delta",
+    "por_que_recorte": "Tem rover em solo (Perseverance/MEDA), com dados medidos no chão"
+  }
+]

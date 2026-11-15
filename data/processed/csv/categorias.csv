@@ -1,0 +1,7 @@
+id,nome,entra_na_aderencia,utilidade_ids,n_utilidades_por_alvo_lua,n_utilidades_por_alvo_marte
+engenharia,Engenharia,True,U01; U02; U03; U04; U13,5,4
+ciencia,Ciência,True,U05; U11; U12; U16; U17; U19,2,6
+recursos,Recursos,True,U06; U07,2,2
+pouso-e-mobilidade,Pouso e mobilidade,True,U08; U09,2,2
+operacoes-humanas,Operações humanas,True,U10; U14; U18,3,2
+limitacoes-universais,Limitações universais,False,U15,1,1

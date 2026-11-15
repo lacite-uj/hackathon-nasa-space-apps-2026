@@ -1,0 +1,4571 @@
+[
+  {
+    "local_id": "atacama",
+    "variavel_id": "temperatura-media",
+    "valor": 16.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J13"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "temperatura-media",
+    "valor": -16.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K13"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "temperatura-media",
+    "valor": 19.2,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N17"
+    ],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L13",
+    "correcao": "o valor de 18,5 °C da planilha vinha de site sem revisão; trocado pelo NASA POWER no mesmo ponto (19,2 °C)."
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -5.7,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J14"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K14"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -10.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L14"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J17"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K17"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 94.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L17"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J18"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K18"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L18"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "nivel-de-uv-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J20"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "nivel-de-uv-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K20"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "nivel-de-uv-0-3",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L20"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": 0.6,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J22"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K22"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L22"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "precipitacao-anual",
+    "valor": 0.6,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J23"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "precipitacao-anual",
+    "valor": 13.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K23"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "precipitacao-anual",
+    "valor": 49.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N9"
+    ],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L23",
+    "correcao": "o valor de 38 mm (Badwater) da planilha vinha de fonte não validada; o NPS dá 49 mm/ano em Furnace Creek, a estação oficial do vale."
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J24"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K24"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L24"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J29"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K29"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L29"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J34"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K34"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L34"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J35"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K35"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L35"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J38"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K38"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L38"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J39"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K39"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L39"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J42"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K42"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L42"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J43"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K43"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L43"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J46"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K46"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L46"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J48"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K48"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L48"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J49"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K49"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L49"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 12.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J50"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K50"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L50"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "latitude-modulo",
+    "valor": 24.1,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J51"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "latitude-modulo",
+    "valor": 75.4,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K51"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "latitude-modulo",
+    "valor": 36.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L51"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J52"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K52"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L52"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J53"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K53"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L53"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J54"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K54"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L54"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J56"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K56"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L56"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J57"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K57"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L57"
+  },
+  {
+    "local_id": "atacama",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!J60"
+  },
+  {
+    "local_id": "haughton",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!K60"
+  },
+  {
+    "local_id": "vale-da-morte",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": null,
+    "observacao": "Valor digitado na aba Critérios da base; as fontes por variável estão no Catálogo.",
+    "origem": "Base_referencia_v1.1.xlsx › Critérios!L60"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "temperatura-media",
+    "valor": 13.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G12; Mauna Kea: G1 corrigido",
+    "observacao": "Mauna Kea: 20,9 °C do pixel − 6,5 °C/km × 2,16 km (estimado). McMurdo: estações do fundo dos vales (N12)",
+    "origem": "Lote2_7_locais.xlsx › Valores!C13"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "temperatura-media",
+    "valor": 11.4,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G12; Mauna Kea: G1 corrigido",
+    "observacao": "Mauna Kea: 20,9 °C do pixel − 6,5 °C/km × 2,16 km (estimado). McMurdo: estações do fundo dos vales (N12)",
+    "origem": "Lote2_7_locais.xlsx › Valores!D13"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "temperatura-media",
+    "valor": -2.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G12; Mauna Kea: G1 corrigido",
+    "observacao": "Mauna Kea: 20,9 °C do pixel − 6,5 °C/km × 2,16 km (estimado). McMurdo: estações do fundo dos vales (N12)",
+    "origem": "Lote2_7_locais.xlsx › Valores!E13"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "temperatura-media",
+    "valor": 6.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G12; Mauna Kea: G1 corrigido",
+    "observacao": "Mauna Kea: 20,9 °C do pixel − 6,5 °C/km × 2,16 km (estimado). McMurdo: estações do fundo dos vales (N12)",
+    "origem": "Lote2_7_locais.xlsx › Valores!F13"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "temperatura-media",
+    "valor": -14.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N12"
+    ],
+    "fonte_texto": "G1; McMurdo: G12; Mauna Kea: G1 corrigido",
+    "observacao": "Mauna Kea: 20,9 °C do pixel − 6,5 °C/km × 2,16 km (estimado). McMurdo: estações do fundo dos vales (N12)",
+    "origem": "Lote2_7_locais.xlsx › Valores!G13",
+    "correcao": "o valor de −19,8 °C da planilha vinha de fonte não validada. A fonte revisada (Doran et al. 2002) dá médias de −14,8 a −30,0 °C nas estações do fundo dos vales; usado o limite mais quente (conservador: não aumenta nenhuma nota). O pixel do NASA POWER (−27,2 °C) inclui o planalto."
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "temperatura-media",
+    "valor": 17.9,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G12; Mauna Kea: G1 corrigido",
+    "observacao": "Mauna Kea: 20,9 °C do pixel − 6,5 °C/km × 2,16 km (estimado). McMurdo: estações do fundo dos vales (N12)",
+    "origem": "Lote2_7_locais.xlsx › Valores!H13"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "temperatura-media",
+    "valor": -2.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G12; Mauna Kea: G1 corrigido",
+    "observacao": "Mauna Kea: 20,9 °C do pixel − 6,5 °C/km × 2,16 km (estimado). McMurdo: estações do fundo dos vales (N12)",
+    "origem": "Lote2_7_locais.xlsx › Valores!I13"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -16.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!C14"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -22.4,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!D14"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -23.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!E14"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -1.3,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!F14"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -52.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!G14"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -4.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!H14"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -23.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!I14"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 51.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!C15"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 46.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!D15"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!E15"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 18.4,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!F15"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": -3.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!G15"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 54.2,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!H15"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel; Mauna Kea corrigido pela altitude",
+    "origem": "Lote2_7_locais.xlsx › Valores!I15"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos, não a amplitude diária",
+    "origem": "Lote2_7_locais.xlsx › Valores!C16"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos, não a amplitude diária",
+    "origem": "Lote2_7_locais.xlsx › Valores!D16"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos, não a amplitude diária",
+    "origem": "Lote2_7_locais.xlsx › Valores!E16"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos, não a amplitude diária",
+    "origem": "Lote2_7_locais.xlsx › Valores!F16"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos, não a amplitude diária",
+    "origem": "Lote2_7_locais.xlsx › Valores!G16"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos, não a amplitude diária",
+    "origem": "Lote2_7_locais.xlsx › Valores!H16"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos, não a amplitude diária",
+    "origem": "Lote2_7_locais.xlsx › Valores!I16"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 1.6,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "Na mesma fonte, o Atacama (Yungay) dá 2,2",
+    "origem": "Lote2_7_locais.xlsx › Valores!C17"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 1.6,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "Na mesma fonte, o Atacama (Yungay) dá 2,2",
+    "origem": "Lote2_7_locais.xlsx › Valores!D17"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 0.54,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "Na mesma fonte, o Atacama (Yungay) dá 2,2",
+    "origem": "Lote2_7_locais.xlsx › Valores!E17"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 1.98,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "Na mesma fonte, o Atacama (Yungay) dá 2,2",
+    "origem": "Lote2_7_locais.xlsx › Valores!F17"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 0.55,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "Na mesma fonte, o Atacama (Yungay) dá 2,2",
+    "origem": "Lote2_7_locais.xlsx › Valores!G17"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 1.22,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "Na mesma fonte, o Atacama (Yungay) dá 2,2",
+    "origem": "Lote2_7_locais.xlsx › Valores!H17"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 0.43,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "Na mesma fonte, o Atacama (Yungay) dá 2,2",
+    "origem": "Lote2_7_locais.xlsx › Valores!I17"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [
+      "G10"
+    ],
+    "fonte_texto": "G10",
+    "observacao": "McMurdo: até 1.100 µg/kg. Vazio = não há medição nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!C18"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [
+      "G10"
+    ],
+    "fonte_texto": "G10",
+    "observacao": "McMurdo: até 1.100 µg/kg. Vazio = não há medição nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!D18"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [
+      "G10"
+    ],
+    "fonte_texto": "G10",
+    "observacao": "McMurdo: até 1.100 µg/kg. Vazio = não há medição nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!E18"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [
+      "G10"
+    ],
+    "fonte_texto": "G10",
+    "observacao": "McMurdo: até 1.100 µg/kg. Vazio = não há medição nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!F18"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": 0.00011,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G10"
+    ],
+    "fonte_texto": "G10",
+    "observacao": "McMurdo: até 1.100 µg/kg. Vazio = não há medição nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!G18"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [
+      "G10"
+    ],
+    "fonte_texto": "G10",
+    "observacao": "McMurdo: até 1.100 µg/kg. Vazio = não há medição nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!H18"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [
+      "G10"
+    ],
+    "fonte_texto": "G10",
+    "observacao": "McMurdo: até 1.100 µg/kg. Vazio = não há medição nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!I18"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "precipitacao-anual",
+    "valor": 340.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G11",
+    "observacao": "McMurdo: meio da faixa 1–75 mm eq. água (vale Taylor). Mauna Kea: pixel litorâneo, superestima o local",
+    "origem": "Lote2_7_locais.xlsx › Valores!C19"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "precipitacao-anual",
+    "valor": 416.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G11",
+    "observacao": "McMurdo: meio da faixa 1–75 mm eq. água (vale Taylor). Mauna Kea: pixel litorâneo, superestima o local",
+    "origem": "Lote2_7_locais.xlsx › Valores!D19"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "precipitacao-anual",
+    "valor": 862.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G11",
+    "observacao": "McMurdo: meio da faixa 1–75 mm eq. água (vale Taylor). Mauna Kea: pixel litorâneo, superestima o local",
+    "origem": "Lote2_7_locais.xlsx › Valores!E19"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "precipitacao-anual",
+    "valor": 1611.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G11",
+    "observacao": "McMurdo: meio da faixa 1–75 mm eq. água (vale Taylor). Mauna Kea: pixel litorâneo, superestima o local",
+    "origem": "Lote2_7_locais.xlsx › Valores!F19"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "precipitacao-anual",
+    "valor": 38.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G11"
+    ],
+    "fonte_texto": "G1; McMurdo: G11",
+    "observacao": "McMurdo: meio da faixa 1–75 mm eq. água (vale Taylor). Mauna Kea: pixel litorâneo, superestima o local",
+    "origem": "Lote2_7_locais.xlsx › Valores!G19"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "precipitacao-anual",
+    "valor": 453.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G11",
+    "observacao": "McMurdo: meio da faixa 1–75 mm eq. água (vale Taylor). Mauna Kea: pixel litorâneo, superestima o local",
+    "origem": "Lote2_7_locais.xlsx › Valores!H19"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "precipitacao-anual",
+    "valor": 862.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1; McMurdo: G11",
+    "observacao": "McMurdo: meio da faixa 1–75 mm eq. água (vale Taylor). Mauna Kea: pixel litorâneo, superestima o local",
+    "origem": "Lote2_7_locais.xlsx › Valores!I19"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G11"
+    ],
+    "fonte_texto": "G7, G11",
+    "observacao": "McMurdo: solo cimentado por gelo a menos de 1 m. Islândia: geleira vizinha (Dyngjujökull), permafrost não documentado nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!C20"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G11"
+    ],
+    "fonte_texto": "G7, G11",
+    "observacao": "McMurdo: solo cimentado por gelo a menos de 1 m. Islândia: geleira vizinha (Dyngjujökull), permafrost não documentado nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!D20"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G11"
+    ],
+    "fonte_texto": "G7, G11",
+    "observacao": "McMurdo: solo cimentado por gelo a menos de 1 m. Islândia: geleira vizinha (Dyngjujökull), permafrost não documentado nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!E20"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G11"
+    ],
+    "fonte_texto": "G7, G11",
+    "observacao": "McMurdo: solo cimentado por gelo a menos de 1 m. Islândia: geleira vizinha (Dyngjujökull), permafrost não documentado nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!F20"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G11"
+    ],
+    "fonte_texto": "G7, G11",
+    "observacao": "McMurdo: solo cimentado por gelo a menos de 1 m. Islândia: geleira vizinha (Dyngjujökull), permafrost não documentado nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!G20"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G11"
+    ],
+    "fonte_texto": "G7, G11",
+    "observacao": "McMurdo: solo cimentado por gelo a menos de 1 m. Islândia: geleira vizinha (Dyngjujökull), permafrost não documentado nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!H20"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G11"
+    ],
+    "fonte_texto": "G7, G11",
+    "observacao": "McMurdo: solo cimentado por gelo a menos de 1 m. Islândia: geleira vizinha (Dyngjujökull), permafrost não documentado nas fontes",
+    "origem": "Lote2_7_locais.xlsx › Valores!I20"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!C21"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!D21"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!E21"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!F21"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!G21"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!H21"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!I21"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G3",
+      "G8"
+    ],
+    "fonte_texto": "G2, G3, G8",
+    "observacao": "Nenhum registro de teste de sistema de pouso nas fontes; Cinder Lake testou veículos e uma maquete do módulo lunar, não o pouso",
+    "origem": "Lote2_7_locais.xlsx › Valores!C22"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G3",
+      "G8"
+    ],
+    "fonte_texto": "G2, G3, G8",
+    "observacao": "Nenhum registro de teste de sistema de pouso nas fontes; Cinder Lake testou veículos e uma maquete do módulo lunar, não o pouso",
+    "origem": "Lote2_7_locais.xlsx › Valores!D22"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G3",
+      "G8"
+    ],
+    "fonte_texto": "G2, G3, G8",
+    "observacao": "Nenhum registro de teste de sistema de pouso nas fontes; Cinder Lake testou veículos e uma maquete do módulo lunar, não o pouso",
+    "origem": "Lote2_7_locais.xlsx › Valores!E22"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G3",
+      "G8"
+    ],
+    "fonte_texto": "G2, G3, G8",
+    "observacao": "Nenhum registro de teste de sistema de pouso nas fontes; Cinder Lake testou veículos e uma maquete do módulo lunar, não o pouso",
+    "origem": "Lote2_7_locais.xlsx › Valores!F22"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G3",
+      "G8"
+    ],
+    "fonte_texto": "G2, G3, G8",
+    "observacao": "Nenhum registro de teste de sistema de pouso nas fontes; Cinder Lake testou veículos e uma maquete do módulo lunar, não o pouso",
+    "origem": "Lote2_7_locais.xlsx › Valores!G22"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G3",
+      "G8"
+    ],
+    "fonte_texto": "G2, G3, G8",
+    "observacao": "Nenhum registro de teste de sistema de pouso nas fontes; Cinder Lake testou veículos e uma maquete do módulo lunar, não o pouso",
+    "origem": "Lote2_7_locais.xlsx › Valores!H22"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G3",
+      "G8"
+    ],
+    "fonte_texto": "G2, G3, G8",
+    "observacao": "Nenhum registro de teste de sistema de pouso nas fontes; Cinder Lake testou veículos e uma maquete do módulo lunar, não o pouso",
+    "origem": "Lote2_7_locais.xlsx › Valores!I22"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!C23"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!D23"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!E23"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!F23"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!G23"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!H23"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!I23"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!C24"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!D24"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!E24"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!F24"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!G24"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!H24"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!I24"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!C25"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!D25"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!E25"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!F25"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!G25"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!H25"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!I25"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "N11",
+      "G6",
+      "G8",
+      "G11",
+      "G14"
+    ],
+    "fonte_texto": "G2, G4, G5, G6, G8, G11, G14",
+    "observacao": "Cinder, Meteor e Askja: treino das equipes Apollo. McMurdo: estação de pesquisa ocupada o ano todo. Holuhraun, Mauna Kea e Rio Tinto: testes de instrumentos e robôs",
+    "origem": "Lote2_7_locais.xlsx › Valores!C26"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "N11",
+      "G6",
+      "G8",
+      "G11",
+      "G14"
+    ],
+    "fonte_texto": "G2, G4, G5, G6, G8, G11, G14",
+    "observacao": "Cinder, Meteor e Askja: treino das equipes Apollo. McMurdo: estação de pesquisa ocupada o ano todo. Holuhraun, Mauna Kea e Rio Tinto: testes de instrumentos e robôs",
+    "origem": "Lote2_7_locais.xlsx › Valores!D26"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "N11",
+      "G6",
+      "G8",
+      "G11",
+      "G14"
+    ],
+    "fonte_texto": "G2, G4, G5, G6, G8, G11, G14",
+    "observacao": "Cinder, Meteor e Askja: treino das equipes Apollo. McMurdo: estação de pesquisa ocupada o ano todo. Holuhraun, Mauna Kea e Rio Tinto: testes de instrumentos e robôs",
+    "origem": "Lote2_7_locais.xlsx › Valores!E26"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "N11",
+      "G6",
+      "G8",
+      "G11",
+      "G14"
+    ],
+    "fonte_texto": "G2, G4, G5, G6, G8, G11, G14",
+    "observacao": "Cinder, Meteor e Askja: treino das equipes Apollo. McMurdo: estação de pesquisa ocupada o ano todo. Holuhraun, Mauna Kea e Rio Tinto: testes de instrumentos e robôs",
+    "origem": "Lote2_7_locais.xlsx › Valores!F26"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "N11",
+      "G6",
+      "G8",
+      "G11",
+      "G14"
+    ],
+    "fonte_texto": "G2, G4, G5, G6, G8, G11, G14",
+    "observacao": "Cinder, Meteor e Askja: treino das equipes Apollo. McMurdo: estação de pesquisa ocupada o ano todo. Holuhraun, Mauna Kea e Rio Tinto: testes de instrumentos e robôs",
+    "origem": "Lote2_7_locais.xlsx › Valores!G26"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "N11",
+      "G6",
+      "G8",
+      "G11",
+      "G14"
+    ],
+    "fonte_texto": "G2, G4, G5, G6, G8, G11, G14",
+    "observacao": "Cinder, Meteor e Askja: treino das equipes Apollo. McMurdo: estação de pesquisa ocupada o ano todo. Holuhraun, Mauna Kea e Rio Tinto: testes de instrumentos e robôs",
+    "origem": "Lote2_7_locais.xlsx › Valores!H26"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "N11",
+      "G6",
+      "G8",
+      "G11",
+      "G14"
+    ],
+    "fonte_texto": "G2, G4, G5, G6, G8, G11, G14",
+    "observacao": "Cinder, Meteor e Askja: treino das equipes Apollo. McMurdo: estação de pesquisa ocupada o ano todo. Holuhraun, Mauna Kea e Rio Tinto: testes de instrumentos e robôs",
+    "origem": "Lote2_7_locais.xlsx › Valores!I26"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N11",
+      "N10",
+      "G7"
+    ],
+    "fonte_texto": "G4, G7, G12",
+    "observacao": "McMurdo: sem estrada. Planalto islandês: acesso sazonal. Meteor Crater: aberta à visitação, com estrada",
+    "origem": "Lote2_7_locais.xlsx › Valores!C27"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N11",
+      "N10",
+      "G7"
+    ],
+    "fonte_texto": "G4, G7, G12",
+    "observacao": "McMurdo: sem estrada. Planalto islandês: acesso sazonal. Meteor Crater: aberta à visitação, com estrada",
+    "origem": "Lote2_7_locais.xlsx › Valores!D27"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N11",
+      "N10",
+      "G7"
+    ],
+    "fonte_texto": "G4, G7, G12",
+    "observacao": "McMurdo: sem estrada. Planalto islandês: acesso sazonal. Meteor Crater: aberta à visitação, com estrada",
+    "origem": "Lote2_7_locais.xlsx › Valores!E27"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N11",
+      "N10",
+      "G7"
+    ],
+    "fonte_texto": "G4, G7, G12",
+    "observacao": "McMurdo: sem estrada. Planalto islandês: acesso sazonal. Meteor Crater: aberta à visitação, com estrada",
+    "origem": "Lote2_7_locais.xlsx › Valores!F27"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N11",
+      "N10",
+      "G7"
+    ],
+    "fonte_texto": "G4, G7, G12",
+    "observacao": "McMurdo: sem estrada. Planalto islandês: acesso sazonal. Meteor Crater: aberta à visitação, com estrada",
+    "origem": "Lote2_7_locais.xlsx › Valores!G27"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N11",
+      "N10",
+      "G7"
+    ],
+    "fonte_texto": "G4, G7, G12",
+    "observacao": "McMurdo: sem estrada. Planalto islandês: acesso sazonal. Meteor Crater: aberta à visitação, com estrada",
+    "origem": "Lote2_7_locais.xlsx › Valores!H27"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N11",
+      "N10",
+      "G7"
+    ],
+    "fonte_texto": "G4, G7, G12",
+    "observacao": "McMurdo: sem estrada. Planalto islandês: acesso sazonal. Meteor Crater: aberta à visitação, com estrada",
+    "origem": "Lote2_7_locais.xlsx › Valores!I27"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G3",
+      "N11",
+      "N10",
+      "G8"
+    ],
+    "fonte_texto": "G3, G4, G5, G8",
+    "observacao": "Meteor Crater: impacto. Cinder Lake: crateras feitas com explosivos (só a forma). Vulcão: crateras de outra origem",
+    "origem": "Lote2_7_locais.xlsx › Valores!C28"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G3",
+      "N11",
+      "N10",
+      "G8"
+    ],
+    "fonte_texto": "G3, G4, G5, G8",
+    "observacao": "Meteor Crater: impacto. Cinder Lake: crateras feitas com explosivos (só a forma). Vulcão: crateras de outra origem",
+    "origem": "Lote2_7_locais.xlsx › Valores!D28"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G3",
+      "N11",
+      "N10",
+      "G8"
+    ],
+    "fonte_texto": "G3, G4, G5, G8",
+    "observacao": "Meteor Crater: impacto. Cinder Lake: crateras feitas com explosivos (só a forma). Vulcão: crateras de outra origem",
+    "origem": "Lote2_7_locais.xlsx › Valores!E28"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G3",
+      "N11",
+      "N10",
+      "G8"
+    ],
+    "fonte_texto": "G3, G4, G5, G8",
+    "observacao": "Meteor Crater: impacto. Cinder Lake: crateras feitas com explosivos (só a forma). Vulcão: crateras de outra origem",
+    "origem": "Lote2_7_locais.xlsx › Valores!F28"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G3",
+      "N11",
+      "N10",
+      "G8"
+    ],
+    "fonte_texto": "G3, G4, G5, G8",
+    "observacao": "Meteor Crater: impacto. Cinder Lake: crateras feitas com explosivos (só a forma). Vulcão: crateras de outra origem",
+    "origem": "Lote2_7_locais.xlsx › Valores!G28"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G3",
+      "N11",
+      "N10",
+      "G8"
+    ],
+    "fonte_texto": "G3, G4, G5, G8",
+    "observacao": "Meteor Crater: impacto. Cinder Lake: crateras feitas com explosivos (só a forma). Vulcão: crateras de outra origem",
+    "origem": "Lote2_7_locais.xlsx › Valores!H28"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G3",
+      "N11",
+      "N10",
+      "G8"
+    ],
+    "fonte_texto": "G3, G4, G5, G8",
+    "observacao": "Meteor Crater: impacto. Cinder Lake: crateras feitas com explosivos (só a forma). Vulcão: crateras de outra origem",
+    "origem": "Lote2_7_locais.xlsx › Valores!I28"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G12, G13",
+    "observacao": "McMurdo: milhares de lagos e lagoas. Rio Tinto: depósitos de ferro e sulfato (jarosita, hematita). Islândia: lago da caldeira e lagos represados por lava",
+    "origem": "Lote2_7_locais.xlsx › Valores!C29"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G12, G13",
+    "observacao": "McMurdo: milhares de lagos e lagoas. Rio Tinto: depósitos de ferro e sulfato (jarosita, hematita). Islândia: lago da caldeira e lagos represados por lava",
+    "origem": "Lote2_7_locais.xlsx › Valores!D29"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G12, G13",
+    "observacao": "McMurdo: milhares de lagos e lagoas. Rio Tinto: depósitos de ferro e sulfato (jarosita, hematita). Islândia: lago da caldeira e lagos represados por lava",
+    "origem": "Lote2_7_locais.xlsx › Valores!E29"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G12, G13",
+    "observacao": "McMurdo: milhares de lagos e lagoas. Rio Tinto: depósitos de ferro e sulfato (jarosita, hematita). Islândia: lago da caldeira e lagos represados por lava",
+    "origem": "Lote2_7_locais.xlsx › Valores!F29"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G12, G13",
+    "observacao": "McMurdo: milhares de lagos e lagoas. Rio Tinto: depósitos de ferro e sulfato (jarosita, hematita). Islândia: lago da caldeira e lagos represados por lava",
+    "origem": "Lote2_7_locais.xlsx › Valores!G29"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G12, G13",
+    "observacao": "McMurdo: milhares de lagos e lagoas. Rio Tinto: depósitos de ferro e sulfato (jarosita, hematita). Islândia: lago da caldeira e lagos represados por lava",
+    "origem": "Lote2_7_locais.xlsx › Valores!H29"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G12, G13",
+    "observacao": "McMurdo: milhares de lagos e lagoas. Rio Tinto: depósitos de ferro e sulfato (jarosita, hematita). Islândia: lago da caldeira e lagos represados por lava",
+    "origem": "Lote2_7_locais.xlsx › Valores!I29"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote2_7_locais.xlsx › Valores!C30"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote2_7_locais.xlsx › Valores!D30"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote2_7_locais.xlsx › Valores!E30"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote2_7_locais.xlsx › Valores!F30"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote2_7_locais.xlsx › Valores!G30"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote2_7_locais.xlsx › Valores!H30"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote2_7_locais.xlsx › Valores!I30"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 17.2,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote2_7_locais.xlsx › Valores!C31"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 16.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote2_7_locais.xlsx › Valores!D31"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 30.2,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote2_7_locais.xlsx › Valores!E31"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 14.4,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote2_7_locais.xlsx › Valores!F31"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 29.9,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote2_7_locais.xlsx › Valores!G31"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 16.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote2_7_locais.xlsx › Valores!H31"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 30.2,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G1"
+    ],
+    "fonte_texto": "G1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote2_7_locais.xlsx › Valores!I31"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "latitude-modulo",
+    "valor": 35.3,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!C32"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "latitude-modulo",
+    "valor": 35.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!D32"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "latitude-modulo",
+    "valor": 64.9,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!E32"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "latitude-modulo",
+    "valor": 19.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!F32"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "latitude-modulo",
+    "valor": 77.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!G32"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "latitude-modulo",
+    "valor": 37.7,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!H32"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "latitude-modulo",
+    "valor": 65.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote2_7_locais.xlsx › Valores!I32"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!C33"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!D33"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!E33"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!F33"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!G33"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!H33"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!I33"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!C34"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!D34"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!E34"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!F34"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!G34"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!H34"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G15"
+    ],
+    "fonte_texto": "Base v1 (G15)",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote2_7_locais.xlsx › Valores!I34"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G6",
+      "G9",
+      "G13"
+    ],
+    "fonte_texto": "G2, G6, G9, G13",
+    "observacao": "Holuhraun: lava basáltica de 2014–15. Cinder Lake: cinzas basálticas. Mauna Kea: material basáltico. Rio Tinto: rochas vulcanossedimentares",
+    "origem": "Lote2_7_locais.xlsx › Valores!C35"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G6",
+      "G9",
+      "G13"
+    ],
+    "fonte_texto": "G2, G6, G9, G13",
+    "observacao": "Holuhraun: lava basáltica de 2014–15. Cinder Lake: cinzas basálticas. Mauna Kea: material basáltico. Rio Tinto: rochas vulcanossedimentares",
+    "origem": "Lote2_7_locais.xlsx › Valores!D35"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G6",
+      "G9",
+      "G13"
+    ],
+    "fonte_texto": "G2, G6, G9, G13",
+    "observacao": "Holuhraun: lava basáltica de 2014–15. Cinder Lake: cinzas basálticas. Mauna Kea: material basáltico. Rio Tinto: rochas vulcanossedimentares",
+    "origem": "Lote2_7_locais.xlsx › Valores!E35"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G6",
+      "G9",
+      "G13"
+    ],
+    "fonte_texto": "G2, G6, G9, G13",
+    "observacao": "Holuhraun: lava basáltica de 2014–15. Cinder Lake: cinzas basálticas. Mauna Kea: material basáltico. Rio Tinto: rochas vulcanossedimentares",
+    "origem": "Lote2_7_locais.xlsx › Valores!F35"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G6",
+      "G9",
+      "G13"
+    ],
+    "fonte_texto": "G2, G6, G9, G13",
+    "observacao": "Holuhraun: lava basáltica de 2014–15. Cinder Lake: cinzas basálticas. Mauna Kea: material basáltico. Rio Tinto: rochas vulcanossedimentares",
+    "origem": "Lote2_7_locais.xlsx › Valores!G35"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G6",
+      "G9",
+      "G13"
+    ],
+    "fonte_texto": "G2, G6, G9, G13",
+    "observacao": "Holuhraun: lava basáltica de 2014–15. Cinder Lake: cinzas basálticas. Mauna Kea: material basáltico. Rio Tinto: rochas vulcanossedimentares",
+    "origem": "Lote2_7_locais.xlsx › Valores!H35"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "N10",
+      "G6",
+      "G9",
+      "G13"
+    ],
+    "fonte_texto": "G2, G6, G9, G13",
+    "observacao": "Holuhraun: lava basáltica de 2014–15. Cinder Lake: cinzas basálticas. Mauna Kea: material basáltico. Rio Tinto: rochas vulcanossedimentares",
+    "origem": "Lote2_7_locais.xlsx › Valores!I35"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G9",
+      "G11",
+      "G13"
+    ],
+    "fonte_texto": "G9, G11, G13",
+    "observacao": "Rio Tinto: pH ~2,3, jarosita e hematita. Mauna Kea: óxidos de ferro nos sedimentos. McMurdo: sulfatos no solo",
+    "origem": "Lote2_7_locais.xlsx › Valores!C36"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G9",
+      "G11",
+      "G13"
+    ],
+    "fonte_texto": "G9, G11, G13",
+    "observacao": "Rio Tinto: pH ~2,3, jarosita e hematita. Mauna Kea: óxidos de ferro nos sedimentos. McMurdo: sulfatos no solo",
+    "origem": "Lote2_7_locais.xlsx › Valores!D36"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G9",
+      "G11",
+      "G13"
+    ],
+    "fonte_texto": "G9, G11, G13",
+    "observacao": "Rio Tinto: pH ~2,3, jarosita e hematita. Mauna Kea: óxidos de ferro nos sedimentos. McMurdo: sulfatos no solo",
+    "origem": "Lote2_7_locais.xlsx › Valores!E36"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G9",
+      "G11",
+      "G13"
+    ],
+    "fonte_texto": "G9, G11, G13",
+    "observacao": "Rio Tinto: pH ~2,3, jarosita e hematita. Mauna Kea: óxidos de ferro nos sedimentos. McMurdo: sulfatos no solo",
+    "origem": "Lote2_7_locais.xlsx › Valores!F36"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G9",
+      "G11",
+      "G13"
+    ],
+    "fonte_texto": "G9, G11, G13",
+    "observacao": "Rio Tinto: pH ~2,3, jarosita e hematita. Mauna Kea: óxidos de ferro nos sedimentos. McMurdo: sulfatos no solo",
+    "origem": "Lote2_7_locais.xlsx › Valores!G36"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G9",
+      "G11",
+      "G13"
+    ],
+    "fonte_texto": "G9, G11, G13",
+    "observacao": "Rio Tinto: pH ~2,3, jarosita e hematita. Mauna Kea: óxidos de ferro nos sedimentos. McMurdo: sulfatos no solo",
+    "origem": "Lote2_7_locais.xlsx › Valores!H36"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G9",
+      "G11",
+      "G13"
+    ],
+    "fonte_texto": "G9, G11, G13",
+    "observacao": "Rio Tinto: pH ~2,3, jarosita e hematita. Mauna Kea: óxidos de ferro nos sedimentos. McMurdo: sulfatos no solo",
+    "origem": "Lote2_7_locais.xlsx › Valores!I36"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhuma caverna ou tubo de lava documentado nos recortes",
+    "origem": "Lote2_7_locais.xlsx › Valores!C37"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhuma caverna ou tubo de lava documentado nos recortes",
+    "origem": "Lote2_7_locais.xlsx › Valores!D37"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhuma caverna ou tubo de lava documentado nos recortes",
+    "origem": "Lote2_7_locais.xlsx › Valores!E37"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhuma caverna ou tubo de lava documentado nos recortes",
+    "origem": "Lote2_7_locais.xlsx › Valores!F37"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhuma caverna ou tubo de lava documentado nos recortes",
+    "origem": "Lote2_7_locais.xlsx › Valores!G37"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhuma caverna ou tubo de lava documentado nos recortes",
+    "origem": "Lote2_7_locais.xlsx › Valores!H37"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhuma caverna ou tubo de lava documentado nos recortes",
+    "origem": "Lote2_7_locais.xlsx › Valores!I37"
+  },
+  {
+    "local_id": "cinder-lake",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G13",
+    "observacao": "Askja: área geotermal ativa. Holuhraun: interação lava–água. Rio Tinto: depósitos de sulfeto antigos",
+    "origem": "Lote2_7_locais.xlsx › Valores!C38"
+  },
+  {
+    "local_id": "meteor-crater",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G13",
+    "observacao": "Askja: área geotermal ativa. Holuhraun: interação lava–água. Rio Tinto: depósitos de sulfeto antigos",
+    "origem": "Lote2_7_locais.xlsx › Valores!D38"
+  },
+  {
+    "local_id": "holuhraun",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G13",
+    "observacao": "Askja: área geotermal ativa. Holuhraun: interação lava–água. Rio Tinto: depósitos de sulfeto antigos",
+    "origem": "Lote2_7_locais.xlsx › Valores!E38"
+  },
+  {
+    "local_id": "mauna-kea",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G13",
+    "observacao": "Askja: área geotermal ativa. Holuhraun: interação lava–água. Rio Tinto: depósitos de sulfeto antigos",
+    "origem": "Lote2_7_locais.xlsx › Valores!F38"
+  },
+  {
+    "local_id": "mcmurdo",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G13",
+    "observacao": "Askja: área geotermal ativa. Holuhraun: interação lava–água. Rio Tinto: depósitos de sulfeto antigos",
+    "origem": "Lote2_7_locais.xlsx › Valores!G38"
+  },
+  {
+    "local_id": "rio-tinto",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G13",
+    "observacao": "Askja: área geotermal ativa. Holuhraun: interação lava–água. Rio Tinto: depósitos de sulfeto antigos",
+    "origem": "Lote2_7_locais.xlsx › Valores!H38"
+  },
+  {
+    "local_id": "askja",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "G7",
+      "G13"
+    ],
+    "fonte_texto": "G7, G13",
+    "observacao": "Askja: área geotermal ativa. Holuhraun: interação lava–água. Rio Tinto: depósitos de sulfeto antigos",
+    "origem": "Lote2_7_locais.xlsx › Valores!I38"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "temperatura-media",
+    "valor": 17.59,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Pixel do NASA POWER (~50 km)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C13"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "temperatura-media",
+    "valor": 23.69,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Pixel do NASA POWER (~50 km)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D13"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "temperatura-media",
+    "valor": 27.28,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Pixel do NASA POWER (~50 km)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E13"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "temperatura-media",
+    "valor": 25.29,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Pixel do NASA POWER (~50 km)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F13"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": -4.9,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C14"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": 6.33,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D14"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": 22.09,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E14"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "temperatura-minima-registrada",
+    "valor": 12.39,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Menor mínima diária de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F14"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 39.27,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C15"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 50.6,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D15"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 36.89,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E15"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "temperatura-maxima-do-solo",
+    "valor": 50.7,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (TS_MAX)",
+    "observacao": "Maior temperatura de superfície de 2001–2025 no pixel",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F15"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C16"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D16"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E16"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "amplitude-termica-diaria-do-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (MODIS)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (MODIS)",
+    "observacao": "O POWER só dá extremos",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F16"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 1.69,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "O Atacama (Yungay) dá 2,2 na mesma fonte",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C17"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 2.07,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "O Atacama (Yungay) dá 2,2 na mesma fonte",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D17"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 2.22,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "O Atacama (Yungay) dá 2,2 na mesma fonte",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E17"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "indice-uv-medio-anual",
+    "valor": 2.53,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (ALLSKY_SFC_UV_INDEX)",
+    "observacao": "O Atacama (Yungay) dá 2,2 na mesma fonte",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F17"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Sem medição nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C18"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Sem medição nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D18"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Sem medição nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E18"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "perclorato-maximo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Sem medição nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F18"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "precipitacao-anual",
+    "valor": 1746.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Média diária (PRECTOTCORR) × 365",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C19"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "precipitacao-anual",
+    "valor": 1362.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Média diária (PRECTOTCORR) × 365",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D19"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "precipitacao-anual",
+    "valor": 1399.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Média diária (PRECTOTCORR) × 365",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E19"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "precipitacao-anual",
+    "valor": 489.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1",
+    "observacao": "Média diária (PRECTOTCORR) × 365",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F19"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Clima tropical e subtropical: sem gelo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C20"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Clima tropical e subtropical: sem gelo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D20"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Clima tropical e subtropical: sem gelo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E20"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "gelo-no-subsolo-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Clima tropical e subtropical: sem gelo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F20"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C21"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D21"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E21"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "teor-de-gelo-no-solo",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A medir",
+    "fonte_ids": [],
+    "fonte_texto": "A medir",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F21"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum registro nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C22"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum registro nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D22"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum registro nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E22"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum registro nas fontes",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F22"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C23"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D23"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E23"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "declividade-media",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F23"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C24"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D24"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E24"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "declividade-maxima",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F24"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C25"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D25"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E25"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "rugosidade-do-terreno",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": "A extrair (DEM)",
+    "fonte_ids": [],
+    "fonte_texto": "A extrair (DEM)",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F25"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum uso como análogo tripulado nas fontes; Vargeão e Lençóis têm uso científico",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C26"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum uso como análogo tripulado nas fontes; Vargeão e Lençóis têm uso científico",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D26"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum uso como análogo tripulado nas fontes; Vargeão e Lençóis têm uso científico",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E26"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "historico-como-analogo-tripulado-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Nenhum uso como análogo tripulado nas fontes; Vargeão e Lençóis têm uso científico",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F26"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H8",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H8, H10",
+    "observacao": "Estradas e cidades próximas; Lençóis sem veículos no parque; Toca com acesso controlado",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C27"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H8",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H8, H10",
+    "observacao": "Estradas e cidades próximas; Lençóis sem veículos no parque; Toca com acesso controlado",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D27"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H8",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H8, H10",
+    "observacao": "Estradas e cidades próximas; Lençóis sem veículos no parque; Toca com acesso controlado",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E27"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "isolamento-e-logistica-remota-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H8",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H8, H10",
+    "observacao": "Estradas e cidades próximas; Lençóis sem veículos no parque; Toca com acesso controlado",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F27"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H5"
+    ],
+    "fonte_texto": "H2, H5",
+    "observacao": "Vargeão: ~12 km. Araguainha: ~40 km",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C28"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H5"
+    ],
+    "fonte_texto": "H2, H5",
+    "observacao": "Vargeão: ~12 km. Araguainha: ~40 km",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D28"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H5"
+    ],
+    "fonte_texto": "H2, H5",
+    "observacao": "Vargeão: ~12 km. Araguainha: ~40 km",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E28"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "origem-por-impacto-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H5"
+    ],
+    "fonte_texto": "H2, H5",
+    "observacao": "Vargeão: ~12 km. Araguainha: ~40 km",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F28"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H7",
+      "H8"
+    ],
+    "fonte_texto": "H7, H8",
+    "observacao": "Lençóis: lagoas de água doce entre as dunas, sazonais",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C29"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H7",
+      "H8"
+    ],
+    "fonte_texto": "H7, H8",
+    "observacao": "Lençóis: lagoas de água doce entre as dunas, sazonais",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D29"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H7",
+      "H8"
+    ],
+    "fonte_texto": "H7, H8",
+    "observacao": "Lençóis: lagoas de água doce entre as dunas, sazonais",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E29"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H7",
+      "H8"
+    ],
+    "fonte_texto": "H7, H8",
+    "observacao": "Lençóis: lagoas de água doce entre as dunas, sazonais",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F29"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C30"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D30"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E30"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "poeira-fina-sem-vento-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "—",
+    "observacao": "Na Terra a poeira sempre depende do vento",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F30"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 9.12,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C31"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 10.58,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D31"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 8.44,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E31"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "rajadas-de-vento-maximas",
+    "valor": 11.34,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H1"
+    ],
+    "fonte_texto": "H1 (WS10M_MAX)",
+    "observacao": "Maior velocidade diária a 10 m em 2001–2025",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F31"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "latitude-modulo",
+    "valor": 26.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C32"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "latitude-modulo",
+    "valor": 16.8,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D32"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "latitude-modulo",
+    "valor": 2.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E32"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "latitude-modulo",
+    "valor": 10.2,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [],
+    "fonte_texto": "Aba Locais",
+    "observacao": null,
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F32"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C33"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D33"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E33"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "dose-radiacao-pct-lua",
+    "valor": 0.5,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F33"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C34"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D34"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E34"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "dose-radiacao-pct-marte",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H12"
+    ],
+    "fonte_texto": "H12",
+    "observacao": "Igual em toda a superfície da Terra",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F34"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3"
+    ],
+    "fonte_texto": "H2, H3",
+    "observacao": "Vargeão: basalto exposto da Formação Serra Geral",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C35"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3"
+    ],
+    "fonte_texto": "H2, H3",
+    "observacao": "Vargeão: basalto exposto da Formação Serra Geral",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D35"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3"
+    ],
+    "fonte_texto": "H2, H3",
+    "observacao": "Vargeão: basalto exposto da Formação Serra Geral",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E35"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "vulcanismo-basaltico-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3"
+    ],
+    "fonte_texto": "H2, H3",
+    "observacao": "Vargeão: basalto exposto da Formação Serra Geral",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F35"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2"
+    ],
+    "fonte_texto": "H2",
+    "observacao": "Vargeão: óxidos de ferro formados no hidrotermalismo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C36"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2"
+    ],
+    "fonte_texto": "H2",
+    "observacao": "Vargeão: óxidos de ferro formados no hidrotermalismo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D36"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2"
+    ],
+    "fonte_texto": "H2",
+    "observacao": "Vargeão: óxidos de ferro formados no hidrotermalismo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E36"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2"
+    ],
+    "fonte_texto": "H2",
+    "observacao": "Vargeão: óxidos de ferro formados no hidrotermalismo",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F36"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H10, H11",
+    "observacao": "Toca: ~114 km de galerias. Araguainha: caverna em arenito",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C37"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 2.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H10, H11",
+    "observacao": "Toca: ~114 km de galerias. Araguainha: caverna em arenito",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D37"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H10, H11",
+    "observacao": "Toca: ~114 km de galerias. Araguainha: caverna em arenito",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E37"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "cavidade-subterranea-acessivel-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H6",
+      "H11",
+      "N14"
+    ],
+    "fonte_texto": "H6, H10, H11",
+    "observacao": "Toca: ~114 km de galerias. Araguainha: caverna em arenito",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F37"
+  },
+  {
+    "local_id": "vargeao",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 3.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3",
+      "H4",
+      "H11"
+    ],
+    "fonte_texto": "H2, H3, H4, H11",
+    "observacao": "Vargeão: sistema hidrotermal pós-impacto. Araguainha: a verificar. Toca: dissolvida por ácido sulfúrico da oxidação de sulfetos e por fluidos que subiram (N14, N15)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!C38"
+  },
+  {
+    "local_id": "araguainha",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": null,
+    "status": "a_medir",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3",
+      "H4",
+      "H11"
+    ],
+    "fonte_texto": "H2, H3, H4, H11",
+    "observacao": "Vargeão: sistema hidrotermal pós-impacto. Araguainha: a verificar. Toca: dissolvida por ácido sulfúrico da oxidação de sulfetos e por fluidos que subiram (N14, N15)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!D38"
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 0.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3",
+      "H4",
+      "H11"
+    ],
+    "fonte_texto": "H2, H3, H4, H11",
+    "observacao": "Vargeão: sistema hidrotermal pós-impacto. Araguainha: a verificar. Toca: dissolvida por ácido sulfúrico da oxidação de sulfetos e por fluidos que subiram (N14, N15)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!E38"
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "variavel_id": "alteracao-hidrotermal-documentada-0-3",
+    "valor": 1.0,
+    "status": "com_valor",
+    "status_texto": null,
+    "fonte_ids": [
+      "H2",
+      "H3",
+      "H4",
+      "H11",
+      "N14",
+      "N15"
+    ],
+    "fonte_texto": "H2, H3, H4, H11",
+    "observacao": "Vargeão: sistema hidrotermal pós-impacto. Araguainha: a verificar. Toca: dissolvida por ácido sulfúrico da oxidação de sulfetos e por fluidos que subiram (N14, N15)",
+    "origem": "Lote3_locais_brasileiros.xlsx › Valores!F38"
+  }
+]

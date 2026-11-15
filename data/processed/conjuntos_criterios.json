@@ -1,0 +1,19 @@
+[
+  {
+    "id": "base-v1-1",
+    "planilha_origem": "Base_referencia_v1.1.xlsx",
+    "planilhas": [
+      "Base_referencia_v1.1.xlsx"
+    ],
+    "n_criterios": 48
+  },
+  {
+    "id": "lotes-v1-1",
+    "planilha_origem": "Lote2_7_locais.xlsx",
+    "planilhas": [
+      "Lote2_7_locais.xlsx",
+      "Lote3_locais_brasileiros.xlsx"
+    ],
+    "n_criterios": 48
+  }
+]

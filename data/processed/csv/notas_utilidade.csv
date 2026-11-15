@@ -1,0 +1,449 @@
+local_id,utilidade_id,alvo_id,categoria_id,nota,status,n_variaveis,n_variaveis_avaliadas,leitura
+atacama,U01,lua,engenharia,0.0,avaliada,2,2,Nem Haughton (−16 °C de média) chega perto dos ~40 K das crateras em sombra; serve só para frio moderado
+atacama,U01,marte,engenharia,0.0,avaliada,2,2,"Haughton tem frio persistente, mas ainda fica ~40 °C acima de Jezero; Atacama e Vale da Morte raramente ficam abaixo de 0 °C"
+atacama,U02,lua,engenharia,,a_medir,1,0,"Vale da Morte: solo até 94 °C; Atacama: máxima do ar de 37,9 °C. Só vale para sítios lunares longe do polo"
+atacama,U03,lua,engenharia,,a_medir,1,0,A medir: amplitude do solo pelo MODIS LST (dia − noite)
+atacama,U03,marte,engenharia,,a_medir,1,0,"A medir: amplitude do solo pelo MODIS LST, comparada aos ~88 °C de Jezero"
+atacama,U04,lua,engenharia,3.0,avaliada,1,1,Atacama tem o maior UV da Terra; Haughton tem Sol baixo; Vale da Morte a medir (OMI/TROPOMI)
+atacama,U04,marte,engenharia,3.0,avaliada,1,1,Mesma leitura da linha da Lua
+atacama,U05,marte,ciencia,3.0,avaliada,2,2,"Atacama: perclorato até ~0,6% e quase sem chuva; Haughton e Vale da Morte perdem em secura (13 e 38 mm/ano) e não têm perclorato medido"
+atacama,U06,lua,recursos,0.0,avaliada,2,2,"Haughton tem permafrost a ~60 cm para calibrar radar, mas o gelo lunar está em crateras a ~40 K, no vácuo"
+atacama,U06,marte,recursos,0.0,avaliada,2,2,"Permafrost contínuo e polígonos de gelo, como no Ártico marciano"
+atacama,U07,lua,recursos,0.0,avaliada,3,2,"Solo congelado existe, mas a física do gelo lunar (vácuo, ~40 K) é outra"
+atacama,U07,marte,recursos,0.0,avaliada,3,2,Permafrost serve para testar perfuração e extração
+atacama,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,Só o Vale da Morte tem teste de sistema de pouso documentado; declividade a extrair
+atacama,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,O Lander Vision System do Perseverance foi testado no Vale da Morte em 2019
+atacama,U09,lua,pouso-e-mobilidade,,a_medir,2,0,A medir: declividade e rugosidade (Copernicus DEM × LOLA)
+atacama,U09,marte,pouso-e-mobilidade,,a_medir,2,0,A medir: declividade e rugosidade (Copernicus DEM × MOLA/HRSC)
+atacama,U10,lua,operacoes-humanas,1.5,avaliada,2,2,"Haughton: estações HMP e FMARS em ilha remota; Atacama: deserto isolado, mas só com testes de equipamento"
+atacama,U10,marte,operacoes-humanas,1.5,avaliada,2,2,Mesma leitura da linha da Lua
+atacama,U11,lua,ciencia,0.0,avaliada,1,1,"Haughton é cratera de impacto; Ubehebe é vulcânica (maar), não de impacto"
+atacama,U11,marte,ciencia,0.0,avaliada,1,1,Mesma leitura da linha da Lua
+atacama,U12,marte,ciencia,2.0,avaliada,1,1,Vale da Morte: salar de lago que secou; Haughton: sedimentos de lago dentro da cratera; Atacama: salares
+atacama,U13,lua,engenharia,0.0,avaliada,1,1,Na Terra a poeira sempre depende do vento: nenhum local reproduz a poeira lunar
+atacama,U13,marte,engenharia,3.0,avaliada,1,1,Atacama: rajadas > 12 m/s; Haughton: poeirento e ventoso (qualitativo); Vale da Morte a medir
+atacama,U14,lua,operacoes-humanas,0.0,avaliada,1,1,Haughton (75° N) fica acima do círculo polar: Sol baixo e luz contínua no verão
+atacama,U15,lua,limitacoes-universais,0.0,avaliada,1,1,Limitação universal: a Terra recebe ~200× menos radiação que a Lua
+atacama,U15,marte,limitacoes-universais,0.0,avaliada,1,1,Limitação universal: atmosfera e campo magnético da Terra blindam a superfície
+atacama,U16,lua,ciencia,0.0,avaliada,1,1,Vale da Morte: crateras Ubehebe em rocha basáltica; Atacama e Haughton sem vulcanismo basáltico
+atacama,U16,marte,ciencia,0.0,avaliada,1,1,Mesma leitura da linha da Lua
+atacama,U17,marte,ciencia,1.0,avaliada,1,1,"Haughton: sulfetos, sulfatos e hidróxidos de ferro do hidrotermalismo; Vale da Morte: evaporitos; Atacama: só vestígios"
+atacama,U18,lua,operacoes-humanas,0.0,avaliada,1,1,Nenhum dos três tem cavernas no recorte
+atacama,U18,marte,operacoes-humanas,0.0,avaliada,1,1,Mesma leitura da linha da Lua
+atacama,U19,marte,ciencia,0.0,avaliada,2,2,Haughton: sistema hidrotermal gerado pelo impacto documentado (F35)
+haughton,U01,lua,engenharia,0.0,avaliada,2,1,Nem Haughton (−16 °C de média) chega perto dos ~40 K das crateras em sombra; serve só para frio moderado
+haughton,U01,marte,engenharia,1.0,avaliada,2,1,"Haughton tem frio persistente, mas ainda fica ~40 °C acima de Jezero; Atacama e Vale da Morte raramente ficam abaixo de 0 °C"
+haughton,U02,lua,engenharia,,a_medir,1,0,"Vale da Morte: solo até 94 °C; Atacama: máxima do ar de 37,9 °C. Só vale para sítios lunares longe do polo"
+haughton,U03,lua,engenharia,,a_medir,1,0,A medir: amplitude do solo pelo MODIS LST (dia − noite)
+haughton,U03,marte,engenharia,,a_medir,1,0,"A medir: amplitude do solo pelo MODIS LST, comparada aos ~88 °C de Jezero"
+haughton,U04,lua,engenharia,1.0,avaliada,1,1,Atacama tem o maior UV da Terra; Haughton tem Sol baixo; Vale da Morte a medir (OMI/TROPOMI)
+haughton,U04,marte,engenharia,1.0,avaliada,1,1,Mesma leitura da linha da Lua
+haughton,U05,marte,ciencia,1.0,avaliada,2,1,"Atacama: perclorato até ~0,6% e quase sem chuva; Haughton e Vale da Morte perdem em secura (13 e 38 mm/ano) e não têm perclorato medido"
+haughton,U06,lua,recursos,1.5,avaliada,2,2,"Haughton tem permafrost a ~60 cm para calibrar radar, mas o gelo lunar está em crateras a ~40 K, no vácuo"
+haughton,U06,marte,recursos,2.0,avaliada,2,2,"Permafrost contínuo e polígonos de gelo, como no Ártico marciano"
+haughton,U07,lua,recursos,1.5,avaliada,3,2,"Solo congelado existe, mas a física do gelo lunar (vácuo, ~40 K) é outra"
+haughton,U07,marte,recursos,2.0,avaliada,3,2,Permafrost serve para testar perfuração e extração
+haughton,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,Só o Vale da Morte tem teste de sistema de pouso documentado; declividade a extrair
+haughton,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,O Lander Vision System do Perseverance foi testado no Vale da Morte em 2019
+haughton,U09,lua,pouso-e-mobilidade,,a_medir,2,0,A medir: declividade e rugosidade (Copernicus DEM × LOLA)
+haughton,U09,marte,pouso-e-mobilidade,,a_medir,2,0,A medir: declividade e rugosidade (Copernicus DEM × MOLA/HRSC)
+haughton,U10,lua,operacoes-humanas,3.0,avaliada,2,2,"Haughton: estações HMP e FMARS em ilha remota; Atacama: deserto isolado, mas só com testes de equipamento"
+haughton,U10,marte,operacoes-humanas,3.0,avaliada,2,2,Mesma leitura da linha da Lua
+haughton,U11,lua,ciencia,3.0,avaliada,1,1,"Haughton é cratera de impacto; Ubehebe é vulcânica (maar), não de impacto"
+haughton,U11,marte,ciencia,3.0,avaliada,1,1,Mesma leitura da linha da Lua
+haughton,U12,marte,ciencia,2.0,avaliada,1,1,Vale da Morte: salar de lago que secou; Haughton: sedimentos de lago dentro da cratera; Atacama: salares
+haughton,U13,lua,engenharia,0.0,avaliada,1,1,Na Terra a poeira sempre depende do vento: nenhum local reproduz a poeira lunar
+haughton,U13,marte,engenharia,,a_medir,1,0,Atacama: rajadas > 12 m/s; Haughton: poeirento e ventoso (qualitativo); Vale da Morte a medir
+haughton,U14,lua,operacoes-humanas,3.0,avaliada,1,1,Haughton (75° N) fica acima do círculo polar: Sol baixo e luz contínua no verão
+haughton,U15,lua,limitacoes-universais,0.0,avaliada,1,1,Limitação universal: a Terra recebe ~200× menos radiação que a Lua
+haughton,U15,marte,limitacoes-universais,0.0,avaliada,1,1,Limitação universal: atmosfera e campo magnético da Terra blindam a superfície
+haughton,U16,lua,ciencia,0.0,avaliada,1,1,Vale da Morte: crateras Ubehebe em rocha basáltica; Atacama e Haughton sem vulcanismo basáltico
+haughton,U16,marte,ciencia,0.0,avaliada,1,1,Mesma leitura da linha da Lua
+haughton,U17,marte,ciencia,2.0,avaliada,1,1,"Haughton: sulfetos, sulfatos e hidróxidos de ferro do hidrotermalismo; Vale da Morte: evaporitos; Atacama: só vestígios"
+haughton,U18,lua,operacoes-humanas,0.0,avaliada,1,1,Nenhum dos três tem cavernas no recorte
+haughton,U18,marte,operacoes-humanas,0.0,avaliada,1,1,Mesma leitura da linha da Lua
+haughton,U19,marte,ciencia,3.0,avaliada,2,2,Haughton: sistema hidrotermal gerado pelo impacto documentado (F35)
+vale-da-morte,U01,lua,engenharia,0.0,avaliada,2,2,Nem Haughton (−16 °C de média) chega perto dos ~40 K das crateras em sombra; serve só para frio moderado
+vale-da-morte,U01,marte,engenharia,0.0,avaliada,2,2,"Haughton tem frio persistente, mas ainda fica ~40 °C acima de Jezero; Atacama e Vale da Morte raramente ficam abaixo de 0 °C"
+vale-da-morte,U02,lua,engenharia,3.0,avaliada,1,1,"Vale da Morte: solo até 94 °C; Atacama: máxima do ar de 37,9 °C. Só vale para sítios lunares longe do polo"
+vale-da-morte,U03,lua,engenharia,,a_medir,1,0,A medir: amplitude do solo pelo MODIS LST (dia − noite)
+vale-da-morte,U03,marte,engenharia,,a_medir,1,0,"A medir: amplitude do solo pelo MODIS LST, comparada aos ~88 °C de Jezero"
+vale-da-morte,U04,lua,engenharia,,a_medir,1,0,Atacama tem o maior UV da Terra; Haughton tem Sol baixo; Vale da Morte a medir (OMI/TROPOMI)
+vale-da-morte,U04,marte,engenharia,,a_medir,1,0,Mesma leitura da linha da Lua
+vale-da-morte,U05,marte,ciencia,1.0,avaliada,2,1,"Atacama: perclorato até ~0,6% e quase sem chuva; Haughton e Vale da Morte perdem em secura (13 e 38 mm/ano) e não têm perclorato medido"
+vale-da-morte,U06,lua,recursos,0.0,avaliada,2,2,"Haughton tem permafrost a ~60 cm para calibrar radar, mas o gelo lunar está em crateras a ~40 K, no vácuo"
+vale-da-morte,U06,marte,recursos,0.0,avaliada,2,2,"Permafrost contínuo e polígonos de gelo, como no Ártico marciano"
+vale-da-morte,U07,lua,recursos,0.0,avaliada,3,2,"Solo congelado existe, mas a física do gelo lunar (vácuo, ~40 K) é outra"
+vale-da-morte,U07,marte,recursos,0.0,avaliada,3,2,Permafrost serve para testar perfuração e extração
+vale-da-morte,U08,lua,pouso-e-mobilidade,3.0,avaliada,2,1,Só o Vale da Morte tem teste de sistema de pouso documentado; declividade a extrair
+vale-da-morte,U08,marte,pouso-e-mobilidade,3.0,avaliada,2,1,O Lander Vision System do Perseverance foi testado no Vale da Morte em 2019
+vale-da-morte,U09,lua,pouso-e-mobilidade,,a_medir,2,0,A medir: declividade e rugosidade (Copernicus DEM × LOLA)
+vale-da-morte,U09,marte,pouso-e-mobilidade,,a_medir,2,0,A medir: declividade e rugosidade (Copernicus DEM × MOLA/HRSC)
+vale-da-morte,U10,lua,operacoes-humanas,1.0,avaliada,2,2,"Haughton: estações HMP e FMARS em ilha remota; Atacama: deserto isolado, mas só com testes de equipamento"
+vale-da-morte,U10,marte,operacoes-humanas,1.0,avaliada,2,2,Mesma leitura da linha da Lua
+vale-da-morte,U11,lua,ciencia,1.0,avaliada,1,1,"Haughton é cratera de impacto; Ubehebe é vulcânica (maar), não de impacto"
+vale-da-morte,U11,marte,ciencia,1.0,avaliada,1,1,Mesma leitura da linha da Lua
+vale-da-morte,U12,marte,ciencia,3.0,avaliada,1,1,Vale da Morte: salar de lago que secou; Haughton: sedimentos de lago dentro da cratera; Atacama: salares
+vale-da-morte,U13,lua,engenharia,0.0,avaliada,1,1,Na Terra a poeira sempre depende do vento: nenhum local reproduz a poeira lunar
+vale-da-morte,U13,marte,engenharia,,a_medir,1,0,Atacama: rajadas > 12 m/s; Haughton: poeirento e ventoso (qualitativo); Vale da Morte a medir
+vale-da-morte,U14,lua,operacoes-humanas,0.0,avaliada,1,1,Haughton (75° N) fica acima do círculo polar: Sol baixo e luz contínua no verão
+vale-da-morte,U15,lua,limitacoes-universais,0.0,avaliada,1,1,Limitação universal: a Terra recebe ~200× menos radiação que a Lua
+vale-da-morte,U15,marte,limitacoes-universais,0.0,avaliada,1,1,Limitação universal: atmosfera e campo magnético da Terra blindam a superfície
+vale-da-morte,U16,lua,ciencia,2.0,avaliada,1,1,Vale da Morte: crateras Ubehebe em rocha basáltica; Atacama e Haughton sem vulcanismo basáltico
+vale-da-morte,U16,marte,ciencia,2.0,avaliada,1,1,Mesma leitura da linha da Lua
+vale-da-morte,U17,marte,ciencia,2.0,avaliada,1,1,"Haughton: sulfetos, sulfatos e hidróxidos de ferro do hidrotermalismo; Vale da Morte: evaporitos; Atacama: só vestígios"
+vale-da-morte,U18,lua,operacoes-humanas,0.0,avaliada,1,1,Nenhum dos três tem cavernas no recorte
+vale-da-morte,U18,marte,operacoes-humanas,0.0,avaliada,1,1,Mesma leitura da linha da Lua
+vale-da-morte,U19,marte,ciencia,0.5,avaliada,2,2,Haughton: sistema hidrotermal gerado pelo impacto documentado (F35)
+cinder-lake,U01,lua,engenharia,0.0,avaliada,2,2,
+cinder-lake,U01,marte,engenharia,0.0,avaliada,2,2,
+cinder-lake,U02,lua,engenharia,1.0,avaliada,1,1,
+cinder-lake,U03,lua,engenharia,,a_medir,1,0,
+cinder-lake,U03,marte,engenharia,,a_medir,1,0,
+cinder-lake,U04,lua,engenharia,2.0,avaliada,1,1,
+cinder-lake,U04,marte,engenharia,2.0,avaliada,1,1,
+cinder-lake,U05,marte,ciencia,0.0,avaliada,2,1,
+cinder-lake,U06,lua,recursos,0.0,avaliada,2,2,
+cinder-lake,U06,marte,recursos,0.0,avaliada,2,2,
+cinder-lake,U07,lua,recursos,0.0,avaliada,3,2,
+cinder-lake,U07,marte,recursos,0.0,avaliada,3,2,
+cinder-lake,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+cinder-lake,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+cinder-lake,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+cinder-lake,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+cinder-lake,U10,lua,operacoes-humanas,1.5,avaliada,2,2,
+cinder-lake,U10,marte,operacoes-humanas,1.5,avaliada,2,2,
+cinder-lake,U11,lua,ciencia,1.0,avaliada,1,1,
+cinder-lake,U11,marte,ciencia,1.0,avaliada,1,1,
+cinder-lake,U12,marte,ciencia,0.0,avaliada,1,1,
+cinder-lake,U13,lua,engenharia,0.0,avaliada,1,1,
+cinder-lake,U13,marte,engenharia,3.0,avaliada,1,1,
+cinder-lake,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+cinder-lake,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+cinder-lake,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+cinder-lake,U16,lua,ciencia,2.0,avaliada,1,1,
+cinder-lake,U16,marte,ciencia,2.0,avaliada,1,1,
+cinder-lake,U17,marte,ciencia,0.0,avaliada,1,1,
+cinder-lake,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+cinder-lake,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+cinder-lake,U19,marte,ciencia,0.5,avaliada,2,2,
+meteor-crater,U01,lua,engenharia,0.0,avaliada,2,2,
+meteor-crater,U01,marte,engenharia,0.5,avaliada,2,2,
+meteor-crater,U02,lua,engenharia,1.0,avaliada,1,1,
+meteor-crater,U03,lua,engenharia,,a_medir,1,0,
+meteor-crater,U03,marte,engenharia,,a_medir,1,0,
+meteor-crater,U04,lua,engenharia,2.0,avaliada,1,1,
+meteor-crater,U04,marte,engenharia,2.0,avaliada,1,1,
+meteor-crater,U05,marte,ciencia,0.0,avaliada,2,1,
+meteor-crater,U06,lua,recursos,0.0,avaliada,2,2,
+meteor-crater,U06,marte,recursos,0.0,avaliada,2,2,
+meteor-crater,U07,lua,recursos,0.0,avaliada,3,2,
+meteor-crater,U07,marte,recursos,0.0,avaliada,3,2,
+meteor-crater,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+meteor-crater,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+meteor-crater,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+meteor-crater,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+meteor-crater,U10,lua,operacoes-humanas,1.5,avaliada,2,2,
+meteor-crater,U10,marte,operacoes-humanas,1.5,avaliada,2,2,
+meteor-crater,U11,lua,ciencia,3.0,avaliada,1,1,
+meteor-crater,U11,marte,ciencia,3.0,avaliada,1,1,
+meteor-crater,U12,marte,ciencia,0.0,avaliada,1,1,
+meteor-crater,U13,lua,engenharia,0.0,avaliada,1,1,
+meteor-crater,U13,marte,engenharia,3.0,avaliada,1,1,
+meteor-crater,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+meteor-crater,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+meteor-crater,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+meteor-crater,U16,lua,ciencia,0.0,avaliada,1,1,
+meteor-crater,U16,marte,ciencia,0.0,avaliada,1,1,
+meteor-crater,U17,marte,ciencia,0.0,avaliada,1,1,
+meteor-crater,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+meteor-crater,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+meteor-crater,U19,marte,ciencia,1.5,avaliada,2,2,
+holuhraun,U01,lua,engenharia,0.0,avaliada,2,2,
+holuhraun,U01,marte,engenharia,0.5,avaliada,2,2,
+holuhraun,U02,lua,engenharia,0.0,avaliada,1,1,
+holuhraun,U03,lua,engenharia,,a_medir,1,0,
+holuhraun,U03,marte,engenharia,,a_medir,1,0,
+holuhraun,U04,lua,engenharia,0.0,avaliada,1,1,
+holuhraun,U04,marte,engenharia,0.0,avaliada,1,1,
+holuhraun,U05,marte,ciencia,0.0,avaliada,2,1,
+holuhraun,U06,lua,recursos,0.5,avaliada,2,2,
+holuhraun,U06,marte,recursos,0.5,avaliada,2,2,
+holuhraun,U07,lua,recursos,0.5,avaliada,3,2,
+holuhraun,U07,marte,recursos,0.5,avaliada,3,2,
+holuhraun,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+holuhraun,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+holuhraun,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+holuhraun,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+holuhraun,U10,lua,operacoes-humanas,1.5,avaliada,2,2,
+holuhraun,U10,marte,operacoes-humanas,1.5,avaliada,2,2,
+holuhraun,U11,lua,ciencia,1.0,avaliada,1,1,
+holuhraun,U11,marte,ciencia,1.0,avaliada,1,1,
+holuhraun,U12,marte,ciencia,1.0,avaliada,1,1,
+holuhraun,U13,lua,engenharia,0.0,avaliada,1,1,
+holuhraun,U13,marte,engenharia,3.0,avaliada,1,1,
+holuhraun,U14,lua,operacoes-humanas,1.0,avaliada,1,1,
+holuhraun,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+holuhraun,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+holuhraun,U16,lua,ciencia,3.0,avaliada,1,1,
+holuhraun,U16,marte,ciencia,3.0,avaliada,1,1,
+holuhraun,U17,marte,ciencia,0.0,avaliada,1,1,
+holuhraun,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+holuhraun,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+holuhraun,U19,marte,ciencia,1.0,avaliada,2,2,
+mauna-kea,U01,lua,engenharia,0.0,avaliada,2,2,
+mauna-kea,U01,marte,engenharia,0.0,avaliada,2,2,
+mauna-kea,U02,lua,engenharia,0.0,avaliada,1,1,
+mauna-kea,U03,lua,engenharia,,a_medir,1,0,
+mauna-kea,U03,marte,engenharia,,a_medir,1,0,
+mauna-kea,U04,lua,engenharia,2.0,avaliada,1,1,
+mauna-kea,U04,marte,engenharia,2.0,avaliada,1,1,
+mauna-kea,U05,marte,ciencia,0.0,avaliada,2,1,
+mauna-kea,U06,lua,recursos,0.0,avaliada,2,2,
+mauna-kea,U06,marte,recursos,0.0,avaliada,2,2,
+mauna-kea,U07,lua,recursos,0.0,avaliada,3,2,
+mauna-kea,U07,marte,recursos,0.0,avaliada,3,2,
+mauna-kea,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+mauna-kea,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+mauna-kea,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+mauna-kea,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+mauna-kea,U10,lua,operacoes-humanas,1.0,avaliada,2,2,
+mauna-kea,U10,marte,operacoes-humanas,1.0,avaliada,2,2,
+mauna-kea,U11,lua,ciencia,1.0,avaliada,1,1,
+mauna-kea,U11,marte,ciencia,1.0,avaliada,1,1,
+mauna-kea,U12,marte,ciencia,0.0,avaliada,1,1,
+mauna-kea,U13,lua,engenharia,0.0,avaliada,1,1,
+mauna-kea,U13,marte,engenharia,3.0,avaliada,1,1,
+mauna-kea,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+mauna-kea,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+mauna-kea,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+mauna-kea,U16,lua,ciencia,2.0,avaliada,1,1,
+mauna-kea,U16,marte,ciencia,2.0,avaliada,1,1,
+mauna-kea,U17,marte,ciencia,2.0,avaliada,1,1,
+mauna-kea,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+mauna-kea,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+mauna-kea,U19,marte,ciencia,0.5,avaliada,2,2,
+mcmurdo,U01,lua,engenharia,0.5,avaliada,2,2,
+mcmurdo,U01,marte,engenharia,1.5,avaliada,2,2,
+mcmurdo,U02,lua,engenharia,0.0,avaliada,1,1,
+mcmurdo,U03,lua,engenharia,,a_medir,1,0,
+mcmurdo,U03,marte,engenharia,,a_medir,1,0,
+mcmurdo,U04,lua,engenharia,0.0,avaliada,1,1,
+mcmurdo,U04,marte,engenharia,0.0,avaliada,1,1,
+mcmurdo,U05,marte,ciencia,0.5,avaliada,2,2,
+mcmurdo,U06,lua,recursos,1.5,avaliada,2,2,
+mcmurdo,U06,marte,recursos,2.0,avaliada,2,2,
+mcmurdo,U07,lua,recursos,1.5,avaliada,3,2,
+mcmurdo,U07,marte,recursos,2.0,avaliada,3,2,
+mcmurdo,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+mcmurdo,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+mcmurdo,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+mcmurdo,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+mcmurdo,U10,lua,operacoes-humanas,3.0,avaliada,2,2,
+mcmurdo,U10,marte,operacoes-humanas,3.0,avaliada,2,2,
+mcmurdo,U11,lua,ciencia,0.0,avaliada,1,1,
+mcmurdo,U11,marte,ciencia,0.0,avaliada,1,1,
+mcmurdo,U12,marte,ciencia,2.0,avaliada,1,1,
+mcmurdo,U13,lua,engenharia,0.0,avaliada,1,1,
+mcmurdo,U13,marte,engenharia,3.0,avaliada,1,1,
+mcmurdo,U14,lua,operacoes-humanas,3.0,avaliada,1,1,
+mcmurdo,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+mcmurdo,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+mcmurdo,U16,lua,ciencia,0.0,avaliada,1,1,
+mcmurdo,U16,marte,ciencia,0.0,avaliada,1,1,
+mcmurdo,U17,marte,ciencia,1.0,avaliada,1,1,
+mcmurdo,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+mcmurdo,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+mcmurdo,U19,marte,ciencia,0.0,avaliada,2,2,
+rio-tinto,U01,lua,engenharia,0.0,avaliada,2,2,
+rio-tinto,U01,marte,engenharia,0.0,avaliada,2,2,
+rio-tinto,U02,lua,engenharia,1.0,avaliada,1,1,
+rio-tinto,U03,lua,engenharia,,a_medir,1,0,
+rio-tinto,U03,marte,engenharia,,a_medir,1,0,
+rio-tinto,U04,lua,engenharia,1.0,avaliada,1,1,
+rio-tinto,U04,marte,engenharia,1.0,avaliada,1,1,
+rio-tinto,U05,marte,ciencia,0.0,avaliada,2,1,
+rio-tinto,U06,lua,recursos,0.0,avaliada,2,2,
+rio-tinto,U06,marte,recursos,0.0,avaliada,2,2,
+rio-tinto,U07,lua,recursos,0.0,avaliada,3,2,
+rio-tinto,U07,marte,recursos,0.0,avaliada,3,2,
+rio-tinto,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+rio-tinto,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+rio-tinto,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+rio-tinto,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+rio-tinto,U10,lua,operacoes-humanas,1.0,avaliada,2,2,
+rio-tinto,U10,marte,operacoes-humanas,1.0,avaliada,2,2,
+rio-tinto,U11,lua,ciencia,0.0,avaliada,1,1,
+rio-tinto,U11,marte,ciencia,0.0,avaliada,1,1,
+rio-tinto,U12,marte,ciencia,2.0,avaliada,1,1,
+rio-tinto,U13,lua,engenharia,0.0,avaliada,1,1,
+rio-tinto,U13,marte,engenharia,3.0,avaliada,1,1,
+rio-tinto,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+rio-tinto,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+rio-tinto,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+rio-tinto,U16,lua,ciencia,1.0,avaliada,1,1,
+rio-tinto,U16,marte,ciencia,1.0,avaliada,1,1,
+rio-tinto,U17,marte,ciencia,3.0,avaliada,1,1,
+rio-tinto,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+rio-tinto,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+rio-tinto,U19,marte,ciencia,0.5,avaliada,2,2,
+askja,U01,lua,engenharia,0.0,avaliada,2,2,
+askja,U01,marte,engenharia,0.5,avaliada,2,2,
+askja,U02,lua,engenharia,0.0,avaliada,1,1,
+askja,U03,lua,engenharia,,a_medir,1,0,
+askja,U03,marte,engenharia,,a_medir,1,0,
+askja,U04,lua,engenharia,0.0,avaliada,1,1,
+askja,U04,marte,engenharia,0.0,avaliada,1,1,
+askja,U05,marte,ciencia,0.0,avaliada,2,1,
+askja,U06,lua,recursos,0.5,avaliada,2,2,
+askja,U06,marte,recursos,0.5,avaliada,2,2,
+askja,U07,lua,recursos,0.5,avaliada,3,2,
+askja,U07,marte,recursos,0.5,avaliada,3,2,
+askja,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+askja,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+askja,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+askja,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+askja,U10,lua,operacoes-humanas,2.0,avaliada,2,2,
+askja,U10,marte,operacoes-humanas,2.0,avaliada,2,2,
+askja,U11,lua,ciencia,1.0,avaliada,1,1,
+askja,U11,marte,ciencia,1.0,avaliada,1,1,
+askja,U12,marte,ciencia,1.0,avaliada,1,1,
+askja,U13,lua,engenharia,0.0,avaliada,1,1,
+askja,U13,marte,engenharia,3.0,avaliada,1,1,
+askja,U14,lua,operacoes-humanas,1.0,avaliada,1,1,
+askja,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+askja,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+askja,U16,lua,ciencia,2.0,avaliada,1,1,
+askja,U16,marte,ciencia,2.0,avaliada,1,1,
+askja,U17,marte,ciencia,0.0,avaliada,1,1,
+askja,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+askja,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+askja,U19,marte,ciencia,1.5,avaliada,2,2,
+vargeao,U01,lua,engenharia,0.0,avaliada,2,2,
+vargeao,U01,marte,engenharia,0.0,avaliada,2,2,
+vargeao,U02,lua,engenharia,0.0,avaliada,1,1,
+vargeao,U03,lua,engenharia,,a_medir,1,0,
+vargeao,U03,marte,engenharia,,a_medir,1,0,
+vargeao,U04,lua,engenharia,2.0,avaliada,1,1,
+vargeao,U04,marte,engenharia,2.0,avaliada,1,1,
+vargeao,U05,marte,ciencia,0.0,avaliada,2,1,
+vargeao,U06,lua,recursos,0.0,avaliada,2,2,
+vargeao,U06,marte,recursos,0.0,avaliada,2,2,
+vargeao,U07,lua,recursos,0.0,avaliada,3,2,
+vargeao,U07,marte,recursos,0.0,avaliada,3,2,
+vargeao,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+vargeao,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+vargeao,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+vargeao,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+vargeao,U10,lua,operacoes-humanas,0.5,avaliada,2,2,
+vargeao,U10,marte,operacoes-humanas,0.5,avaliada,2,2,
+vargeao,U11,lua,ciencia,3.0,avaliada,1,1,
+vargeao,U11,marte,ciencia,3.0,avaliada,1,1,
+vargeao,U12,marte,ciencia,0.0,avaliada,1,1,
+vargeao,U13,lua,engenharia,0.0,avaliada,1,1,
+vargeao,U13,marte,engenharia,2.0,avaliada,1,1,
+vargeao,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+vargeao,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+vargeao,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+vargeao,U16,lua,ciencia,2.0,avaliada,1,1,
+vargeao,U16,marte,ciencia,2.0,avaliada,1,1,
+vargeao,U17,marte,ciencia,1.0,avaliada,1,1,
+vargeao,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+vargeao,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+vargeao,U19,marte,ciencia,3.0,avaliada,2,2,
+araguainha,U01,lua,engenharia,0.0,avaliada,2,2,
+araguainha,U01,marte,engenharia,0.0,avaliada,2,2,
+araguainha,U02,lua,engenharia,1.0,avaliada,1,1,
+araguainha,U03,lua,engenharia,,a_medir,1,0,
+araguainha,U03,marte,engenharia,,a_medir,1,0,
+araguainha,U04,lua,engenharia,3.0,avaliada,1,1,
+araguainha,U04,marte,engenharia,3.0,avaliada,1,1,
+araguainha,U05,marte,ciencia,0.0,avaliada,2,1,
+araguainha,U06,lua,recursos,0.0,avaliada,2,2,
+araguainha,U06,marte,recursos,0.0,avaliada,2,2,
+araguainha,U07,lua,recursos,0.0,avaliada,3,2,
+araguainha,U07,marte,recursos,0.0,avaliada,3,2,
+araguainha,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+araguainha,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+araguainha,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+araguainha,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+araguainha,U10,lua,operacoes-humanas,0.5,avaliada,2,2,
+araguainha,U10,marte,operacoes-humanas,0.5,avaliada,2,2,
+araguainha,U11,lua,ciencia,3.0,avaliada,1,1,
+araguainha,U11,marte,ciencia,3.0,avaliada,1,1,
+araguainha,U12,marte,ciencia,0.0,avaliada,1,1,
+araguainha,U13,lua,engenharia,0.0,avaliada,1,1,
+araguainha,U13,marte,engenharia,3.0,avaliada,1,1,
+araguainha,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+araguainha,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+araguainha,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+araguainha,U16,lua,ciencia,0.0,avaliada,1,1,
+araguainha,U16,marte,ciencia,0.0,avaliada,1,1,
+araguainha,U17,marte,ciencia,0.0,avaliada,1,1,
+araguainha,U18,lua,operacoes-humanas,2.0,avaliada,1,1,
+araguainha,U18,marte,operacoes-humanas,2.0,avaliada,1,1,
+araguainha,U19,marte,ciencia,3.0,avaliada,2,1,
+lencois-maranhenses,U01,lua,engenharia,0.0,avaliada,2,2,
+lencois-maranhenses,U01,marte,engenharia,0.0,avaliada,2,2,
+lencois-maranhenses,U02,lua,engenharia,0.0,avaliada,1,1,
+lencois-maranhenses,U03,lua,engenharia,,a_medir,1,0,
+lencois-maranhenses,U03,marte,engenharia,,a_medir,1,0,
+lencois-maranhenses,U04,lua,engenharia,3.0,avaliada,1,1,
+lencois-maranhenses,U04,marte,engenharia,3.0,avaliada,1,1,
+lencois-maranhenses,U05,marte,ciencia,0.0,avaliada,2,1,
+lencois-maranhenses,U06,lua,recursos,0.0,avaliada,2,2,
+lencois-maranhenses,U06,marte,recursos,0.0,avaliada,2,2,
+lencois-maranhenses,U07,lua,recursos,0.0,avaliada,3,2,
+lencois-maranhenses,U07,marte,recursos,0.0,avaliada,3,2,
+lencois-maranhenses,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+lencois-maranhenses,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+lencois-maranhenses,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+lencois-maranhenses,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+lencois-maranhenses,U10,lua,operacoes-humanas,0.5,avaliada,2,2,
+lencois-maranhenses,U10,marte,operacoes-humanas,0.5,avaliada,2,2,
+lencois-maranhenses,U11,lua,ciencia,0.0,avaliada,1,1,
+lencois-maranhenses,U11,marte,ciencia,0.0,avaliada,1,1,
+lencois-maranhenses,U12,marte,ciencia,2.0,avaliada,1,1,
+lencois-maranhenses,U13,lua,engenharia,0.0,avaliada,1,1,
+lencois-maranhenses,U13,marte,engenharia,2.0,avaliada,1,1,
+lencois-maranhenses,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+lencois-maranhenses,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+lencois-maranhenses,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+lencois-maranhenses,U16,lua,ciencia,0.0,avaliada,1,1,
+lencois-maranhenses,U16,marte,ciencia,0.0,avaliada,1,1,
+lencois-maranhenses,U17,marte,ciencia,0.0,avaliada,1,1,
+lencois-maranhenses,U18,lua,operacoes-humanas,0.0,avaliada,1,1,
+lencois-maranhenses,U18,marte,operacoes-humanas,0.0,avaliada,1,1,
+lencois-maranhenses,U19,marte,ciencia,0.0,avaliada,2,2,
+toca-da-boa-vista,U01,lua,engenharia,0.0,avaliada,2,2,
+toca-da-boa-vista,U01,marte,engenharia,0.0,avaliada,2,2,
+toca-da-boa-vista,U02,lua,engenharia,1.0,avaliada,1,1,
+toca-da-boa-vista,U03,lua,engenharia,,a_medir,1,0,
+toca-da-boa-vista,U03,marte,engenharia,,a_medir,1,0,
+toca-da-boa-vista,U04,lua,engenharia,3.0,avaliada,1,1,
+toca-da-boa-vista,U04,marte,engenharia,3.0,avaliada,1,1,
+toca-da-boa-vista,U05,marte,ciencia,0.0,avaliada,2,1,
+toca-da-boa-vista,U06,lua,recursos,0.0,avaliada,2,2,
+toca-da-boa-vista,U06,marte,recursos,0.0,avaliada,2,2,
+toca-da-boa-vista,U07,lua,recursos,0.0,avaliada,3,2,
+toca-da-boa-vista,U07,marte,recursos,0.0,avaliada,3,2,
+toca-da-boa-vista,U08,lua,pouso-e-mobilidade,0.0,avaliada,2,1,
+toca-da-boa-vista,U08,marte,pouso-e-mobilidade,0.0,avaliada,2,1,
+toca-da-boa-vista,U09,lua,pouso-e-mobilidade,,a_medir,2,0,
+toca-da-boa-vista,U09,marte,pouso-e-mobilidade,,a_medir,2,0,
+toca-da-boa-vista,U10,lua,operacoes-humanas,0.5,avaliada,2,2,
+toca-da-boa-vista,U10,marte,operacoes-humanas,0.5,avaliada,2,2,
+toca-da-boa-vista,U11,lua,ciencia,0.0,avaliada,1,1,
+toca-da-boa-vista,U11,marte,ciencia,0.0,avaliada,1,1,
+toca-da-boa-vista,U12,marte,ciencia,0.0,avaliada,1,1,
+toca-da-boa-vista,U13,lua,engenharia,0.0,avaliada,1,1,
+toca-da-boa-vista,U13,marte,engenharia,3.0,avaliada,1,1,
+toca-da-boa-vista,U14,lua,operacoes-humanas,0.0,avaliada,1,1,
+toca-da-boa-vista,U15,lua,limitacoes-universais,0.0,avaliada,1,1,
+toca-da-boa-vista,U15,marte,limitacoes-universais,0.0,avaliada,1,1,
+toca-da-boa-vista,U16,lua,ciencia,0.0,avaliada,1,1,
+toca-da-boa-vista,U16,marte,ciencia,0.0,avaliada,1,1,
+toca-da-boa-vista,U17,marte,ciencia,0.0,avaliada,1,1,
+toca-da-boa-vista,U18,lua,operacoes-humanas,3.0,avaliada,1,1,
+toca-da-boa-vista,U18,marte,operacoes-humanas,3.0,avaliada,1,1,
+toca-da-boa-vista,U19,marte,ciencia,0.5,avaliada,2,2,

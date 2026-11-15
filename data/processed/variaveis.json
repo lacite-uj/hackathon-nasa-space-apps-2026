@@ -1,0 +1,380 @@
+[
+  {
+    "id": "temperatura-media",
+    "nome": "Temperatura média",
+    "aliases": [
+      "Temperatura média"
+    ],
+    "unidade": "°C",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "temperatura-minima-registrada",
+    "nome": "Temperatura mínima registrada",
+    "aliases": [
+      "Temperatura mínima registrada"
+    ],
+    "unidade": "°C",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "temperatura-maxima-do-solo",
+    "nome": "Temperatura máxima do solo",
+    "aliases": [
+      "Temperatura máxima do solo"
+    ],
+    "unidade": "°C",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "amplitude-termica-diaria-do-solo",
+    "nome": "Amplitude térmica diária do solo",
+    "aliases": [
+      "Amplitude térmica diária do solo"
+    ],
+    "unidade": "°C",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "nivel-de-uv-0-3",
+    "nome": "Nível de UV (0–3)",
+    "aliases": [
+      "Nível de UV (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "perclorato-maximo-no-solo",
+    "nome": "Perclorato máximo no solo",
+    "aliases": [
+      "Perclorato máximo no solo"
+    ],
+    "unidade": "wt%",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "precipitacao-anual",
+    "nome": "Precipitação anual",
+    "aliases": [
+      "Precipitação anual"
+    ],
+    "unidade": "mm/ano",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "gelo-no-subsolo-0-3",
+    "nome": "Gelo no subsolo (0–3)",
+    "aliases": [
+      "Gelo no subsolo (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "teor-de-gelo-no-solo",
+    "nome": "Teor de gelo no solo",
+    "aliases": [
+      "Teor de gelo no solo"
+    ],
+    "unidade": "wt%",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "teste-de-sistema-de-pouso-documentado-0-3",
+    "nome": "Teste de sistema de pouso documentado (0–3)",
+    "aliases": [
+      "Teste de sistema de pouso documentado (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "declividade-media",
+    "nome": "Declividade média",
+    "aliases": [
+      "Declividade média"
+    ],
+    "unidade": "graus",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "declividade-maxima",
+    "nome": "Declividade máxima",
+    "aliases": [
+      "Declividade máxima"
+    ],
+    "unidade": "graus",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "rugosidade-do-terreno",
+    "nome": "Rugosidade do terreno",
+    "aliases": [
+      "Rugosidade do terreno"
+    ],
+    "unidade": "m",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": "A base v1.1 usa 'índice'; os lotes usam 'm'. Adotado 'm'. Não há dado em nenhum local."
+  },
+  {
+    "id": "historico-como-analogo-tripulado-0-3",
+    "nome": "Histórico como análogo tripulado (0–3)",
+    "aliases": [
+      "Histórico como análogo tripulado (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "isolamento-e-logistica-remota-0-3",
+    "nome": "Isolamento e logística remota (0–3)",
+    "aliases": [
+      "Isolamento e logística remota (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "origem-por-impacto-0-3",
+    "nome": "Origem por impacto (0–3)",
+    "aliases": [
+      "Origem por impacto (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "sedimentos-de-lago-evaporitos-expostos-0-3",
+    "nome": "Sedimentos de lago / evaporitos expostos (0–3)",
+    "aliases": [
+      "Sedimentos de lago / evaporitos expostos (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "poeira-fina-sem-vento-0-3",
+    "nome": "Poeira fina sem vento (0–3)",
+    "aliases": [
+      "Poeira fina sem vento (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "rajadas-de-vento-maximas",
+    "nome": "Rajadas de vento máximas",
+    "aliases": [
+      "Rajadas de vento máximas"
+    ],
+    "unidade": "m/s",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "latitude-modulo",
+    "nome": "Latitude (módulo)",
+    "aliases": [
+      "Latitude (módulo)"
+    ],
+    "unidade": "graus",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "dose-radiacao-pct-lua",
+    "nome": "Dose de radiação como % da lunar",
+    "aliases": [
+      "Dose de radiação como % da lunar",
+      "Dose de radiação como % da do alvo"
+    ],
+    "unidade": "%",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "dose-radiacao-pct-marte",
+    "nome": "Dose de radiação como % da marciana",
+    "aliases": [
+      "Dose de radiação como % da marciana",
+      "Dose de radiação como % da do alvo"
+    ],
+    "unidade": "%",
+    "tipo": "numerico",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "vulcanismo-basaltico-0-3",
+    "nome": "Vulcanismo basáltico (0–3)",
+    "aliases": [
+      "Vulcanismo basáltico (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "agua-acida-e-minerais-de-fe-s-0-3",
+    "nome": "Água ácida e minerais de Fe-S (0–3)",
+    "aliases": [
+      "Água ácida e minerais de Fe-S (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "cavidade-subterranea-acessivel-0-3",
+    "nome": "Cavidade subterrânea acessível (0–3)",
+    "aliases": [
+      "Cavidade subterrânea acessível (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "alteracao-hidrotermal-documentada-0-3",
+    "nome": "Alteração hidrotermal documentada (0–3)",
+    "aliases": [
+      "Alteração hidrotermal documentada (0–3)"
+    ],
+    "unidade": "escala 0–3",
+    "tipo": "escala_0_3",
+    "conjuntos": [
+      "base-v1-1",
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  },
+  {
+    "id": "indice-uv-medio-anual",
+    "nome": "Índice UV médio anual",
+    "aliases": [
+      "Índice UV médio anual"
+    ],
+    "unidade": "índice",
+    "tipo": "numerico",
+    "conjuntos": [
+      "lotes-v1-1"
+    ],
+    "observacao": null
+  }
+]

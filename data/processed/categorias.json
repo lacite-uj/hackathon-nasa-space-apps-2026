@@ -1,0 +1,87 @@
+[
+  {
+    "id": "engenharia",
+    "nome": "Engenharia",
+    "entra_na_aderencia": true,
+    "utilidade_ids": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U13"
+    ],
+    "n_utilidades_por_alvo": {
+      "lua": 5,
+      "marte": 4
+    }
+  },
+  {
+    "id": "ciencia",
+    "nome": "Ciência",
+    "entra_na_aderencia": true,
+    "utilidade_ids": [
+      "U05",
+      "U11",
+      "U12",
+      "U16",
+      "U17",
+      "U19"
+    ],
+    "n_utilidades_por_alvo": {
+      "lua": 2,
+      "marte": 6
+    }
+  },
+  {
+    "id": "recursos",
+    "nome": "Recursos",
+    "entra_na_aderencia": true,
+    "utilidade_ids": [
+      "U06",
+      "U07"
+    ],
+    "n_utilidades_por_alvo": {
+      "lua": 2,
+      "marte": 2
+    }
+  },
+  {
+    "id": "pouso-e-mobilidade",
+    "nome": "Pouso e mobilidade",
+    "entra_na_aderencia": true,
+    "utilidade_ids": [
+      "U08",
+      "U09"
+    ],
+    "n_utilidades_por_alvo": {
+      "lua": 2,
+      "marte": 2
+    }
+  },
+  {
+    "id": "operacoes-humanas",
+    "nome": "Operações humanas",
+    "entra_na_aderencia": true,
+    "utilidade_ids": [
+      "U10",
+      "U14",
+      "U18"
+    ],
+    "n_utilidades_por_alvo": {
+      "lua": 3,
+      "marte": 2
+    }
+  },
+  {
+    "id": "limitacoes-universais",
+    "nome": "Limitações universais",
+    "entra_na_aderencia": false,
+    "utilidade_ids": [
+      "U15"
+    ],
+    "n_utilidades_por_alvo": {
+      "lua": 1,
+      "marte": 1
+    }
+  }
+]

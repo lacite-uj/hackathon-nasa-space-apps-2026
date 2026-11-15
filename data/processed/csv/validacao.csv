@@ -1,0 +1,10 @@
+id,local_id,alvos,utilidade_id,descricao,literatura,fonte_ids,expectativa,linha_excel,regra,nota_modelo,bate
+V01,atacama,marte,U05,Bioassinaturas em solo oxidante,"Um dos melhores análogos de Marte: secura extrema, solos salinos e oxidantes",F13,Alta (≥ 2),13,nota >= 2,3.0,True
+V02,atacama,marte,U04,Degradação por UV,Maior radiação UV da Terra,F13,Alta (≥ 2),14,nota >= 2,3.0,True
+V03,haughton,marte,U06,Prospecção de gelo,Permafrost contínuo e polígonos de gelo parecidos com os de Marte,F2,Alta (≥ 2),15,nota >= 2,2.0,True
+V04,haughton,marte,U10,Operações humanas e EVA,HMP e FMARS testam os desafios de viver e trabalhar em Marte,N1; F2,Alta (≥ 2),16,nota >= 2,3.0,True
+V05,haughton,marte,U11,Geologia de impacto,"Única cratera de impacto conhecida em deserto polar, excepcionalmente preservada",F2,Alta (≥ 2),17,nota >= 2,3.0,True
+V06,haughton,marte,U01,Frio extremo,"Frio, mas longe de condições tão extremas quanto as de Marte",F2,Baixa (≤ 1),18,nota <= 1,1.0,True
+V07,vale-da-morte,marte,U08,Pouso guiado por visão,O Lander Vision System do Perseverance foi testado lá em 2019,F18,Alta (≥ 2),19,nota >= 2,3.0,True
+V08,vale-da-morte,marte,U12,Lagos que secaram,Evaporitos de lago antigo; cratera Ubehebe usada como análogo de Gale,N8,Alta (≥ 2),20,nota >= 2,3.0,True
+V09,atacama,marte; lua,,Aderência geral,"O Atacama é estudado como análogo de Marte, não da Lua",F13,Marte > Lua,21,aderencia_marte - aderencia_lua > 0,0.5551948051948052,True

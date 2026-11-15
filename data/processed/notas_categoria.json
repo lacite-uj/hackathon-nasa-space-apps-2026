@@ -1,0 +1,1514 @@
+[
+  {
+    "local_id": "atacama",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 1.0,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 2.0,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 1.0,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.75,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "atacama",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.3333333333333333,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.0,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 1.8333333333333333,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 2.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 2.0,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "haughton",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 1.0,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 1.5833333333333333,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 3.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 3.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.3333333333333333,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vale-da-morte",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.75,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.6666666666666667,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 0.5833333333333334,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.75,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "cinder-lake",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.75,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.8333333333333333,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 0.75,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.75,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "meteor-crater",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.1666666666666667,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 2.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 1.0,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.8333333333333334,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.75,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "holuhraun",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.6666666666666667,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 0.9166666666666666,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.3333333333333333,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mauna-kea",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.125,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.5,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 0.5833333333333334,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 2.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 2.0,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "mcmurdo",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.3333333333333333,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 1.0833333333333333,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.3333333333333333,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "rio-tinto",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.1666666666666667,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 0.9166666666666666,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 1.0,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 1.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "askja",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.5,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.3333333333333333,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 2.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 1.5,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.16666666666666666,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.25,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "vargeao",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 1.0,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 2.0,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 1.5,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 1.0,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.8333333333333334,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 1.25,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "araguainha",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 0.75,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 1.6666666666666667,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 0.3333333333333333,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 0.16666666666666666,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 0.25,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "lencois-maranhenses",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "engenharia",
+    "alvo_id": "lua",
+    "nota": 1.0,
+    "n_utilidades": 5,
+    "n_avaliadas_local": 4,
+    "n_avaliadas_rede": 4
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "engenharia",
+    "alvo_id": "marte",
+    "nota": 2.0,
+    "n_utilidades": 4,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "ciencia",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "ciencia",
+    "alvo_id": "marte",
+    "nota": 0.08333333333333333,
+    "n_utilidades": 6,
+    "n_avaliadas_local": 6,
+    "n_avaliadas_rede": 6
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "recursos",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "recursos",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "pouso-e-mobilidade",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "lua",
+    "nota": 1.1666666666666667,
+    "n_utilidades": 3,
+    "n_avaliadas_local": 3,
+    "n_avaliadas_rede": 3
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "operacoes-humanas",
+    "alvo_id": "marte",
+    "nota": 1.75,
+    "n_utilidades": 2,
+    "n_avaliadas_local": 2,
+    "n_avaliadas_rede": 2
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "lua",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  },
+  {
+    "local_id": "toca-da-boa-vista",
+    "categoria_id": "limitacoes-universais",
+    "alvo_id": "marte",
+    "nota": 0.0,
+    "n_utilidades": 1,
+    "n_avaliadas_local": 1,
+    "n_avaliadas_rede": 1
+  }
+]

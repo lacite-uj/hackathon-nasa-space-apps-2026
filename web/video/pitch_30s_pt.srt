@@ -1,0 +1,40 @@
+1
+00:00:00,160 --> 00:00:02,600
+Construir bases permanentes na Lua e em Marte
+
+2
+00:00:02,640 --> 00:00:04,800
+custa bilhões e não tolera falhas.
+
+3
+00:00:05,390 --> 00:00:08,800
+Antes de decolar, precisamos testar tudo aqui na Terra.
+
+4
+00:00:09,470 --> 00:00:12,760
+Criamos uma plataforma 3D que cruza dados da NASA
+
+5
+00:00:12,800 --> 00:00:15,600
+com 14 análogos terrestres — inclusive no Brasil.
+
+6
+00:00:15,640 --> 00:00:18,100
+Nosso modelo avalia 19 utilidades científicas
+
+7
+00:00:18,140 --> 00:00:20,850
+e mostra exatamente onde cada analogia falha.
+
+8
+00:00:21,450 --> 00:00:23,300
+Não existe um clone de Marte.
+
+9
+00:00:23,930 --> 00:00:26,450
+Mas ao expor os limites reais de cada local,
+
+10
+00:00:26,490 --> 00:00:29,800
+substituímos o achismo por decisões seguras de missão.
+

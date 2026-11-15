@@ -1,0 +1,274 @@
+[
+  {
+    "id": "U01",
+    "nome": "Testar equipamentos em frio extremo",
+    "nome_curto": "Frio extremo",
+    "aliases": [],
+    "categoria_id": "engenharia",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Lua: crateras em sombra a ~37–40 K. Marte: noites com solo a −83 °C",
+    "variaveis_decisivas": "Temperatura média; extremos de temperatura",
+    "criterio_aderencia": "Quanto mais perto das mínimas do alvo e mais persistente o frio, melhor"
+  },
+  {
+    "id": "U02",
+    "nome": "Testar equipamentos em calor e superaquecimento de superfície",
+    "nome_curto": "Calor e superaquecimento",
+    "aliases": [],
+    "categoria_id": "engenharia",
+    "alvos": [
+      "lua"
+    ],
+    "condicao": "Perto do equador lunar, a superfície passa de 100 °C ao meio-dia (não vale para o polo sul)",
+    "variaveis_decisivas": "Extremos de temperatura; amplitude térmica (solo)",
+    "criterio_aderencia": "Solo acima de ~80 °C por horas"
+  },
+  {
+    "id": "U03",
+    "nome": "Testar ciclagem térmica dia–noite",
+    "nome_curto": "Ciclagem térmica",
+    "aliases": [],
+    "categoria_id": "engenharia",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Marte: o solo varia ~88 °C em um dia",
+    "variaveis_decisivas": "Amplitude térmica diária (solo)",
+    "criterio_aderencia": "Amplitude do solo mais próxima da do alvo"
+  },
+  {
+    "id": "U04",
+    "nome": "Testar degradação de materiais por UV",
+    "nome_curto": "Degradação por UV",
+    "aliases": [],
+    "categoria_id": "engenharia",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Pouca ou nenhuma proteção contra UV na superfície",
+    "variaveis_decisivas": "Radiação solar / UV",
+    "criterio_aderencia": "Dose anual de UV mais alta"
+  },
+  {
+    "id": "U05",
+    "nome": "Buscar bioassinaturas em solo seco e oxidante",
+    "nome_curto": "Bioassinaturas em solo oxidante",
+    "aliases": [],
+    "categoria_id": "ciencia",
+    "alvos": [
+      "marte"
+    ],
+    "condicao": "Solos com perclorato, quase sem água, que degradam moléculas orgânicas",
+    "variaveis_decisivas": "Perclorato; precipitação; vida e biomassa",
+    "criterio_aderencia": "Perclorato e secura perto dos de Marte, com biomassa muito baixa"
+  },
+  {
+    "id": "U06",
+    "nome": "Prospectar gelo no subsolo (radar, nêutrons)",
+    "nome_curto": "Prospecção de gelo",
+    "aliases": [
+      "Prospectar gelo no subsolo"
+    ],
+    "categoria_id": "recursos",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Lua: gelo em crateras em sombra (~5,6% em massa). Marte: gelo raso em altas latitudes",
+    "variaveis_decisivas": "Gelo no subsolo / permafrost",
+    "criterio_aderencia": "Gelo em profundidade conhecida, para calibrar instrumentos"
+  },
+  {
+    "id": "U07",
+    "nome": "Extrair água de solo com gelo (ISRU)",
+    "nome_curto": "Água de solo com gelo (ISRU)",
+    "aliases": [],
+    "categoria_id": "recursos",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Regolito com gelo misturado",
+    "variaveis_decisivas": "Gelo no subsolo; mineralogia",
+    "criterio_aderencia": "Solo congelado com teor de gelo mensurável"
+  },
+  {
+    "id": "U08",
+    "nome": "Testar pouso guiado por visão (navegação pelo terreno)",
+    "nome_curto": "Pouso guiado por visão",
+    "aliases": [
+      "Testar pouso guiado por visão"
+    ],
+    "categoria_id": "pouso-e-mobilidade",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Pouso autônomo sobre terreno com crateras e rochas",
+    "variaveis_decisivas": "Feição-alvo; declividade e rugosidade",
+    "criterio_aderencia": "Relevo e rugosidade comparáveis aos da zona de pouso"
+  },
+  {
+    "id": "U09",
+    "nome": "Testar mobilidade de rovers em encostas e terreno solto",
+    "nome_curto": "Mobilidade em encostas",
+    "aliases": [
+      "Testar mobilidade de rovers em encostas"
+    ],
+    "categoria_id": "pouso-e-mobilidade",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Lua: paredes de Shackleton com ~30°. Marte: delta e areia",
+    "variaveis_decisivas": "Declividade e rugosidade; feição-alvo",
+    "criterio_aderencia": "Distribuição de declividades parecida com a do alvo"
+  },
+  {
+    "id": "U10",
+    "nome": "Simular operações humanas e caminhadas de traje (EVA)",
+    "nome_curto": "Operações humanas e EVA",
+    "aliases": [
+      "Simular operações humanas e EVA"
+    ],
+    "categoria_id": "operacoes-humanas",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Equipe isolada, trajes, logística remota",
+    "variaveis_decisivas": "Uso documentado como análogo; temperatura",
+    "criterio_aderencia": "Histórico de missões simuladas e isolamento real"
+  },
+  {
+    "id": "U11",
+    "nome": "Treinar geologia de impacto e coleta de amostras",
+    "nome_curto": "Geologia de impacto",
+    "aliases": [],
+    "categoria_id": "ciencia",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Crateras e brechas de impacto",
+    "variaveis_decisivas": "Feição-alvo; mineralogia",
+    "criterio_aderencia": "Cratera de impacto real e preservada"
+  },
+  {
+    "id": "U12",
+    "nome": "Estudar lagos que secaram (deltas, evaporitos)",
+    "nome_curto": "Lagos que secaram",
+    "aliases": [],
+    "categoria_id": "ciencia",
+    "alvos": [
+      "marte"
+    ],
+    "condicao": "Jezero: delta de lago com carbonatos e argilas",
+    "variaveis_decisivas": "Mineralogia; feição-alvo",
+    "criterio_aderencia": "Sedimentos de lago e evaporitos expostos"
+  },
+  {
+    "id": "U13",
+    "nome": "Operar com poeira e vento (painéis, filtros, vedações)",
+    "nome_curto": "Poeira e vento",
+    "aliases": [
+      "Operar com poeira e vento"
+    ],
+    "categoria_id": "engenharia",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Marte: redemoinhos de poeira frequentes. Lua: poeira fina sem vento",
+    "variaveis_decisivas": "Vento e poeira",
+    "criterio_aderencia": "Frequência de poeira em suspensão (a medir: MERRA-2 / MODIS AOD)"
+  },
+  {
+    "id": "U14",
+    "nome": "Operar com energia solar sob Sol baixo",
+    "nome_curto": "Energia solar com Sol baixo",
+    "aliases": [],
+    "categoria_id": "operacoes-humanas",
+    "alvos": [
+      "lua"
+    ],
+    "condicao": "Polo sul: Sol rasante, bordas quase sempre iluminadas",
+    "variaveis_decisivas": "Radiação solar / iluminação",
+    "criterio_aderencia": "Latitude alta, Sol baixo e longos períodos de luz"
+  },
+  {
+    "id": "U15",
+    "nome": "Proteger a tripulação contra radiação",
+    "nome_curto": "Proteção contra radiação",
+    "aliases": [],
+    "categoria_id": "limitacoes-universais",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Lua: 1,369 mSv/dia. Marte: 0,64–0,67 mSv/dia",
+    "variaveis_decisivas": "Dose de radiação",
+    "criterio_aderencia": "Nenhum lugar da Terra reproduz: limitação universal"
+  },
+  {
+    "id": "U16",
+    "nome": "Estudar vulcanismo basáltico (lavas, fissuras, tubos)",
+    "nome_curto": "Vulcanismo basáltico",
+    "aliases": [],
+    "categoria_id": "ciencia",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Lua: mares de basalto. Marte: Elysium Planitia e Tharsis",
+    "variaveis_decisivas": "Vulcanismo basáltico (0–3)",
+    "criterio_aderencia": "Lava ou rocha basáltica exposta, de preferência recente"
+  },
+  {
+    "id": "U17",
+    "nome": "Estudar água ácida e minerais de ferro e sulfato",
+    "nome_curto": "Água ácida e minerais Fe-S",
+    "aliases": [],
+    "categoria_id": "ciencia",
+    "alvos": [
+      "marte"
+    ],
+    "condicao": "Meridiani Planum: jarosita e hematita, sinais de água ácida antiga",
+    "variaveis_decisivas": "Água ácida e minerais de Fe-S (0–3)",
+    "criterio_aderencia": "Água ácida ativa com jarosita e hematita"
+  },
+  {
+    "id": "U18",
+    "nome": "Operar em ambientes subterrâneos (cavernas, tubos de lava)",
+    "nome_curto": "Ambientes subterrâneos",
+    "aliases": [],
+    "categoria_id": "operacoes-humanas",
+    "alvos": [
+      "lua",
+      "marte"
+    ],
+    "condicao": "Claraboias e tubos de lava: abrigo natural contra radiação e variação de temperatura",
+    "variaveis_decisivas": "Cavidade subterrânea acessível (0–3)",
+    "criterio_aderencia": "Quilômetros de galerias acessíveis para navegar e operar"
+  },
+  {
+    "id": "U19",
+    "nome": "Estudar hidrotermalismo gerado por impacto (habitabilidade)",
+    "nome_curto": "Hidrotermalismo de impacto",
+    "aliases": [
+      "Estudar hidrotermalismo gerado por impacto"
+    ],
+    "categoria_id": "ciencia",
+    "alvos": [
+      "marte"
+    ],
+    "condicao": "Minerais hidratados em crateras de impacto: possíveis habitats antigos",
+    "variaveis_decisivas": "Origem por impacto; Alteração hidrotermal documentada (0–3)",
+    "criterio_aderencia": "Cratera de impacto com sistema hidrotermal pós-impacto documentado"
+  }
+]

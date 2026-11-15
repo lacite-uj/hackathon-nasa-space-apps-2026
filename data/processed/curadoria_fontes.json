@@ -1,0 +1,224 @@
+{
+  "por_classe": {
+    "nasa": 13,
+    "peer_reviewed": 23,
+    "descartada": 23,
+    "nasa_mission": 10,
+    "agency": 9,
+    "team": 5
+  },
+  "descartadas": [
+    {
+      "id": "F4",
+      "referencia": "Wikipedia – Haughton impact crater",
+      "motivo": "Wikipedia",
+      "substituida_por": [
+        "N1",
+        "F2"
+      ]
+    },
+    {
+      "id": "F5",
+      "referencia": "Britannica – Death Valley",
+      "motivo": "Enciclopédia (Britannica)",
+      "substituida_por": [
+        "N9"
+      ]
+    },
+    {
+      "id": "F8",
+      "referencia": "de la Torre Juárez et al. – resumo MEDA",
+      "motivo": "Resumo de congresso, sem revisão",
+      "substituida_por": [
+        "N6"
+      ]
+    },
+    {
+      "id": "F9",
+      "referencia": "EurekAlert – Univ. do País Basco (MEDA)",
+      "motivo": "Release de imprensa (EurekAlert)",
+      "substituida_por": [
+        "F7"
+      ]
+    },
+    {
+      "id": "F14",
+      "referencia": "CSEG Recorder – Mars in Canada (HMP)",
+      "motivo": "Revista profissional, sem revisão",
+      "substituida_por": [
+        "F2"
+      ]
+    },
+    {
+      "id": "F15",
+      "referencia": "Wikipedia – Shackleton (crater)",
+      "motivo": "Wikipedia",
+      "substituida_por": [
+        "N2",
+        "N3"
+      ]
+    },
+    {
+      "id": "F19",
+      "referencia": "PBS Nature – Life in Death Valley",
+      "motivo": "Site de TV (PBS)",
+      "substituida_por": []
+    },
+    {
+      "id": "F21",
+      "referencia": "National Parks Traveler",
+      "motivo": "Site de notícias (National Parks Traveler); 'umidade abaixo de 1%' não foi confirmada",
+      "substituida_por": []
+    },
+    {
+      "id": "F22",
+      "referencia": "Wikipedia – Death Valley National Park",
+      "motivo": "Wikipedia; os 38 mm de Badwater não foram confirmados (ver VALORES_CORRIGIDOS)",
+      "substituida_por": []
+    },
+    {
+      "id": "F23",
+      "referencia": "Phys.org – primeiro boletim de Jezero (MEDA)",
+      "motivo": "Site de notícias (Phys.org)",
+      "substituida_por": [
+        "N4"
+      ]
+    },
+    {
+      "id": "F24",
+      "referencia": "ScienceDaily – Univ. de Kiel (LND)",
+      "motivo": "Site de notícias (ScienceDaily)",
+      "substituida_por": [
+        "F11"
+      ]
+    },
+    {
+      "id": "F25",
+      "referencia": "Wikipedia – Jezero (crater)",
+      "motivo": "Wikipedia",
+      "substituida_por": [
+        "F16",
+        "N18"
+      ]
+    },
+    {
+      "id": "F27",
+      "referencia": "EurekAlert – Diviner (LRO)",
+      "motivo": "Release de imprensa (EurekAlert)",
+      "substituida_por": [
+        "N5"
+      ]
+    },
+    {
+      "id": "F28",
+      "referencia": "Sorbonne (HAL) – perclorato no Ártico marciano",
+      "motivo": "Cópia em arquivo aberto sem referência verificável",
+      "substituida_por": [
+        "N16"
+      ]
+    },
+    {
+      "id": "F29",
+      "referencia": "Leonard David – regiões candidatas do Artemis III",
+      "motivo": "Blog de jornalista",
+      "substituida_por": [
+        "N7"
+      ]
+    },
+    {
+      "id": "F31",
+      "referencia": "Space.com – MarsFest em Death Valley",
+      "motivo": "Site de notícias (Space.com)",
+      "substituida_por": [
+        "N8"
+      ]
+    },
+    {
+      "id": "F33",
+      "referencia": "WorldSpecies – clima da célula 36,25 N, −116,75",
+      "motivo": "Site agregador sem revisão (WorldSpecies); valor trocado pelo NASA POWER (VALORES_CORRIGIDOS)",
+      "substituida_por": []
+    },
+    {
+      "id": "G2",
+      "referencia": "Wikipedia – Apollo program training",
+      "motivo": "Wikipedia",
+      "substituida_por": [
+        "N10"
+      ]
+    },
+    {
+      "id": "G4",
+      "referencia": "NBC News / Space.com – Meteor Crater",
+      "motivo": "Site de notícias (NBC/Space.com)",
+      "substituida_por": [
+        "N11",
+        "N10"
+      ]
+    },
+    {
+      "id": "G5",
+      "referencia": "Exploration Museum – treino Apollo na Islândia",
+      "motivo": "Site de museu",
+      "substituida_por": [
+        "N10"
+      ]
+    },
+    {
+      "id": "G12",
+      "referencia": "Wikipedia – McMurdo Dry Valleys",
+      "motivo": "Wikipedia; a média de −19,8 °C não foi confirmada (ver VALORES_CORRIGIDOS)",
+      "substituida_por": []
+    },
+    {
+      "id": "H9",
+      "referencia": "Agência FAPESP / phys.org 2020 – dinâmica de dunas barcanas",
+      "motivo": "Site de notícias (FAPESP/Phys.org)",
+      "substituida_por": [
+        "N13"
+      ]
+    },
+    {
+      "id": "H10",
+      "referencia": "Wikipedia – Toca da Boa Vista",
+      "motivo": "Wikipedia",
+      "substituida_por": [
+        "H11",
+        "N14"
+      ]
+    }
+  ],
+  "valores_corrigidos": [
+    {
+      "local_id": "vale-da-morte",
+      "variavel_id": "temperatura-media",
+      "valor_planilha": 18.5,
+      "valor": 19.2,
+      "fonte_ids": [
+        "N17"
+      ],
+      "motivo": "o valor de 18,5 °C da planilha vinha de site sem revisão; trocado pelo NASA POWER no mesmo ponto (19,2 °C)."
+    },
+    {
+      "local_id": "vale-da-morte",
+      "variavel_id": "precipitacao-anual",
+      "valor_planilha": 38.0,
+      "valor": 49.0,
+      "fonte_ids": [
+        "N9"
+      ],
+      "motivo": "o valor de 38 mm (Badwater) da planilha vinha de fonte não validada; o NPS dá 49 mm/ano em Furnace Creek, a estação oficial do vale."
+    },
+    {
+      "local_id": "mcmurdo",
+      "variavel_id": "temperatura-media",
+      "valor_planilha": -19.8,
+      "valor": -14.8,
+      "fonte_ids": [
+        "N12"
+      ],
+      "motivo": "o valor de −19,8 °C da planilha vinha de fonte não validada. A fonte revisada (Doran et al. 2002) dá médias de −14,8 a −30,0 °C nas estações do fundo dos vales; usado o limite mais quente (conservador: não aumenta nenhuma nota). O pixel do NASA POWER (−27,2 °C) inclui o planalto."
+    }
+  ],
+  "notas_alteradas": []
+}

@@ -1,0 +1,40 @@
+1
+00:00:00,143 --> 00:00:02,360
+Building permanent bases on the Moon and Mars
+
+2
+00:00:02,400 --> 00:00:05,422
+costs billions, and leaves no room for failure.
+
+3
+00:00:05,462 --> 00:00:08,748
+Before liftoff, we need to test everything here on Earth.
+
+4
+00:00:08,788 --> 00:00:12,348
+We built a 3D platform that cross-references NASA data
+
+5
+00:00:12,388 --> 00:00:15,801
+with 14 Earth analogs — including in Brazil.
+
+6
+00:00:15,841 --> 00:00:18,642
+Our model evaluates 19 scientific uses,
+
+7
+00:00:18,682 --> 00:00:21,572
+and shows exactly where each analogy fails.
+
+8
+00:00:21,612 --> 00:00:23,138
+There is no clone of Mars.
+
+9
+00:00:23,625 --> 00:00:26,585
+But by exposing the real limits of each site,
+
+10
+00:00:26,625 --> 00:00:29,738
+we replace guesswork with safe mission decisions.
+

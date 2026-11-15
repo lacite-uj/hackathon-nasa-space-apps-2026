@@ -1,0 +1,935 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://spaceapps2026.local/analogs.schema.json",
+  "title": "analogs.json (v2)",
+  "description": "Contrato entre o ETL (etl/site.py) e o front-end 3D. Ver docs/instrucoes-desenvolvimento.md, seção 3. A conferência cruzada de ids (links -> analogs/targets, dimensions) é feita em etl/load.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "generated_at",
+    "model",
+    "dimensions",
+    "targets",
+    "analogs",
+    "links",
+    "source_index",
+    "network"
+  ],
+  "properties": {
+    "version": {
+      "const": 2
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "data_date",
+        "scale",
+        "excluded_from_score"
+      ],
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "data_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scale": {
+          "type": "string"
+        },
+        "excluded_from_score": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    },
+    "dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "in_score"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "in_score": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "body",
+          "name",
+          "short_name",
+          "lat",
+          "lon",
+          "description",
+          "clipping"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "body": {
+            "enum": [
+              "moon",
+              "mars"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "short_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lat": {
+            "$ref": "#/$defs/lat"
+          },
+          "lon": {
+            "$ref": "#/$defs/lon"
+          },
+          "description": {
+            "type": "string"
+          },
+          "clipping": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "analogs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "full_name",
+          "country",
+          "lat",
+          "lon",
+          "approximate_coords",
+          "description",
+          "clipping",
+          "data_notes",
+          "listed_as",
+          "batch",
+          "model_indicates",
+          "matches_listing",
+          "image",
+          "narrative"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "full_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "country": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "lat": {
+            "$ref": "#/$defs/lat"
+          },
+          "lon": {
+            "$ref": "#/$defs/lon"
+          },
+          "approximate_coords": {
+            "type": "boolean"
+          },
+          "description": {
+            "type": "string"
+          },
+          "clipping": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "data_notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "listed_as": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/id"
+            }
+          },
+          "batch": {
+            "type": "string"
+          },
+          "model_indicates": {
+            "enum": [
+              "lua",
+              "marte",
+              "empate",
+              null
+            ]
+          },
+          "matches_listing": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "image": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "required": [
+              "src",
+              "alt",
+              "caption",
+              "kind",
+              "credit"
+            ],
+            "properties": {
+              "src": {
+                "type": "string",
+                "pattern": "^images/analogs/[a-z0-9-]+\\.jpg$"
+              },
+              "alt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "caption": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "foto",
+                  "satelite"
+                ]
+              },
+              "credit": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "author",
+                  "license",
+                  "license_url",
+                  "source_url"
+                ],
+                "properties": {
+                  "author": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "license": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "license_url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "format": "uri"
+                  },
+                  "source_url": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                }
+              }
+            }
+          },
+          "narrative": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "analog",
+          "target",
+          "score",
+          "adherence",
+          "level",
+          "rank",
+          "rank_tied",
+          "listed_as_target",
+          "dimensions",
+          "utilities",
+          "strengths",
+          "limits",
+          "to_measure",
+          "best_in_network_count",
+          "exploration_use",
+          "sources"
+        ],
+        "properties": {
+          "analog": {
+            "$ref": "#/$defs/id"
+          },
+          "target": {
+            "$ref": "#/$defs/id"
+          },
+          "score": {
+            "$ref": "#/$defs/score"
+          },
+          "adherence": {
+            "$ref": "#/$defs/adherence"
+          },
+          "rank": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "rank_tied": {
+            "type": "boolean"
+          },
+          "listed_as_target": {
+            "type": "boolean"
+          },
+          "dimensions": {
+            "type": "object",
+            "propertyNames": {
+              "$ref": "#/$defs/id"
+            },
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "score",
+                "adherence",
+                "evaluated",
+                "total",
+                "level"
+              ],
+              "properties": {
+                "score": {
+                  "$ref": "#/$defs/score"
+                },
+                "adherence": {
+                  "$ref": "#/$defs/adherence"
+                },
+                "evaluated": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "total": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "level": {
+                  "$ref": "#/$defs/level"
+                }
+              }
+            }
+          },
+          "utilities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "name",
+                "category",
+                "adherence",
+                "score",
+                "status",
+                "variables_evaluated",
+                "variables_total",
+                "best_in_network",
+                "reading",
+                "level",
+                "meaning",
+                "evidence"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^U\\d{2}$"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "category": {
+                  "$ref": "#/$defs/id"
+                },
+                "adherence": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/$defs/adherence"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "score": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/$defs/score"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "status": {
+                  "enum": [
+                    "avaliada",
+                    "a_medir"
+                  ]
+                },
+                "variables_evaluated": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "variables_total": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "best_in_network": {
+                  "type": "boolean"
+                },
+                "reading": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "level": {
+                  "$ref": "#/$defs/level"
+                },
+                "meaning": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "purpose",
+                    "condition",
+                    "criterion"
+                  ],
+                  "properties": {
+                    "purpose": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "condition": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "criterion": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "variable",
+                      "unit",
+                      "value",
+                      "value_note",
+                      "note",
+                      "level",
+                      "status",
+                      "direction",
+                      "thresholds",
+                      "target_value",
+                      "observation",
+                      "sources",
+                      "sources_scope",
+                      "dataset_earth",
+                      "dataset_target"
+                    ],
+                    "properties": {
+                      "variable": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "unit": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "value": {
+                        "type": [
+                          "number",
+                          "null"
+                        ]
+                      },
+                      "value_note": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "note": {
+                        "enum": [
+                          0,
+                          1,
+                          2,
+                          3,
+                          null
+                        ]
+                      },
+                      "status": {
+                        "enum": [
+                          "avaliada",
+                          "a_medir",
+                          "sem_faixas"
+                        ]
+                      },
+                      "direction": {
+                        "enum": [
+                          "maior",
+                          "menor"
+                        ]
+                      },
+                      "thresholds": {
+                        "oneOf": [
+                          {
+                            "type": "null"
+                          },
+                          {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": [
+                              "3",
+                              "2",
+                              "1"
+                            ],
+                            "properties": {
+                              "3": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              },
+                              "2": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              },
+                              "1": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "target_value": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "observation": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "sources": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "sources_scope": {
+                        "enum": [
+                          "local",
+                          "catalogo"
+                        ]
+                      },
+                      "dataset_earth": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "dataset_target": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "level": {
+                        "$ref": "#/$defs/level"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "strengths": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/point"
+            }
+          },
+          "limits": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/point"
+            }
+          },
+          "to_measure": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "best_in_network_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "exploration_use": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "label",
+                "url",
+                "kind"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "kind": {
+                  "$ref": "#/$defs/source_kind"
+                }
+              }
+            }
+          },
+          "level": {
+            "$ref": "#/$defs/level"
+          }
+        }
+      }
+    },
+    "network": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "coverage",
+        "best_by_utility",
+        "conclusions",
+        "caveats"
+      ],
+      "properties": {
+        "coverage": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "target",
+              "evaluated",
+              "covered",
+              "gaps",
+              "to_measure"
+            ],
+            "properties": {
+              "target": {
+                "$ref": "#/$defs/id"
+              },
+              "evaluated": {
+                "type": "integer"
+              },
+              "covered": {
+                "type": "integer"
+              },
+              "gaps": {
+                "type": "integer"
+              },
+              "to_measure": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "best_by_utility": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "utility",
+              "name",
+              "target",
+              "best_score",
+              "best",
+              "status"
+            ],
+            "properties": {
+              "utility": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "target": {
+                "$ref": "#/$defs/id"
+              },
+              "best_score": {
+                "oneOf": [
+                  {
+                    "$ref": "#/$defs/adherence"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "best": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/id"
+                }
+              },
+              "status": {
+                "enum": [
+                  "Coberta",
+                  "Lacuna",
+                  "A medir"
+                ]
+              }
+            }
+          }
+        },
+        "conclusions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "caveats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source_index": {
+      "type": "object",
+      "description": "Fontes citadas nas evidências (links[].utilities[].evidence[].sources guarda só os ids)",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "url",
+          "kind"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "kind": {
+            "$ref": "#/$defs/source_kind"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "lat": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "lon": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "adherence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "level": {
+      "enum": [
+        "high",
+        "moderate",
+        "low",
+        null
+      ],
+      "description": "≥ 2 high, ≤ 1 low, entre os dois moderate; null = a medir (etl/config.py › nivel)"
+    },
+    "point": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "id",
+            "name",
+            "category",
+            "adherence",
+            "level"
+          ],
+          "properties": {
+            "kind": {
+              "const": "utility"
+            },
+            "id": {
+              "type": "string",
+              "pattern": "^U\\d{2}$"
+            },
+            "name": {
+              "type": "string"
+            },
+            "category": {
+              "$ref": "#/$defs/id"
+            },
+            "adherence": {
+              "$ref": "#/$defs/adherence"
+            },
+            "level": {
+              "$ref": "#/$defs/level"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "label",
+            "text"
+          ],
+          "properties": {
+            "kind": {
+              "const": "reading"
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    },
+    "source_kind": {
+      "enum": [
+        "nasa",
+        "nasa_mission",
+        "peer_reviewed",
+        "agency",
+        "team"
+      ],
+      "description": "Classe da fonte (etl/config.py › FONTES_CLASSE): NASA, artigo com dados de missão da NASA, artigo revisado, órgão público/repositório, planilha da equipe"
+    }
+  }
+}

@@ -1,0 +1,511 @@
+[
+  {
+    "utilidade_id": "U01",
+    "alvo_id": "lua",
+    "categoria_id": "engenharia",
+    "melhor_nota": 0.5,
+    "melhor_local_id": "mcmurdo",
+    "empatados": [
+      "mcmurdo"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 0.0,
+    "segundo_local_id": "atacama",
+    "situacao": "Lacuna"
+  },
+  {
+    "utilidade_id": "U01",
+    "alvo_id": "marte",
+    "categoria_id": "engenharia",
+    "melhor_nota": 1.5,
+    "melhor_local_id": "mcmurdo",
+    "empatados": [
+      "mcmurdo"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 1.0,
+    "segundo_local_id": "haughton",
+    "situacao": "Lacuna"
+  },
+  {
+    "utilidade_id": "U02",
+    "alvo_id": "lua",
+    "categoria_id": "engenharia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "vale-da-morte",
+    "empatados": [
+      "vale-da-morte"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 1.0,
+    "segundo_local_id": "cinder-lake",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U03",
+    "alvo_id": "lua",
+    "categoria_id": "engenharia",
+    "melhor_nota": null,
+    "melhor_local_id": null,
+    "empatados": [],
+    "n_empatados": 0,
+    "segunda_nota": null,
+    "segundo_local_id": null,
+    "situacao": "A medir"
+  },
+  {
+    "utilidade_id": "U03",
+    "alvo_id": "marte",
+    "categoria_id": "engenharia",
+    "melhor_nota": null,
+    "melhor_local_id": null,
+    "empatados": [],
+    "n_empatados": 0,
+    "segunda_nota": null,
+    "segundo_local_id": null,
+    "situacao": "A medir"
+  },
+  {
+    "utilidade_id": "U04",
+    "alvo_id": "lua",
+    "categoria_id": "engenharia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "atacama",
+    "empatados": [
+      "atacama",
+      "araguainha",
+      "lencois-maranhenses",
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 4,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "cinder-lake",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U04",
+    "alvo_id": "marte",
+    "categoria_id": "engenharia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "atacama",
+    "empatados": [
+      "atacama",
+      "araguainha",
+      "lencois-maranhenses",
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 4,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "cinder-lake",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U05",
+    "alvo_id": "marte",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "atacama",
+    "empatados": [
+      "atacama"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 1.0,
+    "segundo_local_id": "haughton",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U06",
+    "alvo_id": "lua",
+    "categoria_id": "recursos",
+    "melhor_nota": 1.5,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "mcmurdo"
+    ],
+    "n_empatados": 2,
+    "segunda_nota": 0.5,
+    "segundo_local_id": "holuhraun",
+    "situacao": "Lacuna"
+  },
+  {
+    "utilidade_id": "U06",
+    "alvo_id": "marte",
+    "categoria_id": "recursos",
+    "melhor_nota": 2.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "mcmurdo"
+    ],
+    "n_empatados": 2,
+    "segunda_nota": 0.5,
+    "segundo_local_id": "holuhraun",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U07",
+    "alvo_id": "lua",
+    "categoria_id": "recursos",
+    "melhor_nota": 1.5,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "mcmurdo"
+    ],
+    "n_empatados": 2,
+    "segunda_nota": 0.5,
+    "segundo_local_id": "holuhraun",
+    "situacao": "Lacuna"
+  },
+  {
+    "utilidade_id": "U07",
+    "alvo_id": "marte",
+    "categoria_id": "recursos",
+    "melhor_nota": 2.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "mcmurdo"
+    ],
+    "n_empatados": 2,
+    "segunda_nota": 0.5,
+    "segundo_local_id": "holuhraun",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U08",
+    "alvo_id": "lua",
+    "categoria_id": "pouso-e-mobilidade",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "vale-da-morte",
+    "empatados": [
+      "vale-da-morte"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 0.0,
+    "segundo_local_id": "atacama",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U08",
+    "alvo_id": "marte",
+    "categoria_id": "pouso-e-mobilidade",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "vale-da-morte",
+    "empatados": [
+      "vale-da-morte"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 0.0,
+    "segundo_local_id": "atacama",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U09",
+    "alvo_id": "lua",
+    "categoria_id": "pouso-e-mobilidade",
+    "melhor_nota": null,
+    "melhor_local_id": null,
+    "empatados": [],
+    "n_empatados": 0,
+    "segunda_nota": null,
+    "segundo_local_id": null,
+    "situacao": "A medir"
+  },
+  {
+    "utilidade_id": "U09",
+    "alvo_id": "marte",
+    "categoria_id": "pouso-e-mobilidade",
+    "melhor_nota": null,
+    "melhor_local_id": null,
+    "empatados": [],
+    "n_empatados": 0,
+    "segunda_nota": null,
+    "segundo_local_id": null,
+    "situacao": "A medir"
+  },
+  {
+    "utilidade_id": "U10",
+    "alvo_id": "lua",
+    "categoria_id": "operacoes-humanas",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "mcmurdo"
+    ],
+    "n_empatados": 2,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "askja",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U10",
+    "alvo_id": "marte",
+    "categoria_id": "operacoes-humanas",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "mcmurdo"
+    ],
+    "n_empatados": 2,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "askja",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U11",
+    "alvo_id": "lua",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "meteor-crater",
+      "vargeao",
+      "araguainha"
+    ],
+    "n_empatados": 4,
+    "segunda_nota": 1.0,
+    "segundo_local_id": "vale-da-morte",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U11",
+    "alvo_id": "marte",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "meteor-crater",
+      "vargeao",
+      "araguainha"
+    ],
+    "n_empatados": 4,
+    "segunda_nota": 1.0,
+    "segundo_local_id": "vale-da-morte",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U12",
+    "alvo_id": "marte",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "vale-da-morte",
+    "empatados": [
+      "vale-da-morte"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "atacama",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U13",
+    "alvo_id": "lua",
+    "categoria_id": "engenharia",
+    "melhor_nota": 0.0,
+    "melhor_local_id": "atacama",
+    "empatados": [
+      "atacama",
+      "haughton",
+      "vale-da-morte",
+      "cinder-lake",
+      "meteor-crater",
+      "holuhraun",
+      "mauna-kea",
+      "mcmurdo",
+      "rio-tinto",
+      "askja",
+      "vargeao",
+      "araguainha",
+      "lencois-maranhenses",
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 14,
+    "segunda_nota": null,
+    "segundo_local_id": null,
+    "situacao": "Lacuna"
+  },
+  {
+    "utilidade_id": "U13",
+    "alvo_id": "marte",
+    "categoria_id": "engenharia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "atacama",
+    "empatados": [
+      "atacama",
+      "cinder-lake",
+      "meteor-crater",
+      "holuhraun",
+      "mauna-kea",
+      "mcmurdo",
+      "rio-tinto",
+      "askja",
+      "araguainha",
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 10,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "vargeao",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U14",
+    "alvo_id": "lua",
+    "categoria_id": "operacoes-humanas",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "mcmurdo"
+    ],
+    "n_empatados": 2,
+    "segunda_nota": 1.0,
+    "segundo_local_id": "holuhraun",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U15",
+    "alvo_id": "lua",
+    "categoria_id": "limitacoes-universais",
+    "melhor_nota": 0.0,
+    "melhor_local_id": "atacama",
+    "empatados": [
+      "atacama",
+      "haughton",
+      "vale-da-morte",
+      "cinder-lake",
+      "meteor-crater",
+      "holuhraun",
+      "mauna-kea",
+      "mcmurdo",
+      "rio-tinto",
+      "askja",
+      "vargeao",
+      "araguainha",
+      "lencois-maranhenses",
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 14,
+    "segunda_nota": null,
+    "segundo_local_id": null,
+    "situacao": "Lacuna"
+  },
+  {
+    "utilidade_id": "U15",
+    "alvo_id": "marte",
+    "categoria_id": "limitacoes-universais",
+    "melhor_nota": 0.0,
+    "melhor_local_id": "atacama",
+    "empatados": [
+      "atacama",
+      "haughton",
+      "vale-da-morte",
+      "cinder-lake",
+      "meteor-crater",
+      "holuhraun",
+      "mauna-kea",
+      "mcmurdo",
+      "rio-tinto",
+      "askja",
+      "vargeao",
+      "araguainha",
+      "lencois-maranhenses",
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 14,
+    "segunda_nota": null,
+    "segundo_local_id": null,
+    "situacao": "Lacuna"
+  },
+  {
+    "utilidade_id": "U16",
+    "alvo_id": "lua",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "holuhraun",
+    "empatados": [
+      "holuhraun"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "vale-da-morte",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U16",
+    "alvo_id": "marte",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "holuhraun",
+    "empatados": [
+      "holuhraun"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "vale-da-morte",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U17",
+    "alvo_id": "marte",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "rio-tinto",
+    "empatados": [
+      "rio-tinto"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "haughton",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U18",
+    "alvo_id": "lua",
+    "categoria_id": "operacoes-humanas",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "toca-da-boa-vista",
+    "empatados": [
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "araguainha",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U18",
+    "alvo_id": "marte",
+    "categoria_id": "operacoes-humanas",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "toca-da-boa-vista",
+    "empatados": [
+      "toca-da-boa-vista"
+    ],
+    "n_empatados": 1,
+    "segunda_nota": 2.0,
+    "segundo_local_id": "araguainha",
+    "situacao": "Coberta"
+  },
+  {
+    "utilidade_id": "U19",
+    "alvo_id": "marte",
+    "categoria_id": "ciencia",
+    "melhor_nota": 3.0,
+    "melhor_local_id": "haughton",
+    "empatados": [
+      "haughton",
+      "vargeao",
+      "araguainha"
+    ],
+    "n_empatados": 3,
+    "segunda_nota": 1.5,
+    "segundo_local_id": "meteor-crater",
+    "situacao": "Coberta"
+  }
+]

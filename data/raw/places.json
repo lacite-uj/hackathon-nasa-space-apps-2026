@@ -1,0 +1,2446 @@
+{
+  "earth": [
+    {
+      "name": "Deserto do Atacama (Yungay)",
+      "coordinates": {
+        "latitude": -24.1,
+        "longitude": -70.01
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 289.65,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "MERRA-2"
+            },
+            {
+              "name": "NASA MODIS LST",
+              "url": "https://lpdaac.usgs.gov/products/mod11a1v061/",
+              "note": "MOD11"
+            },
+            {
+              "name": "NASA NTRS",
+              "url": "https://ntrs.nasa.gov/",
+              "note": "McKay et al. 2003"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 267.45,
+          "max": 311.05,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "MERRA-2, 2001–2025"
+            },
+            {
+              "name": "NASA MODIS LST",
+              "url": "https://lpdaac.usgs.gov/products/mod11a1v061/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "surface_pressure": {
+          "type": "scalar",
+          "value": 900.0,
+          "unit": "hPa",
+          "sources": [
+            {
+              "name": "NASA MERRA-2",
+              "url": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/",
+              "note": "altitude ~1.000 m"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "radiation_dose": {
+          "type": "scalar",
+          "value": 0.007,
+          "unit": "mSv/d",
+          "sources": [
+            {
+              "name": "NASA",
+              "url": null
+            },
+            {
+              "name": "Fator de referência terrestre comparado ao LND e RAD",
+              "url": "https://mars.nasa.gov/msl/spacecraft/instruments/rad/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 0.6,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA GPM IMERG",
+              "url": "https://gpm.nasa.gov/data/imerg"
+            },
+            {
+              "name": "CHIRPS",
+              "url": "https://www.chc.ucsb.edu/data/chirps",
+              "note": "≈0,6 mm/ano"
+            }
+          ],
+          "check": {
+            "status": "confirmed",
+            "note": "Consistente: a fonte cita poucos mm por década (menos de 1 mm/ano em média).",
+            "evidence": [
+              {
+                "name": "Sutter et al. 2005, LPSC XXXVI (NTRS)",
+                "url": "https://ntrs.nasa.gov/api/citations/20050175994/downloads/20050175994.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "soil_perchlorate": {
+          "type": "scalar",
+          "value": 0.03,
+          "unit": "wt%",
+          "sources": [
+            {
+              "name": "Literatura de campo",
+              "url": null,
+              "note": "Caliche Blanco"
+            }
+          ],
+          "check": {
+            "status": "partially_confirmed",
+            "note": "0,03 wt% é a média em minério de nitrato; há medições de até ~0,6 wt%. Não é um valor específico do solo de Yungay.",
+            "evidence": [
+              {
+                "name": "Kounaves et al. 2010, Environ. Sci. Technol.",
+                "url": "https://planetary.chem.tufts.edu/Kounaves%20etal%20ES&T%202010v44p2360.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Nitratos, cloretos e sulfatos; solos salinos e oxidantes",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/",
+              "note": "Terra"
+            },
+            {
+              "name": "NASA EMIT",
+              "url": "https://earth.jpl.nasa.gov/emit/",
+              "note": "ISS"
+            }
+          ],
+          "check": {
+            "status": "partially_confirmed",
+            "note": "Sulfatos e nitratos confirmados; cloretos não vistos na fonte lida.",
+            "evidence": [
+              {
+                "name": "Sutter et al. 2005, LPSC XXXVI (NTRS)",
+                "url": "https://ntrs.nasa.gov/api/citations/20050175994/downloads/20050175994.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "NASA SMAP",
+              "url": "https://smap.jpl.nasa.gov/"
+            },
+            {
+              "name": "Mapas de permafrost",
+              "url": null
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Hiperaridez extrema e solos com sais oxidantes; usado para estudar limites da vida e a detecção de matéria orgânica em solos tipo marciano.",
+          "sources": [
+            {
+              "name": "Referência: Atacama Desert",
+              "url": "https://en.wikipedia.org/wiki/Atacama_Desert"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "elevation": {
+          "type": "scalar",
+          "value": 1000,
+          "unit": "m",
+          "note": "Aprox., conforme o arquivo original",
+          "verification": "from_input",
+          "sources": [
+            {
+              "name": "NASA MERRA-2",
+              "url": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cratera Haughton",
+      "coordinates": {
+        "latitude": 75.38,
+        "longitude": -89.67
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 257.15,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/"
+            },
+            {
+              "name": "NTRS",
+              "url": "https://ntrs.nasa.gov/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "surface_pressure": {
+          "type": "scalar",
+          "value": 1010.0,
+          "unit": "hPa",
+          "sources": [
+            {
+              "name": "NASA MERRA-2",
+              "url": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/",
+              "note": "perto do nível do mar"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "radiation_dose": {
+          "type": "scalar",
+          "value": 0.007,
+          "unit": "mSv/d",
+          "sources": [
+            {
+              "name": "NASA",
+              "url": null
+            },
+            {
+              "name": "Fator de referência terrestre",
+              "url": null
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 13.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA GPM IMERG",
+              "url": "https://gpm.nasa.gov/data/imerg"
+            },
+            {
+              "name": "CHIRPS",
+              "url": "https://www.chc.ucsb.edu/data/chirps",
+              "note": "<13 ou ≈160 eq. água"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "A nota da fonte no arquivo é ambígua ('<13 ou ≈160 eq. água'), e a página consultada não traz valor numérico.",
+            "evidence": [
+              {
+                "name": "Wikipedia: Haughton impact crater",
+                "url": "https://en.wikipedia.org/wiki/Haughton_impact_crater"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 2,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "NASA Odyssey GRS",
+              "url": "https://mars.nasa.gov/odyssey/"
+            },
+            {
+              "name": "SHARAD",
+              "url": "https://mars.nasa.gov/msl/spacecraft/instruments/rad/",
+              "note": "Permafrost contínuo; topo a ~60 cm"
+            }
+          ],
+          "check": {
+            "status": "partially_confirmed",
+            "note": "A brecha central é permeada por permafrost; a profundidade (~60 cm) e a nota 2 da escala não foram verificadas.",
+            "evidence": [
+              {
+                "name": "Wikipedia: Haughton impact crater",
+                "url": "https://en.wikipedia.org/wiki/Haughton_impact_crater"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Folhelho e siltito paleozoicos sobre gnaisse; brecha de impacto",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            }
+          ],
+          "check": {
+            "status": "confirmed",
+            "note": "Folhelho e siltito paleozoicos sobre gnaisse e brecha de impacto, como na fonte.",
+            "evidence": [
+              {
+                "name": "Wikipedia: Haughton impact crater",
+                "url": "https://en.wikipedia.org/wiki/Haughton_impact_crater"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Cratera de impacto em permafrost, chamada de 'Marte na Terra'; análoga a crateras frias e ricas em gelo. Sede do Haughton-Mars Project.",
+          "sources": [
+            {
+              "name": "Referência: Haughton impact crater",
+              "url": "https://en.wikipedia.org/wiki/Haughton_impact_crater"
+            }
+          ],
+          "verification": "fetched"
+        },
+        "structure_diameter": {
+          "type": "scalar",
+          "value": 23,
+          "unit": "km",
+          "verification": "fetched",
+          "sources": [
+            {
+              "name": "Wikipedia: Haughton impact crater",
+              "url": "https://en.wikipedia.org/wiki/Haughton_impact_crater"
+            }
+          ]
+        },
+        "structure_age": {
+          "type": "range",
+          "min": 31,
+          "max": 32,
+          "unit": "Ma",
+          "note": "A literatura varia; algumas estimativas são mais jovens",
+          "sources": [
+            {
+              "name": "Wikipedia: Haughton impact crater",
+              "url": "https://en.wikipedia.org/wiki/Haughton_impact_crater"
+            }
+          ],
+          "verification": "fetched"
+        },
+        "geological_setting": {
+          "type": "text",
+          "value": "Folhelho e siltito paleozoicos sobre embasamento de gnaisse; brecha de impacto central com permafrost",
+          "sources": [
+            {
+              "name": "Wikipedia: Haughton impact crater",
+              "url": "https://en.wikipedia.org/wiki/Haughton_impact_crater"
+            }
+          ],
+          "verification": "fetched"
+        }
+      }
+    },
+    {
+      "name": "Vale da Morte (Badwater e Ubehebe)",
+      "coordinates": {
+        "latitude": 36.24,
+        "longitude": -116.82
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 291.65,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/"
+            },
+            {
+              "name": "MODIS LST",
+              "url": "https://lpdaac.usgs.gov/products/mod11a1v061/"
+            }
+          ],
+          "check": {
+            "status": "discrepancy",
+            "note": "O NPS indica máxima média de 33 °C e mínima média de 17 °C em Furnace Creek, ou seja, média anual perto de 25 °C. O valor 18,5 °C provavelmente vem de uma média de grade do NASA POWER.",
+            "evidence": [
+              {
+                "name": "NPS: Death Valley weather and climate",
+                "url": "https://www.nps.gov/deva/learn/nature/weather-and-climate.htm"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 263.15,
+          "max": 329.85,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/"
+            },
+            {
+              "name": "MODIS LST",
+              "url": "https://lpdaac.usgs.gov/products/mod11a1v061/"
+            }
+          ],
+          "check": {
+            "status": "confirmed",
+            "note": "Recordes de temperatura do ar: 57 °C (134 °F) e -9/-10 °C. Atenção: são recordes, enquanto outros locais usam faixas do NASA POWER.",
+            "evidence": [
+              {
+                "name": "NPS: Death Valley weather and climate",
+                "url": "https://www.nps.gov/deva/learn/nature/weather-and-climate.htm"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "surface_pressure": {
+          "type": "scalar",
+          "value": 1020.0,
+          "unit": "hPa",
+          "sources": [
+            {
+              "name": "NASA MERRA-2",
+              "url": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/",
+              "note": "abaixo do nível do mar"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "radiation_dose": {
+          "type": "scalar",
+          "value": 0.007,
+          "unit": "mSv/d",
+          "sources": [
+            {
+              "name": "NASA",
+              "url": null
+            },
+            {
+              "name": "Fator de referência terrestre",
+              "url": null
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 38.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA GPM IMERG",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "note": "Badwater a Furnace Creek"
+            }
+          ],
+          "check": {
+            "status": "discrepancy",
+            "note": "O NPS indica 1,94 pol (~49 mm) em Furnace Creek; Badwater não aparece na fonte. Os 38 mm não foram confirmados.",
+            "evidence": [
+              {
+                "name": "NPS: Death Valley weather and climate",
+                "url": "https://www.nps.gov/deva/learn/nature/weather-and-climate.htm"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "NASA SMAP",
+              "url": "https://smap.jpl.nasa.gov/",
+              "note": "Ausente; água superficial só em lagoas salinas"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Evaporitos (salar de Badwater); maar basáltico (Ubehebe)",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Bacias evaporíticas, leques aluviais e extremos térmicos; análogo de depósitos de sal e de antigos lagos marcianos.",
+          "sources": [
+            {
+              "name": "Referência: Death Valley",
+              "url": "https://en.wikipedia.org/wiki/Death_Valley"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "elevation": {
+          "type": "scalar",
+          "value": -85.5,
+          "unit": "m",
+          "note": "Badwater",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "Wikipedia: Badwater Basin",
+              "url": "https://en.wikipedia.org/wiki/Badwater_Basin"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "McMurdo Dry Valleys (Vale Wright)",
+      "coordinates": {
+        "latitude": -77.52,
+        "longitude": 161.85
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 253.35,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G12 - Estação do Vale Wright"
+            }
+          ],
+          "check": {
+            "status": "partially_confirmed",
+            "note": "Dentro da faixa de médias anuais das Dry Valleys (-14,8 a -30 °C); não há valor específico do Vale Wright.",
+            "evidence": [
+              {
+                "name": "Dry Valleys climate (Doran et al. 2002, via core.ac.uk)",
+                "url": "https://core.ac.uk/download/37766706.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 221.15,
+          "max": 269.65,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G1 / TS_MAX"
+            }
+          ],
+          "check": {
+            "status": "discrepancy",
+            "note": "A fonte cita máximas de verão do ar entre 2,6 e 11,6 °C, acima do máx. de -3,5 °C do arquivo. A mínima de -52 °C não foi vista.",
+            "evidence": [
+              {
+                "name": "Dry Valleys climate (Doran et al. 2002, via core.ac.uk)",
+                "url": "https://core.ac.uk/download/37766706.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "uv_index": {
+          "type": "scalar",
+          "value": 0.55,
+          "unit": null,
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "ALLSKY_SFC_UV_INDEX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 38.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G11"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "A fonte diz apenas que a precipitação é em geral menor que 100 mm (principalmente neve). Não há valor para o Vale Wright, e 38 mm é idêntico ao do Vale da Morte.",
+            "evidence": [
+              {
+                "name": "Dry Valleys climate (Doran et al. 2002, via core.ac.uk)",
+                "url": "https://core.ac.uk/download/37766706.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "soil_perchlorate": {
+          "type": "scalar",
+          "value": 0.00011,
+          "unit": "wt%",
+          "sources": [
+            {
+              "name": "Literatura científica",
+              "url": null,
+              "note": "G10"
+            }
+          ],
+          "check": {
+            "status": "discrepancy",
+            "note": "0,00011 wt% equivale a 1100 µg/kg, que é o máximo medido no Vale Taylor. No Vale Wright o perclorato ficou abaixo do limite de detecção (25 µg/kg).",
+            "evidence": [
+              {
+                "name": "Kounaves et al. 2010, Environ. Sci. Technol.",
+                "url": "https://planetary.chem.tufts.edu/Kounaves%20etal%20ES&T%202010v44p2360.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 3,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "Dados de campo",
+              "url": null
+            },
+            {
+              "name": "G7, G11",
+              "url": null,
+              "note": "Solo cimentado por gelo a menos de 1 m"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Ambiente frio e hiperárido com solo cimentado por gelo e percloratos; análogo de latitudes altas de Marte.",
+          "sources": [
+            {
+              "name": "Referência: McMurdo Dry Valleys",
+              "url": "https://en.wikipedia.org/wiki/McMurdo_Dry_Valleys"
+            }
+          ],
+          "verification": "reference_knowledge"
+        }
+      }
+    },
+    {
+      "name": "Rio Tinto",
+      "coordinates": {
+        "latitude": 37.69,
+        "longitude": -6.59
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 291.05,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 268.65,
+          "max": 327.35,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G1 / TS_MAX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "uv_index": {
+          "type": "scalar",
+          "value": 1.22,
+          "unit": null,
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "ALLSKY_SFC_UV_INDEX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 453.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "Clima mediterrâneo",
+              "url": null,
+              "note": "sem gelo"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Água ácida (pH ~2,3) e rica em ferro; jarosita e hematita",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            },
+            {
+              "name": "EMIT",
+              "url": "https://earth.jpl.nasa.gov/emit/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Água ácida rica em ferro com jarosita e hematita; análogo de depósitos de sulfatos e hematita em Meridiani Planum.",
+          "sources": [
+            {
+              "name": "Referência: Rio Tinto (river)",
+              "url": "https://en.wikipedia.org/wiki/Rio_Tinto_(river)"
+            }
+          ],
+          "verification": "reference_knowledge"
+        }
+      }
+    },
+    {
+      "name": "Askja (Islândia)",
+      "coordinates": {
+        "latitude": 65.03,
+        "longitude": -16.75
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 270.35,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 249.35,
+          "max": 276.15,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G1 / TS_MAX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "uv_index": {
+          "type": "scalar",
+          "value": 0.43,
+          "unit": null,
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "ALLSKY_SFC_UV_INDEX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 862.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "G1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 1,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "Geleira vizinha",
+              "url": null,
+              "note": "Dyngjujökull"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Vulcanismo basáltico e gelo",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Vulcanismo basáltico com interação com gelo; análogo de terrenos vulcânicos marcianos e usado em treinamento de astronautas.",
+          "sources": [
+            {
+              "name": "Referência: Askja",
+              "url": "https://en.wikipedia.org/wiki/Askja"
+            }
+          ],
+          "verification": "reference_knowledge"
+        }
+      }
+    },
+    {
+      "name": "Vargeão",
+      "coordinates": {
+        "latitude": -26.82,
+        "longitude": -52.17
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 290.74,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 268.25,
+          "max": 312.42,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1 / TS_MAX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "uv_index": {
+          "type": "scalar",
+          "value": 1.69,
+          "unit": null,
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "ALLSKY_SFC_UV_INDEX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 1746.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "Clima subtropical",
+              "url": null,
+              "note": "sem gelo"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Basalto exposto (Bacia do Paraná)",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            },
+            {
+              "name": "EMIT",
+              "url": "https://earth.jpl.nasa.gov/emit/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Domo de impacto em basalto da Bacia do Paraná; análogo de crateras de impacto em crosta basáltica.",
+          "sources": [
+            {
+              "name": "Referência: List of impact structures in South America",
+              "url": "https://en.wikipedia.org/wiki/List_of_impact_structures_in_South_America"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "structure_diameter": {
+          "type": "scalar",
+          "value": 12,
+          "unit": "km",
+          "verification": "fetched",
+          "sources": [
+            {
+              "name": "Wikipedia: List of impact structures in South America",
+              "url": "https://en.wikipedia.org/wiki/List_of_impact_structures_in_South_America"
+            }
+          ]
+        },
+        "structure_age": {
+          "type": "scalar",
+          "value": 70,
+          "unit": "Ma",
+          "bound": "upper",
+          "note": "Idade menor que 70 Ma",
+          "sources": [
+            {
+              "name": "Wikipedia: List of impact structures in South America",
+              "url": "https://en.wikipedia.org/wiki/List_of_impact_structures_in_South_America"
+            }
+          ],
+          "verification": "fetched"
+        }
+      }
+    },
+    {
+      "name": "Araguainha",
+      "coordinates": {
+        "latitude": -16.78,
+        "longitude": -52.99
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 296.84,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 279.48,
+          "max": 323.75,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1 / TS_MAX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "uv_index": {
+          "type": "scalar",
+          "value": 2.07,
+          "unit": null,
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "ALLSKY_SFC_UV_INDEX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 1362.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "Clima tropical",
+              "url": null,
+              "note": "sem gelo"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Brechas e rochas fundidas por impacto",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            }
+          ],
+          "check": {
+            "status": "partially_confirmed",
+            "note": "Brechas e embasamento granítico confirmados; rochas fundidas por impacto não vistas na fonte lida.",
+            "evidence": [
+              {
+                "name": "Wikipedia: Araguainha crater",
+                "url": "https://en.wikipedia.org/wiki/Araguainha_crater"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Maior estrutura de impacto conhecida do Brasil; análogo de crateras complexas com pico central e brechas.",
+          "sources": [
+            {
+              "name": "Referência: Araguainha crater",
+              "url": "https://en.wikipedia.org/wiki/Araguainha_crater"
+            }
+          ],
+          "verification": "fetched"
+        },
+        "structure_diameter": {
+          "type": "scalar",
+          "value": 40,
+          "unit": "km",
+          "verification": "fetched",
+          "sources": [
+            {
+              "name": "Wikipedia: Araguainha crater",
+              "url": "https://en.wikipedia.org/wiki/Araguainha_crater"
+            }
+          ]
+        },
+        "structure_age": {
+          "type": "scalar",
+          "value": 254.7,
+          "uncertainty": 2.5,
+          "unit": "Ma",
+          "note": "Tohver et al. 2012; outra compilação cita 244,4 ± 3,25 Ma",
+          "sources": [
+            {
+              "name": "Wikipedia: Araguainha crater",
+              "url": "https://en.wikipedia.org/wiki/Araguainha_crater"
+            },
+            {
+              "name": "Wikipedia: List of impact structures in South America",
+              "url": "https://en.wikipedia.org/wiki/List_of_impact_structures_in_South_America"
+            }
+          ],
+          "verification": "fetched"
+        },
+        "geological_setting": {
+          "type": "text",
+          "value": "Unidades sedimentares paleozoicas da Bacia do Paraná perfuradas até o embasamento granítico ordoviciano",
+          "sources": [
+            {
+              "name": "Wikipedia: Araguainha crater",
+              "url": "https://en.wikipedia.org/wiki/Araguainha_crater"
+            }
+          ],
+          "verification": "fetched"
+        }
+      }
+    },
+    {
+      "name": "Lençóis Maranhenses",
+      "coordinates": {
+        "latitude": -2.5,
+        "longitude": -43.1
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 300.43,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 295.24,
+          "max": 310.04,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1 / TS_MAX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "uv_index": {
+          "type": "scalar",
+          "value": 2.22,
+          "unit": null,
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "ALLSKY_SFC_UV_INDEX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 1399.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "Clima equatorial",
+              "url": null,
+              "note": "sem gelo"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Dunas de quartzo e lagoas sazonais",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Campo de dunas de quartzo com lagoas sazonais; análogo de dunas e de água efêmera na superfície.",
+          "sources": [
+            {
+              "name": "Referência: Len%C3%A7%C3%B3is Maranhenses National Park",
+              "url": "https://en.wikipedia.org/wiki/Len%C3%A7%C3%B3is_Maranhenses_National_Park"
+            }
+          ],
+          "verification": "reference_knowledge"
+        }
+      }
+    },
+    {
+      "name": "Toca da Boa Vista",
+      "coordinates": {
+        "latitude": -10.16,
+        "longitude": -40.86
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 298.44,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1 - Superfície externa"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 285.54,
+          "max": 323.85,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1 / TS_MAX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "uv_index": {
+          "type": "scalar",
+          "value": 2.53,
+          "unit": null,
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "ALLSKY_SFC_UV_INDEX"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 489.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA POWER",
+              "url": "https://power.larc.nasa.gov/",
+              "note": "H1"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "Clima semiárido",
+              "url": null,
+              "note": "sem gelo subterrâneo"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Dolomito e calcário (Caverna cárstica)",
+          "sources": [
+            {
+              "name": "NASA ASTER",
+              "url": "https://asterweb.jpl.nasa.gov/"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 9.81,
+          "unit": "m/s^2",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "N2": 78.08,
+            "O2": 20.95,
+            "Ar": 0.93,
+            "CO2": 0.04
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ],
+          "verification": "reference_knowledge"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 1361.0,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.0,
+          "unit": "h",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "NASA NSSDC Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Caverna cárstica; análogo de ambientes subterrâneos protegidos da radiação e de cavidades marcianas.",
+          "sources": [
+            {
+              "name": "Referência: Toca da Boa Vista",
+              "url": "https://en.wikipedia.org/wiki/Toca_da_Boa_Vista"
+            }
+          ],
+          "verification": "reference_knowledge"
+        }
+      }
+    }
+  ],
+  "mars": [
+    {
+      "name": "Cratera Jezero (Alvo principal)",
+      "coordinates": {
+        "latitude": 18.38,
+        "longitude": 77.58
+      },
+      "data": {
+        "temperature": {
+          "type": "scalar",
+          "value": 218.15,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA Perseverance",
+              "url": "https://mars.nasa.gov/mars2020/"
+            },
+            {
+              "name": "MEDA",
+              "url": "https://mars.nasa.gov/mars2020/spacecraft/instruments/meda/",
+              "note": "Cratera Jezero"
+            }
+          ],
+          "check": {
+            "status": "confirmed",
+            "note": "Média de cerca de -55 °C segundo a matéria sobre as medições do MEDA.",
+            "evidence": [
+              {
+                "name": "ScienceDaily: MEDA Jezero",
+                "url": "https://www.sciencedaily.com/releases/2023/01/230118111707.htm"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "temperature_range": {
+          "type": "range",
+          "min": 190.15,
+          "max": 250.15,
+          "unit": "K",
+          "sources": [
+            {
+              "name": "NASA Perseverance",
+              "url": "https://mars.nasa.gov/mars2020/"
+            },
+            {
+              "name": "MEDA",
+              "url": "https://mars.nasa.gov/mars2020/spacecraft/instruments/meda/"
+            }
+          ],
+          "check": {
+            "status": "partially_confirmed",
+            "note": "A amplitude dia-noite de 50 a 60 K é consistente com o intervalo de 60 K, mas as extremas absolutas não aparecem na fonte lida.",
+            "evidence": [
+              {
+                "name": "ScienceDaily: MEDA Jezero",
+                "url": "https://www.sciencedaily.com/releases/2023/01/230118111707.htm"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "surface_pressure": {
+          "type": "scalar",
+          "value": 7.18,
+          "unit": "hPa",
+          "sources": [
+            {
+              "name": "NASA Perseverance",
+              "url": "https://mars.nasa.gov/mars2020/"
+            },
+            {
+              "name": "MEDA",
+              "url": "https://mars.nasa.gov/mars2020/spacecraft/instruments/meda/",
+              "note": "718 Pa, F23"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "A fonte lida mostra só variações (amplitudes de poucos Pa até ~22 Pa), sem média. Os 718 Pa não foram confirmados.",
+            "evidence": [
+              {
+                "name": "Sánchez-Lavega et al. 2025, JGR Planets (arXiv)",
+                "url": "https://web3.arxiv.org/pdf/2501.05337"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "radiation_dose": {
+          "type": "scalar",
+          "value": 0.655,
+          "unit": "mSv/d",
+          "sources": [
+            {
+              "name": "NASA Curiosity",
+              "url": "https://mars.nasa.gov/msl/home/"
+            },
+            {
+              "name": "RAD — Radiation Assessment Detector",
+              "url": "https://mars.nasa.gov/msl/spacecraft/instruments/rad/",
+              "note": "Cratera Gale, ~0,64-0,67"
+            }
+          ],
+          "check": {
+            "status": "partially_confirmed",
+            "note": "Dose absorvida de ~0,206 mGy/dia confirmada no RAD; a dose equivalente em mSv/dia não aparece no texto lido. O dado é de Gale, usado como proxy para Jezero.",
+            "evidence": [
+              {
+                "name": "Hassler et al. 2014 (core.ac.uk)",
+                "url": "https://core.ac.uk/download/36184984.pdf"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "annual_precipitation": {
+          "type": "scalar",
+          "value": 0.0,
+          "unit": "mm/yr",
+          "sources": [
+            {
+              "name": "NASA MRO",
+              "url": "https://mars.nasa.gov/mro/"
+            },
+            {
+              "name": "Mars Climate Database",
+              "url": "https://www-mars.lmd.jussieu.fr/mcd_python/",
+              "note": "Sem chuva líquida"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "subsurface_ice": {
+          "type": "scalar",
+          "value": 0,
+          "unit": "scale",
+          "scale_min": 0,
+          "scale_max": 3,
+          "sources": [
+            {
+              "name": "NASA Odyssey GRS",
+              "url": "https://mars.nasa.gov/odyssey/"
+            },
+            {
+              "name": "SHARAD",
+              "url": "https://mars.nasa.gov/msl/spacecraft/instruments/rad/",
+              "note": "Não reportado em Jezero - equatorial"
+            }
+          ],
+          "check": {
+            "status": "unverified",
+            "note": "Fonte primária não acessível nesta sessão (NASA POWER e outras páginas foram bloqueadas).",
+            "evidence": [],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "mineralogy": {
+          "type": "text",
+          "value": "Olivina, carbonatos e argilas em um delta lacustre",
+          "sources": [
+            {
+              "name": "NASA MRO",
+              "url": "https://mars.nasa.gov/mro/"
+            },
+            {
+              "name": "CRISM",
+              "url": "http://crism.jhuapl.edu/"
+            }
+          ],
+          "check": {
+            "status": "confirmed",
+            "note": "Argilas esmectíticas, olivina, carbonatos e sulfatos no delta.",
+            "evidence": [
+              {
+                "name": "Wikipedia: Jezero crater",
+                "url": "https://en.wikipedia.org/wiki/Jezero_crater"
+              }
+            ],
+            "checked_on": "2026-11-15"
+          }
+        },
+        "gravity": {
+          "type": "scalar",
+          "value": 3.73,
+          "unit": "m/s^2",
+          "verification": "fetched",
+          "sources": [
+            {
+              "name": "NASA NSSDC Mars Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+            }
+          ]
+        },
+        "atmosphere_composition": {
+          "type": "composition",
+          "unit": "vol%",
+          "value": {
+            "CO2": 95.1,
+            "N2": 2.59,
+            "Ar": 1.94,
+            "O2": 0.16,
+            "CO": 0.06
+          },
+          "sources": [
+            {
+              "name": "NASA NSSDC Mars Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+            }
+          ],
+          "verification": "fetched"
+        },
+        "solar_irradiance_toa": {
+          "type": "scalar",
+          "value": 586.2,
+          "unit": "W/m^2",
+          "note": "Irradiância no topo da atmosfera, média",
+          "verification": "fetched",
+          "sources": [
+            {
+              "name": "NASA NSSDC Mars Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+            }
+          ]
+        },
+        "solar_day_length": {
+          "type": "scalar",
+          "value": 24.6597,
+          "unit": "h",
+          "verification": "fetched",
+          "sources": [
+            {
+              "name": "NASA NSSDC Mars Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+            }
+          ]
+        },
+        "mars_analog_focus": {
+          "type": "text",
+          "value": "Antigo lago com delta e argilas; alvo da Perseverance na busca por sinais de vida antiga e coleta de amostras.",
+          "sources": [
+            {
+              "name": "Referência: Jezero crater",
+              "url": "https://en.wikipedia.org/wiki/Jezero_crater"
+            }
+          ],
+          "verification": "fetched"
+        },
+        "structure_diameter": {
+          "type": "scalar",
+          "value": 45,
+          "unit": "km",
+          "verification": "fetched",
+          "sources": [
+            {
+              "name": "Wikipedia: Jezero crater",
+              "url": "https://en.wikipedia.org/wiki/Jezero_crater"
+            }
+          ]
+        },
+        "geological_setting": {
+          "type": "text",
+          "value": "Delta lacustre argiloso (fan-delta) com canais invertidos; smectitas, olivina, piroxênio, carbonatos e sulfatos",
+          "sources": [
+            {
+              "name": "Wikipedia: Jezero crater",
+              "url": "https://en.wikipedia.org/wiki/Jezero_crater"
+            }
+          ],
+          "verification": "fetched"
+        },
+        "elevation": {
+          "type": "scalar",
+          "value": -2600,
+          "unit": "m",
+          "note": "Aproximado, referência MOLA",
+          "verification": "reference_knowledge",
+          "sources": [
+            {
+              "name": "Wikipedia: Jezero crater",
+              "url": "https://en.wikipedia.org/wiki/Jezero_crater"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "alvo_id": "lua",
+    "total": 15,
+    "avaliadas": 13,
+    "cobertas": 8,
+    "lacunas": 5,
+    "a_medir": 2
+  },
+  {
+    "alvo_id": "marte",
+    "total": 17,
+    "avaliadas": 15,
+    "cobertas": 13,
+    "lacunas": 2,
+    "a_medir": 2
+  }
+]

@@ -1,0 +1,3 @@
+id,nome,corpo,local_referencia,lat,lon,recorte,por_que_recorte
+lua,Lua – polo sul (Shackleton),moon,Shackleton,-89.67,129.78,Borda de Shackleton e Connecting Ridge (regiões candidatas do Artemis III),Alvo da base lunar: luz quase contínua nas bordas e gelo nas crateras em sombra
+marte,Marte – Jezero,mars,Jezero,18.38,77.58,Cratera Jezero e seu delta,"Tem rover em solo (Perseverance/MEDA), com dados medidos no chão"

@@ -1,0 +1,659 @@
+% ==========================================================================
+% PlanetLog -- technical report layout
+% Compile with: pdflatex PlanetLog.tex (run twice for cross-references)
+% ==========================================================================
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}                 % Times-like body font (NASA STI standard)
+\usepackage[scaled=0.92]{helvet}      % Helvetica/Arial-like headings
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds}
+\usepackage{setspace}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue!50!black,citecolor=black]{hyperref}
+
+\definecolor{accentblue}{HTML}{0B3D91}
+
+% ---- Headings: bold Helvetica, NASA style (all-caps level 1) ----
+\titleformat{\section}{\normalfont\sffamily\bfseries\large}{\thesection}{1em}{\MakeUppercase}
+\titleformat{\subsection}{\normalfont\sffamily\bfseries\normalsize}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\sffamily\bfseries\itshape\normalsize}{\thesubsubsection}{1em}{}
+\titlespacing*{\section}{0pt}{18pt}{8pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+
+% ---- Captions: tables captioned above, figures below, "TABLE 1.---" ----
+\captionsetup{font=small,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off}
+\captionsetup[table]{position=top,textfont=bf}
+\captionsetup[figure]{position=bottom}
+
+\renewcommand{\arraystretch}{1.25}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist{itemsep=2pt,topsep=4pt}
+
+% ---- Header and footer ----
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\thepage}
+\fancyhead[L]{\small\sffamily PlanetLog}
+\fancyhead[R]{\small\sffamily Technical Report, v1.0}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+% ==========================================================================
+% TITLE PAGE
+% ==========================================================================
+\begin{titlepage}
+\thispagestyle{empty}
+\sffamily
+
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[accentblue] ([yshift=-1.2cm]current page.north west) rectangle ([yshift=-1.55cm]current page.north east);
+\end{tikzpicture}
+
+\vspace*{0.4cm}
+{\large\bfseries PlanetLog Project}
+
+\vspace{3.5cm}
+{\small Technical Report, Version 1.0}
+
+\vspace{1.2cm}
+{\Huge\bfseries PlanetLog}
+
+\vspace{0.4cm}
+{\Large\bfseries A Geospatial Intelligence Platform for Identifying, Analyzing, and Comparing Terrestrial Analog Environments of the Moon and Mars}
+
+\vspace{1.6cm}
+{\large
+Danilo Bomfim Moreira Junio\\
+Leonardo Pimentel Santos de Araujo\\
+Luan Morais Galdino\\
+Lucas Oliveira Duarte\\
+Matheus Machado de Oliveira}
+
+\vfill
+{\large November 2026}
+\end{titlepage}
+
+% ==========================================================================
+% ABSTRACT / SUMMARY
+% ==========================================================================
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\section*{\sffamily\bfseries SUMMARY}
+\addcontentsline{toc}{section}{Summary}
+
+PlanetLog is a geospatial intelligence platform that identifies, analyzes, and compares terrestrial environments with characteristics similar to those of the Moon and Mars. It integrates open data from NASA, the U.S. Geological Survey (USGS), and partner institutions into a single analytical environment, cross-referencing geology, mineralogy, topography, temperature, water, and surface processes.
+
+The result is an explainable comparison: for each pairing of a terrestrial region and a planetary target, the platform presents the degree of similarity, the evidence used, the divergences, and the confidence level. The target audience includes researchers, students, aerospace development teams, and enthusiasts, and the purpose is to support the preparation of future robotic and human exploration missions.
+
+\vspace{1em}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ==========================================================================
+% 1. INTRODUCTION
+% ==========================================================================
+\section{Introduction}
+
+\subsection{Context and Motivation}
+
+Exploring the Moon and Mars requires validating equipment, protocols, and scientific hypotheses before probes, rovers, or crews are sent. Terrestrial analogs---regions of Earth that share geological, mineralogical, topographic, or climatic traits with planetary surfaces---serve as low-cost, easily accessible natural laboratories.
+
+There is, however, an information bottleneck. The orbital and environmental data required are freely available but scattered across heterogeneous databases, in complex technical formats that are difficult to integrate. Without tools that consolidate and cross-reference these parameters, the systematic search for analogs is restricted to those who master geospatial data processing.
+
+\subsection{The Solution}
+
+PlanetLog structures scientific data from open sources into a unified analytical environment. By cross-referencing variables such as geology, mineralogy, topography, temperature, presence of water, and environmental conditions, the platform evaluates the degree of similarity between terrestrial locations and extraterrestrial targets of interest.
+
+\subsection{General Objective}
+
+To transform raw scientific data into visual, structured, and accessible information, democratizing planetary geospatial analysis and offering technical and scientific support for the identification of analog environments and the planning of space exploration missions.
+
+\subsection{Organization of This Document}
+
+\begin{itemize}
+  \item \textbf{Section 2---Objectives:} general and specific goals of the platform.
+  \item \textbf{Section 3---Scientific Foundations:} the concept of a planetary analog, lunar and Martian environments, comparison dimensions, and limitations.
+  \item \textbf{Sections 4 and 5---Methodology and Data Sources:} the analytical process and the databases used.
+  \item \textbf{Sections 6 and 7---Architecture and Features:} technical structure and usage flow.
+  \item \textbf{Sections 8 to 10---Case Study, Similarity Classification, and Validation:} application, scoring method, and evaluation criteria.
+  \item \textbf{Sections 11 and 12---Limitations, Future Work, and Conclusion.}
+\end{itemize}
+
+% ==========================================================================
+% 2. OBJECTIVES
+% ==========================================================================
+\section{Objectives}
+
+PlanetLog must integrate scientific data into a single environment and use them to identify terrestrial regions analogous to the Moon and Mars, showing the evidence for each match and the differences that limit it.
+
+\subsection{General Objective}
+
+To develop a geospatial intelligence platform capable of identifying and comparing terrestrial environments with characteristics similar to those of a target celestial body, using geological, mineralogical, topographic, and environmental data from NASA and partner institutions.
+
+\subsection{Specific Objectives}
+
+\begin{enumerate}
+  \item \textbf{Integrate and centralize scientific data.} Gather satellite imagery, digital elevation models, climate data, geological records, mineralogical information, and observations from space missions, reducing fragmentation across databases.
+  \item \textbf{Characterize terrestrial environments.} Describe each region by its geology, mineralogy, topography (elevation, slope, roughness), temperature, availability of water and ice, dust and wind, and habitability conditions.
+  \item \textbf{Compare terrestrial and planetary environments.} Use compatible scientific indicators to show in which dimensions a terrestrial region works as an analog, recognizing that strong geological similarity may coexist with atmospheric, thermal, or physical differences.
+  \item \textbf{Identify potential analogs based on evidence.} Go beyond visual comparison, supporting scientific studies, technology tests, and mission preparation.
+  \item \textbf{Calculate and explain similarity.} When data are sufficient and methodologically compatible, apply statistical metrics, always exposing criteria, variables, weights, and limitations, with no classifications lacking scientific grounding.
+  \item \textbf{Visualize and interpret geospatial information.} Offer maps, layers, images, indicators, and side-by-side comparisons that show the spatial distribution of the characteristics analyzed.
+\end{enumerate}
+
+% ==========================================================================
+% 3. SCIENTIFIC FOUNDATIONS
+% ==========================================================================
+\section{Scientific Foundations}
+
+An analog environment is a region of Earth that reproduces, in part, characteristics of another celestial body. PlanetLog is based on the premise that an analogy is always partial and must be evaluated dimension by dimension.
+
+\subsection{Planetary Analog Environments}
+
+Analogs are used to study natural processes, test instruments, develop technologies, and simulate the conditions of future missions. Direct exploration of other bodies involves high cost, risk, and technological limitations; on Earth it is possible to conduct fieldwork, collect samples, and test equipment under controlled or partially similar conditions.
+
+An analog need not reproduce all conditions of the target. A region may resemble Mars in aridity, mineralogy, and the presence of salts and yet differ in atmospheric pressure, gravity, and radiation. A volcanic region may serve the study of lunar terrains even though it does not reproduce the space environment. The usefulness of a site depends on the research objective: it may be suitable for testing a sampler and unsuitable for simulating the Martian thermal regime.
+
+NASA already uses terrestrial environments for this purpose. The Atacama Desert in Chile is studied for its extreme aridity and the low presence of microorganisms in certain areas, which allows investigation of the limits of microbial survival and the testing of technologies for biosignature detection. Volcanic terrains serve geological training and equipment evaluation.
+
+\subsection{The Moon and Mars Compared with Earth}
+
+\begin{table}[htbp]
+\centering
+\caption{Comparison of the Moon, Mars, and Earth}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Characteristic} & \textbf{Moon} & \textbf{Mars} & \textbf{Earth} \\
+\midrule
+Atmosphere & Extremely tenuous exosphere & Very thin, predominantly CO$_2$ & Dense, predominantly N$_2$ and O$_2$ \\
+Surface gravity (approx.) & 1/6 of Earth's & About 38\% of Earth's & Reference \\
+Surface temperature (NASA reference) & About 127\,\textdegree C (day) to $-$173\,\textdegree C (night) & About 20\,\textdegree C to $-$153\,\textdegree C & Varies by climate \\
+Water & Ice in permanently shadowed craters at the poles & Polar and subsurface ice; liquid water in the past & Abundant and liquid \\
+Surface & Basaltic maria, highlands, regolith, and craters & Basalts, iron oxides, clays, sulfates, dunes, valleys, and ancient channels & Dynamic, modified by water, wind, vegetation, and tectonics \\
+Radiation protection & Practically none & Limited & High (atmosphere and magnetic field) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Temperature values depend on location, season, and time of day, and should be treated as order-of-magnitude references.
+
+\subsection{Lunar Characteristics Relevant to Analogs}
+
+\begin{itemize}
+  \item \textbf{Geology and materials:} the maria are plains of ancient basaltic flows, and the highlands have a distinct composition and history. The regolith, formed by successive impacts and exposure to the space environment, has its own properties and is not equivalent to terrestrial soil.
+  \item \textbf{Topography:} craters, basins, slopes, and irregular terrain influence landing and mobility; elevation, slope, roughness, and crater density are the key parameters.
+  \item \textbf{Temperature and illumination:} with no atmosphere, the variation between illuminated and shadowed areas is extreme, and illumination is a planning factor for bases.
+  \item \textbf{Water and ice:} evidence of volatiles in permanently shadowed craters at the poles; their presence, quantity, and the possibility of extraction still depend on confirmation.
+  \item \textbf{Operations:} terrain stability, obstacles, illumination, and potential resources condition the choice of landing and installation sites.
+\end{itemize}
+
+Volcanic basalts, areas with fragmented material, and cold, rocky terrains on Earth help test equipment and procedures, without reproducing vacuum or space exposure.
+
+\subsection{Martian Characteristics Relevant to Analogs}
+
+\begin{itemize}
+  \item \textbf{Geology and mineralogy:} basalts, oxidized iron minerals (the origin of the reddish coloration), clays, sulfates, and sedimentary deposits. The presence of the same mineral at two locations does not imply the same origin; geological context and formation and alteration processes must be considered.
+  \item \textbf{Topography and geomorphology:} craters, plains, volcanoes, canyons, dunes, valleys, and ancient channels. Elevation, slope, roughness, and the distribution of craters, rocks, and obstacles guide landing and navigation.
+  \item \textbf{Temperature and climate:} low temperatures, with large variation across locations, seasons, and times of day; the rarefied atmosphere retains little heat. Temperature alone is not a complete analog, since pressure, gas composition, radiation, and humidity also matter.
+  \item \textbf{Water and ice:} there is evidence of ancient rivers, deltas, and lakes. Today water occurs mostly as polar and subsurface ice, and the thin atmosphere makes stable liquid water difficult.
+  \item \textbf{Dust, wind, and atmospheric processes:} particle transport, dunes, and dust storms affect visibility, instruments, mechanical systems, and power generation. Terrestrial deserts allow the study of transport and erosion, but the dynamics occur in a much denser atmosphere.
+  \item \textbf{Biology and habitability:} conditions similar to those of Mars are not evidence of life on Mars. Extreme terrestrial environments serve as an experimental reference for developing methods and interpreting mission results.
+  \item \textbf{Subsurface environments:} caves, fractures, and lava tubes may preserve ice, minerals, and ancient records, and offer partial protection against radiation and thermal variation.
+\end{itemize}
+
+\subsection{Comparison Dimensions}
+
+Similarity is evaluated across eight dimensions, never by visual appearance or by a single variable.
+
+\begin{table}[htbp]
+\centering
+\caption{Comparison dimensions, variables, and methodological cautions}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.2cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{4.2cm}}
+\toprule
+\textbf{Dimension} & \textbf{Variables considered} & \textbf{Methodological caution} \\
+\midrule
+Geology and mineralogy & Rock and mineral types, chemical composition, basalts, clays, sulfates, salts, volcanic structures, craters, weathering & The same mineral does not imply the same genesis \\
+Topography and geomorphology & Elevation, slope, roughness, relief, craters, dunes, valleys, obstacles & Compare at the same spatial scale \\
+Temperature and extremes & Mean, maximum, minimum, amplitude, daily and seasonal variation, solar exposure & Do not compare air temperature with surface temperature without adjustment \\
+Water, ice, and volatiles & Surface water, ice, permafrost, soil moisture, evaporites, subsurface reserves & Water presence does not imply the same preservation mechanism \\
+Dust, wind, and surface processes & Wind, sediment transport, erosion, dunes, suspended particles & Differences in atmospheric pressure and density \\
+Biology and habitability & Microorganisms, extremophiles, salinity, radiation, pH, organic matter, biosignature preservation & Experimental analogy, not evidence of life \\
+Caves and subsurface & Lava tubes, fractures, cavities, ice, sedimentary layers, stability, and access & Access and stability vary by site \\
+Operational conditions & Landing and traverse, slope, obstacles, visibility, communication, navigation, resources, safety & Depends on the type of mission being tested \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Terrestrial Environments of Interest}
+
+\begin{table}[htbp]
+\centering
+\caption{Terrestrial environments of interest and the limits of each analogy}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.2cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Environment} & \textbf{Main utility} & \textbf{Limit of the analogy} \\
+\midrule
+Atacama Desert (Chile) & Extreme aridity, salinity, strong solar exposure, evaporitic minerals, limits of microbial life, testing of life-detection instruments & Atmosphere, gravity, pressure, gas composition, and radiation differ from Mars; partial analog \\
+McMurdo Dry Valleys (Antarctica) & Cold and aridity, freezing and sublimation, preservation of materials, extreme microbiology, testing at remote sites & Does not reproduce the pressure, atmosphere, or gravity of Mars \\
+Volcanic regions of Iceland & Lava fields and basalts, robot mobility, mineralogical identification, volcanic relief & Interaction with water and atmosphere differs from lunar and Martian conditions \\
+Mauna Kea and the Hawaiian volcanoes & Basaltic lavas, rock fields, high altitude; geological training of Apollo-program astronauts & Humid environment and active erosion \\
+Terrestrial impact craters & Impact morphology, rock deformation, associated deposits & Water, wind, vegetation, and tectonics alter the structures, whereas many lunar craters are preserved for much longer \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Application to Space Exploration}
+
+Analog environments allow testing of robotic mobility (rocks, slopes, sand, dunes), sample collection and analysis instruments, sensors and navigation systems, environmental monitoring technologies, and procedures for human operations at remote locations. In doing so, they reduce scientific and operational uncertainties before real missions.
+
+\subsection{Limitations of Analogs}
+
+No terrestrial environment fully reproduces the Moon or Mars. The main differences lie in gravity, atmosphere (pressure, heat transfer, wind, particle propagation), radiation, thermal mechanisms, and geological and environmental processes, since on Earth water, atmosphere, vegetation, and tectonics continuously modify the surface. Every analogy must therefore be stated specifically: what is similar, what is different, and for which application the site is useful.
+
+% ==========================================================================
+% 4. METHODOLOGY
+% ==========================================================================
+\section{Methodology}
+
+The methodology compares a terrestrial region and a lunar or Martian region by measurable variables, in seven steps ranging from the selection of areas to scientific interpretation. Comparison by visual appearance is discarded, since similar-looking landscapes can have very different compositions and processes.
+
+\begin{enumerate}
+  \item \textbf{Selection of regions of interest.} Define the terrestrial area and the lunar or Martian region to be compared, in specific subsets and never in large areas treated as homogeneous.
+  \item \textbf{Data collection.} Obtain geological, mineralogical, topographic, thermal, and environmental variables from the sources in Section 5.
+  \item \textbf{Standardization.} Convert data to compatible units, spatial scales, projections, and periods, recording the resolution, acquisition method, and uncertainty of each layer.
+  \item \textbf{Analysis by dimension.} Compare each of the eight dimensions in Section 3.5 separately.
+  \item \textbf{Identification of correspondences.} Record the variables with relevant similarity.
+  \item \textbf{Identification of divergences.} Record the variables with no correspondence or with significant differences, including those inherent to Earth (gravity, atmosphere, radiation).
+  \item \textbf{Scientific interpretation.} Evaluate for which research or testing purpose the site is useful, presenting evidence, limitations, and confidence level.
+\end{enumerate}
+
+\subsection{Principles}
+
+\begin{itemize}
+  \item \textbf{Multidimensionality:} no conclusion is based on a single variable.
+  \item \textbf{Traceability:} each result points to the source, the data version, and the access date.
+  \item \textbf{Compatibility:} equivalent variables are compared with each other, for example surface temperature with surface temperature.
+  \item \textbf{Transparency:} criteria, weights, missing data, and uncertainties are always displayed alongside the result.
+  \item \textbf{Missing data is not zero:} the lack of information does not mean the absence of the characteristic.
+\end{itemize}
+
+% ==========================================================================
+% 5. DATA SOURCES
+% ==========================================================================
+\section{Data Sources}
+
+PlanetLog uses open NASA and USGS databases that cover Earth, the Moon, and Mars. Each dataset has its own spatial and temporal resolution, unit, acquisition method, and limitations, which must be verified before any comparison.
+
+\begin{table}[htbp]
+\centering
+\caption{Data sources used by PlanetLog}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.0cm} >{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Source} & \textbf{Coverage} & \textbf{Use in PlanetLog} \\
+\midrule
+NASA Earthdata & Earth & Earth observation datasets: relief, temperature, humidity, surface cover \\
+NASA Worldview & Earth & Visualization of imagery and environmental layers \\
+NASA GIBS & Earth & Distribution service for imagery and geospatial layers for the map \\
+NASA POWER & Earth & Meteorological and solar-energy variables, for the thermal and wind regime \\
+NASA Planetary Data System (PDS) & Moon and Mars & Scientific data from planetary missions: mineralogy, topography, temperature, ice \\
+Moon Trek & Moon & Visualization and querying of lunar data and features \\
+Mars Trek & Mars & Visualization and querying of Martian data and features \\
+USGS & Earth, Moon, and Mars & Geological, topographic, and cartographic information \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Dataset Acceptance Criteria}
+
+\begin{itemize}
+  \item Institutional origin and public documentation of the acquisition method.
+  \item Declared spatial and temporal resolution, adequate to the scale of the comparison.
+  \item Known and convertible units and geodetic references.
+  \item A license that permits use and redistribution of derivatives.
+\end{itemize}
+
+The addresses and versions of each dataset must be recorded in the references section at the end of the implementation.
+
+% ==========================================================================
+% 6. SYSTEM ARCHITECTURE
+% ==========================================================================
+\section{System Architecture}
+
+PlanetLog is organized into five layers, each consuming only the output of the previous one, so that every result can be traced back to the source and the version of the data.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+  layer/.style={draw=accentblue, thick, rounded corners=2pt, minimum width=14.2cm, minimum height=1.35cm, align=center, fill=accentblue!6, font=\small\sffamily, inner sep=4pt},
+  arr/.style={-{Latex[length=2.2mm]}, thick, accentblue}
+]
+\node[layer] (l1) {\textbf{1. Open sources}\\[2pt] NASA Earthdata, GIBS, and POWER \quad|\quad PDS, Moon Trek, and Mars Trek \quad|\quad USGS: geology, maps};
+\node[layer, below=0.55cm of l1] (l2) {\textbf{2. Ingestion and standardization}\\[2pt] Per-source connectors \quad|\quad Common units, projection, and scale \quad|\quad Metadata, version, and access date};
+\node[layer, below=0.55cm of l2] (l3) {\textbf{3. Geospatial storage}\\[2pt] Raster and vector layers \quad|\quad Provenance catalog \quad|\quad Versions and quality control};
+\node[layer, below=0.55cm of l3] (l4) {\textbf{4. Similarity analysis}\\[2pt] Comparison by dimension \quad|\quad Weights by purpose profile \quad|\quad Index, coverage, and confidence};
+\node[layer, below=0.55cm of l4] (l5) {\textbf{5. Interface and reports}\\[2pt] Map and side-by-side comparison \quad|\quad Analog search and profiles \quad|\quad Evidence report};
+\draw[arr] (l1) -- (l2);
+\draw[arr] (l2) -- (l3);
+\draw[arr] (l3) -- (l4);
+\draw[arr] (l4) -- (l5);
+\end{tikzpicture}
+\caption{PlanetLog five-layer architecture.}
+\end{figure}
+
+Data arrive standardized and versioned, the engine compares by dimension, and every index is accompanied by coverage and confidence.
+
+\subsection{Layers and Responsibilities}
+
+The technologies below are candidates and must be confirmed by the team during the implementation phase.
+
+\begin{table}[htbp]
+\centering
+\caption{Architecture layers, responsibilities, and candidate technologies}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Layer} & \textbf{Responsibility} & \textbf{Candidate technologies} \\
+\midrule
+Open sources & Provide data for Earth, the Moon, and Mars & NASA, USGS, and partner institutions \\
+Ingestion and standardization & Collect via connectors, convert units, projection, and scale, record metadata and version & Python with GDAL and rasterio; catalog in the STAC standard \\
+Geospatial storage & Store raster and vector layers, provenance catalog, and quality control & PostgreSQL with PostGIS; Cloud-Optimized GeoTIFF (COG) \\
+Similarity analysis & Comparison by dimension, profile weights, index, coverage, and confidence (Section 9) & Python with NumPy, SciPy, and scikit-learn \\
+Interface and reports & Maps, side-by-side comparison, analog search, and evidence report, via API & REST API; MapLibre GL JS or CesiumJS for maps and globes \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Design Principles}
+
+\begin{itemize}
+  \item \textbf{Traceability:} each data layer stores its origin, version, and access date.
+  \item \textbf{Reproducibility:} the same dataset and the same weight configuration produce the same result.
+  \item \textbf{Explainability:} the index is never displayed without variables, weights, coverage, and confidence.
+  \item \textbf{Extensibility:} new sources enter through connectors and new planetary targets through new sets of layers, without changing the analysis engine.
+\end{itemize}
+
+% ==========================================================================
+% 7. FEATURES AND USAGE FLOW
+% ==========================================================================
+\section{Features and Usage Flow}
+
+The user chooses a terrestrial region and a planetary target, and the platform returns maps, indicators, and a comparison explained by dimension.
+
+\subsection{Features}
+
+\begin{table}[htbp]
+\centering
+\caption{PlanetLog features}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.8cm} >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Feature} & \textbf{Description} \\
+\midrule
+Data catalog & Unified query of the sources in Section 5, with origin, resolution, unit, and date of each layer \\
+Geospatial exploration & Interactive map with layers of elevation, slope, temperature, mineralogy, ice, and satellite imagery, for Earth, the Moon, and Mars \\
+Region characterization & Sheet for an area with the eight dimensions of Section 3.5 and the data available in each \\
+Side-by-side comparison & Two regions, one terrestrial and one planetary, in synchronized panels, with aligned variables \\
+Analog search & Given a lunar or Martian region, lists candidate terrestrial regions ranked by similarity \\
+Purpose profiles & Preset weights by objective (astrobiology, mobility, geology), adjustable by the user \\
+Evidence report & Export with correspondences, divergences, limitations, data coverage, and confidence level \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Usage Flow}
+
+\begin{enumerate}
+  \item Choose the target (Moon or Mars) and, if desired, a specific region of it.
+  \item Choose or draw the terrestrial region, or ask the platform to search for candidates.
+  \item Select the purpose profile and, optionally, adjust weights and included dimensions.
+  \item View the map and the side-by-side comparison, dimension by dimension.
+  \item Read the result: similarity by dimension, global index, data coverage, and confidence.
+  \item Open the evidence and divergences, and export the report.
+\end{enumerate}
+
+% ==========================================================================
+% 8. CASE STUDY
+% ==========================================================================
+\section{Case Study: Atacama and Mars}
+
+The case study compares specific areas of the Atacama Desert with regions of Mars to show that the same site can be a good analog in some dimensions and a weak one in others. The Atacama is not treated as a homogeneous environment: the case uses subsets, such as hyperarid areas and saline deposits, defined in the selection phase.
+
+\subsection{Case Design}
+
+\begin{enumerate}
+  \item Delimit two or three areas of the Atacama and one or more Martian regions of interest with comparable mineralogy and relief.
+  \item Gather the data for each dimension and standardize them according to Section 4.
+  \item Calculate the similarity by dimension, the global index, the coverage, and the confidence (Section 9).
+  \item Record correspondences and divergences and produce the evidence report.
+\end{enumerate}
+
+\subsection{Expectation by Dimension}
+
+The expectation below stems from the scientific foundations and works as a hypothesis to be tested, not as a result.
+
+\begin{table}[htbp]
+\centering
+\caption{Expected degree of analogy by dimension (Atacama vs.\ Mars)}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Dimension} & \textbf{Expected analogy} & \textbf{Justification} \\
+\midrule
+Biology and habitability & Strong & Extreme aridity and low microbial activity in specific areas \\
+Water, ice, and volatiles & Medium to strong & Low water availability and evaporitic deposits \\
+Geology and mineralogy & Medium to strong & Salts, evaporites, and iron minerals; depends on the area \\
+Dust, wind, and surface processes & Medium & Strong aeolian action, but in a much denser atmosphere \\
+Temperature and extremes & Medium to weak & High aridity and solar radiation, but thermal amplitude smaller than Martian \\
+Operational conditions & Medium & Terrains suitable for mobility and instrument tests \\
+Atmosphere, gravity, and radiation & Weak & Inherent to Earth and not replicable on site (Section 3.8) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Expected Outputs}
+
+Maps of the areas, a similarity profile by dimension, an evidence report, and a recommendation for use of the Atacama by purpose, for example testing life-detection instruments rather than testing thermal behavior.
+
+% ==========================================================================
+% 9. SIMILARITY CLASSIFICATION
+% ==========================================================================
+\section{Similarity Classification System}
+
+Similarity is calculated by dimension and then aggregated into a global index, which always comes accompanied by data coverage and confidence. The index is an estimate within the variables and criteria used, never a proof of equivalence between environments. The weight and range values below are initial proposals, to be calibrated during validation (Section 10).
+
+\subsection{Similarity by Variable and by Dimension}
+
+Each variable $k$ is normalized to the interval $[0,1]$ on a reference scale common to both environments, and its similarity is the complement of the normalized distance. The similarity of a dimension $d$ is the weighted mean of the variables with available data.
+
+\begin{equation}
+s_k = 1 - \min\left(1, \frac{\left|x_k^{T} - x_k^{P}\right|}{r_k}\right)
+\qquad
+S_d = \frac{\sum_{k \in K_d} v_k \, s_k}{\sum_{k \in K_d} v_k}
+\end{equation}
+
+Here $x_k^T$ and $x_k^P$ are the values of the variable in the terrestrial and planetary regions, $r_k$ is the reference range of the variable, and $K_d$ is the set of variables of dimension $d$ with available data. Categorical variables, such as rock or mineral type, use matching by class or by hierarchy.
+
+\subsection{Global Index, Coverage, and Confidence}
+
+\begin{equation}
+S = \frac{\sum_{d \in D^{*}} w_d \, S_d}{\sum_{d \in D^{*}} w_d}
+\qquad
+C = \frac{\sum_{d \in D^{*}} w_d}{\sum_{d \in D} w_d}
+\end{equation}
+
+$D^*$ is the set of dimensions with sufficient data, $D$ is the set of the eight dimensions, and $w_d$ is the weight of the dimension. $S$ ranges from 0 to 1, and $C$ is the coverage: the fraction of the total weight actually evaluated.
+
+Handling rules:
+
+\begin{itemize}
+  \item \textbf{Missing data is not zero.} The dimension or variable is removed from the calculation and reduces the coverage $C$.
+  \item \textbf{Minimum coverage.} Below a threshold of $C$ (initial proposal: 0.5) the global index is not displayed, only the results by dimension.
+  \item \textbf{Confidence} per dimension combines spatial resolution, scale and period compatibility, data quality, and uncertainty, and is displayed as high, medium, or low.
+  \item \textbf{Non-replicable factors}, such as gravity, atmospheric pressure, and radiation, do not enter the score; they are listed as mandatory divergences in every report.
+\end{itemize}
+
+\subsection{Weights by Purpose Profile}
+
+The relative weights (3 = high, 2 = medium, 1 = low) express the importance of each dimension for the objective of the comparison and can be adjusted by the user.
+
+\begin{table}[htbp]
+\centering
+\caption{Relative dimension weights by purpose profile}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{2.7cm} >{\centering\arraybackslash}p{3.0cm} >{\centering\arraybackslash}p{3.0cm}}
+\toprule
+\textbf{Dimension} & \textbf{Astrobiology} & \textbf{Mobility and operations} & \textbf{Geology and mineralogy} \\
+\midrule
+Geology and mineralogy & 2 & 1 & 3 \\
+Topography and geomorphology & 1 & 3 & 2 \\
+Temperature and extremes & 2 & 2 & 1 \\
+Water, ice, and volatiles & 3 & 1 & 2 \\
+Dust, wind, and surface processes & 2 & 2 & 2 \\
+Biology and habitability & 3 & 1 & 1 \\
+Caves and subsurface & 1 & 2 & 2 \\
+Operational conditions & 1 & 3 & 1 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Interpretation Ranges}
+
+\begin{table}[htbp]
+\centering
+\caption{Interpretation of the global similarity index $S$}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.5cm} >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Index $S$} & \textbf{Interpretation} \\
+\midrule
+0.75 to 1.00 & Strong analogy in the dimensions evaluated \\
+0.50 to 0.74 & Partial analogy; check the divergent dimensions \\
+Below 0.50 & Weak analogy for the chosen purpose \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The interpretation is valid only together with $C$ and the confidence: a high $S$ with a low $C$ indicates little evidence, not a good analogy.
+
+% ==========================================================================
+% 10. RESULTS AND VALIDATION
+% ==========================================================================
+\section{Results and Validation}
+
+This section defines how PlanetLog will be evaluated; the measured results must be recorded here after the case study in Section 8 is executed. No numerical result is declared before that.
+
+\subsection{Validation Plan}
+
+\begin{table}[htbp]
+\centering
+\caption{Validation plan}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{2.2cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Level} & \textbf{What is verified} & \textbf{Method} \\
+\midrule
+Data & Integrity, units, georeferencing, and scale compatibility & Automated tests at ingestion; comparison of samples with the original source \\
+Calculation & Correctness of the formulas in Section 9 and behavior with missing data & Unit tests with synthetic cases of known result; verification that missing data reduces $C$ and not $S$ \\
+Scientific & Agreement with analogs already recognized by the literature and by NASA & Reference pairs (for example Atacama--Mars, McMurdo--Mars, Hawaii--Moon) must score above pairs with no geological relationship \\
+Sensitivity & Stability of the ranking under changes in weights, resolution, and normalization & Systematic variation of parameters and analysis of the change in position \\
+User & Clarity of the evidence and usefulness for the purpose & Evaluation with researchers and students, with search and interpretation tasks \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Acceptance Criteria}
+
+\begin{itemize}
+  \item Every index displayed carries the variables used, the sources, the coverage $C$, and the confidence.
+  \item Positive reference pairs consistently outperform negative control pairs across the weight ranges tested.
+  \item The ranking of candidates does not invert under reasonable weight variations in the default profiles.
+  \item Mandatory divergences (gravity, atmosphere, radiation) appear in every report.
+  \item Every result is reproducible from the recorded version of the data.
+\end{itemize}
+
+\subsection{Results Log}
+
+The case study results, validation metrics, and adjustments to weights and ranges will be recorded in this subsection, with date, data version, and responsible person.
+
+% ==========================================================================
+% 11. LIMITATIONS AND FUTURE WORK
+% ==========================================================================
+\section{Limitations and Future Work}
+
+The main limitation is that the platform depends on the quality, resolution, and compatibility of data from different origins; the analysis must therefore consider specific regions and never treat large geographic areas as homogeneous environments.
+
+\subsection{Limitations}
+
+\begin{itemize}
+  \item \textbf{Partial analogy:} no terrestrial environment reproduces the gravity, atmosphere, and radiation of other bodies (Section 3.8).
+  \item \textbf{Uneven coverage:} Earth has much denser data than the Moon and Mars, and some dimensions (biology, subsurface) have little planetary observation.
+  \item \textbf{Resolution and scale:} datasets with different spatial and temporal resolutions limit direct comparison.
+  \item \textbf{Subjectivity of weights:} the index depends on the weights and ranges chosen, which is why they are exposed and adjustable.
+  \item \textbf{The index is not proof:} the result indicates similarity in the variables used, not equivalence of the environments.
+\end{itemize}
+
+\subsection{Future Work}
+
+\begin{itemize}
+  \item Expand Earth coverage to polar and saline regions, subsurface systems, and other volcanic terrains.
+  \item Include more targets in the Solar System, such as moons of the outer planets, when compatible data are available.
+  \item Add statistical and machine-learning methods, such as multivariate distances and clustering, while maintaining explainability.
+  \item Estimate uncertainty probabilistically and propagate it to the index.
+  \item Integrate field data and data from partner institutions, with expert review.
+  \item Offer a public API and export to GIS tools.
+  \item Evolve the catalog toward landing-site and base-siting planning, with route and illumination analysis.
+\end{itemize}
+
+% ==========================================================================
+% 12. CONCLUSION
+% ==========================================================================
+\section{Conclusion}
+
+PlanetLog proposes to make accessible a task that today is restricted to specialists: finding on Earth environments that help understand and explore the Moon and Mars. By integrating open data, comparing across dimensions, and exposing evidence, divergences, and confidence, the platform avoids the error of treating visual similarity or an isolated index as proof of equivalence.
+
+The scientific goal is not to claim that a terrestrial site is identical to an extraterrestrial region, but to show how specific characteristics of our planet contribute to understanding other worlds and developing exploration technologies.
+
+% ==========================================================================
+% REFERENCES
+% ==========================================================================
+\section*{\sffamily\bfseries REFERENCES}
+\addcontentsline{toc}{section}{References}
+
+Institutional sources used as a data basis and for scientific grounding. Before publication, record for each one the dataset version, the access date, and the exact address.
+
+\begin{enumerate}[label={[\arabic*]}]
+  \item NASA Earthdata (\url{earthdata.nasa.gov}) and NASA Worldview (\url{worldview.earthdata.nasa.gov}).
+  \item NASA GIBS, Global Imagery Browse Services.
+  \item NASA POWER, Prediction Of Worldwide Energy Resources (\url{power.larc.nasa.gov}).
+  \item NASA Planetary Data System, PDS (\url{pds.nasa.gov}).
+  \item NASA Moon Trek and Mars Trek (\url{trek.nasa.gov}).
+  \item USGS, United States Geological Survey (\url{usgs.gov}), including the Astrogeology Science Center program.
+  \item Scientific literature on planetary analogs, the Atacama, the McMurdo Dry Valleys, Iceland, and Hawaii, to be included according to the case studies.
+\end{enumerate}
+
+\end{document}

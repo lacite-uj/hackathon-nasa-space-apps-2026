@@ -1,28 +1,32 @@
 # LACITE | PlanetLog
-### Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars
+### Identifying Earth Locations Analogous to Permanent Moon Base Sites and Mars
 
 **NASA Space Apps Challenge 2026**
 
-**PlanetLog** is a geospatial intelligence platform designed to identify, analyze, and compare terrestrial environments with regions of the Moon and Mars. The solution integrates scientific data from open sources, such as NASA and USGS, to identify locations on Earth that share geological, mineralogical, topographical, and environmental characteristics with extraterrestrial regions.
+## About the Project
 
-Through an interactive 3D viewer built with Three.js, the project showcases identified terrestrial analog sites, highlighting both their similarities and the limitations of each comparison.
+**PlanetLog** is a geospatial intelligence platform designed to identify terrestrial environments that can serve as analogs for candidate permanent base locations on the Moon and Mars.
 
-The goal is to transform complex scientific data into accessible visual information, supporting research, technology testing, and the planning of future space exploration missions.
+The central idea goes beyond finding places that simply look like extraterrestrial landscapes. PlanetLog investigates how environments on Earth compare to specific lunar and Martian regions across geological, mineralogical, topographical, and environmental characteristics, identifying where meaningful similarities exist and where those similarities break down.
 
-## Features
+Why does this matter? Before sending humans, robots, and equipment to other worlds, scientists and engineers need environments on Earth where they can study relevant conditions, test technologies, and validate exploration procedures. Terrestrial analogs provide accessible natural laboratories for this purpose.
 
-- **3D Visualization:** interactive exploration of terrestrial analog locations.
-- **Analog Identification:** comparison between terrestrial regions and candidate locations on the Moon and Mars.
-- **Multidimensional Analysis:** evaluation of geological, mineralogical, topographical, and environmental characteristics.
-- **Similarities and Differences:** presentation of matching characteristics and limitations of each analogy.
-- **Scientific Data:** integration of open datasets and information from scientific institutions.
+By bringing scientific datasets together and translating complex comparisons into an interactive 3D experience, PlanetLog helps users understand not only which terrestrial locations resemble extraterrestrial environments, but also **what makes them similar, where the analogy fails, and what those similarities can teach us about future space exploration.**
+
+## Key Features
+
+- **Interactive 3D Visualization:** Explore terrestrial analog locations through an interactive Three.js environment.
+- **Analog Identification:** Discover relationships between terrestrial regions and candidate locations on the Moon and Mars.
+- **Multidimensional Analysis:** Compare geological, mineralogical, topographical, and environmental characteristics.
+- **Similarities and Differences:** Understand matching characteristics and the limitations of each analogy.
+- **Scientific Data Integration:** Work with structured datasets from NASA, USGS, and other scientific sources.
 
 ## Technologies
 
-- **Three.js:** 3D visualization.
-- **Python:** data processing and validation.
-- **ETL:** extraction, transformation, and organization of scientific datasets.
-- **NASA and USGS:** geospatial and scientific data sources.
+- **Three.js:** 3D visualization and interactive exploration.
+- **Python:** Data processing and validation.
+- **ETL Pipeline:** Extraction, transformation, and organization of scientific datasets.
+- **NASA & USGS:** Scientific and geospatial data sources.
 
 ## Running Locally
 
@@ -33,7 +37,7 @@ cd web
 python3 -m http.server 8000
 ```
 
-Open:
+Open the application:
 
 - http://localhost:8000
 - http://localhost:8000/?debug=1 (debug mode with position test points).
@@ -42,25 +46,26 @@ Open:
 
 ## Building and Validating the Data
 
-The data is processed from the adherence model spreadsheets (version 1.1, batches 2 and 3, and the analog network).
+The datasets are processed from the adherence model spreadsheets (version 1.1, batches 2 and 3, and the analog network).
 
 Place the original spreadsheets in `data/raw/` and run:
 
 ```bash
+# Create and activate the virtual environment
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
 # Build processed datasets
 .venv/bin/python -m etl build
 
-# Validate results
+# Validate results against the original spreadsheets
 .venv/bin/python -m etl check
 
 # Run tests
 .venv/bin/python -m pytest
 ```
 
-The ETL process generates JSON, CSV, and validation report files. Validation compares the recalculated Python results against the original spreadsheet values.
+The ETL process generates JSON, CSV, and validation report files. Validation recalculates the scores in Python and compares them cell by cell against the original spreadsheet values.
 
 ## Deployment
 
@@ -87,9 +92,9 @@ npx vercel --prod
 
 ## Credits and Data Sources
 
-- Textures: `web/textures/CREDITS.md`
-- Location photographs: `web/images/analogs/CREDITS.md`
-- Scientific data sources: NASA, USGS, and partner institutions, documented in the spreadsheets and in each analog's metadata.
+- **Textures:** `web/textures/CREDITS.md`
+- **Location Photographs:** `web/images/analogs/CREDITS.md`
+- **Scientific Data:** NASA, USGS, and partner institutions, documented in the source spreadsheets and in each analog's metadata.
 
 ## Team
 

@@ -1,55 +1,104 @@
-# LACITE - Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars — NASA Space Apps 2026
+# LACITE | PlanetLog
+### Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars
 
-Visualizador 3D (Three.js) de locais na Terra análogos aos locais candidatos a base na Lua e em Marte,
-com o que cada analogia tem de parecido e onde ela falha.
+**NASA Space Apps Challenge 2026**
 
-Instruções completas de desenvolvimento: [`docs/instrucoes-desenvolvimento.md`](docs/instrucoes-desenvolvimento.md).
+**PlanetLog** is a geospatial intelligence platform designed to identify, analyze, and compare terrestrial environments with regions of the Moon and Mars. The solution integrates scientific data from open sources, such as NASA and USGS, to identify locations on Earth that share geological, mineralogical, topographical, and environmental characteristics with extraterrestrial regions.
 
-## Rodar localmente
+Through an interactive 3D viewer built with Three.js, the project showcases identified terrestrial analog sites, highlighting both their similarities and the limitations of each comparison.
 
-```bash
-cd web && python3 -m http.server 8000
-# abra http://localhost:8000  (ou http://localhost:8000/?debug=1 para os pontos de teste de posição)
-```
+The goal is to transform complex scientific data into accessible visual information, supporting research, technology testing, and the planning of future space exploration missions.
 
-Abrir o `index.html` direto (`file://`) não funciona, porque o JSON é carregado com `fetch`.
+## Features
 
-## Gerar os dados
+- **3D Visualization:** interactive exploration of terrestrial analog locations.
+- **Analog Identification:** comparison between terrestrial regions and candidate locations on the Moon and Mars.
+- **Multidimensional Analysis:** evaluation of geological, mineralogical, topographical, and environmental characteristics.
+- **Similarities and Differences:** presentation of matching characteristics and limitations of each analogy.
+- **Scientific Data:** integration of open datasets and information from scientific institutions.
 
-Os dados vêm das planilhas do modelo de aderência (base v1.1, lotes 2 e 3 e a rede de análogos). Copie-as para
-`data/raw/` (a pasta não vai para o git) e rode:
+## Technologies
 
-```bash
-python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m etl build   # grava data/processed/ (JSON + CSV + relatório) e web/data/analogs.json
-.venv/bin/python -m etl check   # só recalcula e confere com o Excel, sem gravar
-.venv/bin/python -m pytest      # testes
-```
+- **Three.js:** 3D visualization.
+- **Python:** data processing and validation.
+- **ETL:** extraction, transformation, and organization of scientific datasets.
+- **NASA and USGS:** geospatial and scientific data sources.
 
-O ETL recalcula todas as notas em Python e compara, célula a célula, com os valores salvos no Excel.
-O resultado da comparação fica em `data/processed/relatorio_validacao.md`; o dicionário de dados, em
-[`etl/SCHEMA.md`](etl/SCHEMA.md).
+## Running Locally
 
-## Deploy de testes na Vercel
-
-O site é estático: a Vercel só publica a pasta `web/`, sem build (configurado em `vercel.json`).
-O `web/data/analogs.json` é gerado localmente e **precisa estar commitado** para aparecer no deploy.
-
-**Pela integração com o GitHub (recomendado):**
-
-1. Em vercel.com → *Add New… → Project*, importe o repositório.
-2. Deixe *Framework Preset* em **Other** e *Root Directory* na raiz; o resto vem do `vercel.json`.
-3. Cada push na `main` atualiza a produção, e cada branch ou PR ganha uma URL de preview própria para testes.
-
-**Pela CLI:**
+The project requires a local HTTP server to serve its files and load JSON data.
 
 ```bash
-npx vercel          # primeira vez: login e vínculo com o projeto; gera uma URL de preview
-npx vercel --prod   # publica em produção
+cd web
+python3 -m http.server 8000
 ```
 
-## Créditos
+Open:
 
-Texturas: ver [`web/textures/CREDITS.md`](web/textures/CREDITS.md). Fotos dos locais: ver
-[`web/images/analogs/CREDITS.md`](web/images/analogs/CREDITS.md). Fontes dos dados: abas Fontes das planilhas
-(`data/processed/fontes.json`), citadas em `sources` de cada ligação do `analogs.json`.
+- http://localhost:8000
+- http://localhost:8000/?debug=1 (debug mode with position test points).
+
+**Important:** Opening `index.html` directly in the browser (`file://`) will not work because JSON files are loaded through HTTP requests using `fetch`.
+
+## Building and Validating the Data
+
+The data is processed from the adherence model spreadsheets (version 1.1, batches 2 and 3, and the analog network).
+
+Place the original spreadsheets in `data/raw/` and run:
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+
+# Build processed datasets
+.venv/bin/python -m etl build
+
+# Validate results
+.venv/bin/python -m etl check
+
+# Run tests
+.venv/bin/python -m pytest
+```
+
+The ETL process generates JSON, CSV, and validation report files. Validation compares the recalculated Python results against the original spreadsheet values.
+
+## Deployment
+
+The project uses **Vercel** for hosting. The application is static and directly serves the contents of the `web/` directory, as configured in `vercel.json`.
+
+To deploy using the CLI:
+
+```bash
+npx vercel
+```
+
+To deploy to production:
+
+```bash
+npx vercel --prod
+```
+
+**Important:** The `web/data/analogs.json` file, generated by the ETL process, must be committed to the repository to be included in the deployment.
+
+## Documentation
+
+- [Development Instructions](docs/instrucoes-desenvolvimento.md)
+- [ETL Data Schema](etl/SCHEMA.md)
+
+## Credits and Data Sources
+
+- Textures: `web/textures/CREDITS.md`
+- Location photographs: `web/images/analogs/CREDITS.md`
+- Scientific data sources: NASA, USGS, and partner institutions, documented in the spreadsheets and in each analog's metadata.
+
+## Team
+
+- Danilo Bomfim Moreira Junio
+- Leonardo Pimentel Santos de Araujo
+- Luan Morais Galdino
+- Lucas Oliveira Duarte
+- Matheus Machado de Oliveira
+
+---
+
+Developed for the **NASA Space Apps Challenge 2026**.

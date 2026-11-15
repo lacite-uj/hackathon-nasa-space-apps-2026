@@ -1,0 +1,492 @@
+{
+    "earth": [
+        {
+            "name": "Deserto do Atacama (Yungay)",
+            "coordinates": "24.10° S, 70.01° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": 16.5,
+                    "unit": "°C",
+                    "source": "NASA POWER (MERRA-2); NASA MODIS LST (MOD11); NASA NTRS (McKay et al. 2003)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": -5.7,
+                    "max": 37.9,
+                    "unit": "°C",
+                    "source": "NASA POWER (MERRA-2, 2001–2025); NASA MODIS LST"
+                },
+                "surface_pressure": {
+                    "type": "scalar",
+                    "value": 900.0,
+                    "unit": "hPa",
+                    "source": "NASA MERRA-2 (altitude ~1.000 m)"
+                },
+                "radiation_dose": {
+                    "type": "scalar",
+                    "value": 0.007,
+                    "unit": "mSv/dia",
+                    "source": "NASA / Fator de referência terrestre comparado ao LND e RAD"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 0.6,
+                    "unit": "mm/ano",
+                    "source": "NASA GPM IMERG / CHIRPS (≈0,6 mm/ano)"
+                },
+                "soil_perchlorate": {
+                    "type": "scalar",
+                    "value": 0.03,
+                    "unit": "wt%",
+                    "source": "Literatura de campo (Caliche Blanco)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Nitratos, cloretos e sulfatos; solos salinos e oxidantes",
+                    "source": "NASA ASTER (Terra); NASA EMIT (ISS)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "NASA SMAP / Mapas de permafrost"
+                }
+            }
+        },
+        {
+            "name": "Cratera Haughton",
+            "coordinates": "75.38° N, 89.67° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": -16.0,
+                    "unit": "°C",
+                    "source": "NASA POWER / NTRS"
+                },
+                "surface_pressure": {
+                    "type": "scalar",
+                    "value": 1010.0,
+                    "unit": "hPa",
+                    "source": "NASA MERRA-2 (perto do nível do mar)"
+                },
+                "radiation_dose": {
+                    "type": "scalar",
+                    "value": 0.007,
+                    "unit": "mSv/dia",
+                    "source": "NASA / Fator de referência terrestre"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 13.0,
+                    "unit": "mm/ano",
+                    "source": "NASA GPM IMERG / CHIRPS (<13 ou ≈160 eq. água)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 2,
+                    "unit": "escala 0-3",
+                    "source": "NASA Odyssey GRS / SHARAD (Permafrost contínuo; topo a ~60 cm)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Folhelho e siltito paleozoicos sobre gnaisse; brecha de impacto",
+                    "source": "NASA ASTER"
+                }
+            }
+        },
+        {
+            "name": "Vale da Morte (Badwater e Ubehebe)",
+            "coordinates": "36.24° N, 116.82° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": 18.5,
+                    "unit": "°C",
+                    "source": "NASA POWER / MODIS LST"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": -10.0,
+                    "max": 56.7,
+                    "unit": "°C",
+                    "source": "NASA POWER / MODIS LST"
+                },
+                "surface_pressure": {
+                    "type": "scalar",
+                    "value": 1020.0,
+                    "unit": "hPa",
+                    "source": "NASA MERRA-2 (abaixo do nível do mar)"
+                },
+                "radiation_dose": {
+                    "type": "scalar",
+                    "value": 0.007,
+                    "unit": "mSv/dia",
+                    "source": "NASA / Fator de referência terrestre"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 38.0,
+                    "unit": "mm/ano",
+                    "source": "NASA GPM IMERG (Badwater a Furnace Creek)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "NASA SMAP (Ausente; água superficial só em lagoas salinas)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Evaporitos (salar de Badwater); maar basáltico (Ubehebe)",
+                    "source": "NASA ASTER"
+                }
+            }
+        },
+        {
+            "name": "McMurdo Dry Valleys (Vale Wright)",
+            "coordinates": "77.52° S, 161.85° E",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": -19.8,
+                    "unit": "°C",
+                    "source": "NASA POWER (G12 - Estação do Vale Wright)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": -52.0,
+                    "max": -3.5,
+                    "unit": "°C",
+                    "source": "NASA POWER (G1 / TS_MAX)"
+                },
+                "uv_index": {
+                    "type": "scalar",
+                    "value": 0.55,
+                    "unit": "índice",
+                    "source": "NASA POWER (ALLSKY_SFC_UV_INDEX)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 38.0,
+                    "unit": "mm/ano",
+                    "source": "NASA POWER (G11)"
+                },
+                "soil_perchlorate": {
+                    "type": "scalar",
+                    "value": 0.00011,
+                    "unit": "wt%",
+                    "source": "Literatura científica (G10)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 3,
+                    "unit": "escala 0-3",
+                    "source": "Dados de campo / G7, G11 (Solo cimentado por gelo a menos de 1 m)"
+                }
+            }
+        },
+        {
+            "name": "Rio Tinto",
+            "coordinates": "37.69° N, 6.59° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": 17.9,
+                    "unit": "°C",
+                    "source": "NASA POWER (G1)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": -4.5,
+                    "max": 54.2,
+                    "unit": "°C",
+                    "source": "NASA POWER (G1 / TS_MAX)"
+                },
+                "uv_index": {
+                    "type": "scalar",
+                    "value": 1.22,
+                    "unit": "índice",
+                    "source": "NASA POWER (ALLSKY_SFC_UV_INDEX)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 453.0,
+                    "unit": "mm/ano",
+                    "source": "NASA POWER (G1)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "Clima mediterrâneo (sem gelo)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Água ácida (pH ~2,3) e rica em ferro; jarosita e hematita",
+                    "source": "NASA ASTER / EMIT"
+                }
+            }
+        },
+        {
+            "name": "Askja (Islândia)",
+            "coordinates": "65.03° N, 16.75° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": -2.8,
+                    "unit": "°C",
+                    "source": "NASA POWER (G1)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": -23.8,
+                    "max": 3.0,
+                    "unit": "°C",
+                    "source": "NASA POWER (G1 / TS_MAX)"
+                },
+                "uv_index": {
+                    "type": "scalar",
+                    "value": 0.43,
+                    "unit": "índice",
+                    "source": "NASA POWER (ALLSKY_SFC_UV_INDEX)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 862.0,
+                    "unit": "mm/ano",
+                    "source": "NASA POWER (G1)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 1,
+                    "unit": "escala 0-3",
+                    "source": "Geleira vizinha (Dyngjujökull)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Vulcanismo basáltico e gelo",
+                    "source": "NASA ASTER"
+                }
+            }
+        },
+        {
+            "name": "Vargeão",
+            "coordinates": "26.82° S, 52.17° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": 17.59,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": -4.9,
+                    "max": 39.27,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1 / TS_MAX)"
+                },
+                "uv_index": {
+                    "type": "scalar",
+                    "value": 1.69,
+                    "unit": "índice",
+                    "source": "NASA POWER (ALLSKY_SFC_UV_INDEX)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 1746.0,
+                    "unit": "mm/ano",
+                    "source": "NASA POWER (H1)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "Clima subtropical (sem gelo)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Basalto exposto (Bacia do Paraná)",
+                    "source": "NASA ASTER / EMIT"
+                }
+            }
+        },
+        {
+            "name": "Araguainha",
+            "coordinates": "16.78° S, 52.99° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": 23.69,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": 6.33,
+                    "max": 50.6,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1 / TS_MAX)"
+                },
+                "uv_index": {
+                    "type": "scalar",
+                    "value": 2.07,
+                    "unit": "índice",
+                    "source": "NASA POWER (ALLSKY_SFC_UV_INDEX)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 1362.0,
+                    "unit": "mm/ano",
+                    "source": "NASA POWER (H1)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "Clima tropical (sem gelo)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Brechas e rochas fundidas por impacto",
+                    "source": "NASA ASTER"
+                }
+            }
+        },
+        {
+            "name": "Lençóis Maranhenses",
+            "coordinates": "2.50° S, 43.10° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": 27.28,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": 22.09,
+                    "max": 36.89,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1 / TS_MAX)"
+                },
+                "uv_index": {
+                    "type": "scalar",
+                    "value": 2.22,
+                    "unit": "índice",
+                    "source": "NASA POWER (ALLSKY_SFC_UV_INDEX)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 1399.0,
+                    "unit": "mm/ano",
+                    "source": "NASA POWER (H1)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "Clima equatorial (sem gelo)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Dunas de quartzo e lagoas sazonais",
+                    "source": "NASA ASTER"
+                }
+            }
+        },
+        {
+            "name": "Toca da Boa Vista",
+            "coordinates": "10.16° S, 40.86° W",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": 25.29,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1 - Superfície externa)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": 12.39,
+                    "max": 50.7,
+                    "unit": "°C",
+                    "source": "NASA POWER (H1 / TS_MAX)"
+                },
+                "uv_index": {
+                    "type": "scalar",
+                    "value": 2.53,
+                    "unit": "índice",
+                    "source": "NASA POWER (ALLSKY_SFC_UV_INDEX)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 489.0,
+                    "unit": "mm/ano",
+                    "source": "NASA POWER (H1)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "Clima semiárido (sem gelo subterrâneo)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Dolomito e calcário (Caverna cárstica)",
+                    "source": "NASA ASTER"
+                }
+            }
+        }
+    ],
+    "mars": [
+        {
+            "name": "Cratera Jezero (Alvo principal)",
+            "coordinates": "18.38° N, 77.58° E",
+            "data": {
+                "temperature": {
+                    "type": "scalar",
+                    "value": -55.0,
+                    "unit": "°C",
+                    "source": "NASA Perseverance / MEDA (Cratera Jezero)"
+                },
+                "temperature_range": {
+                    "type": "range",
+                    "min": -83.0,
+                    "max": -23.0,
+                    "unit": "°C",
+                    "source": "NASA Perseverance / MEDA"
+                },
+                "surface_pressure": {
+                    "type": "scalar",
+                    "value": 7.18,
+                    "unit": "hPa",
+                    "source": "NASA Perseverance / MEDA (718 Pa, F23)"
+                },
+                "radiation_dose": {
+                    "type": "scalar",
+                    "value": 0.655,
+                    "unit": "mSv/dia",
+                    "source": "NASA Curiosity / RAD — Radiation Assessment Detector (Cratera Gale, ~0,64-0,67)"
+                },
+                "annual_precipitation": {
+                    "type": "scalar",
+                    "value": 0.0,
+                    "unit": "mm/ano",
+                    "source": "NASA MRO / Mars Climate Database (Sem chuva líquida)"
+                },
+                "subsurface_ice": {
+                    "type": "scalar",
+                    "value": 0,
+                    "unit": "escala 0-3",
+                    "source": "NASA Odyssey GRS / SHARAD (Não reportado em Jezero - equatorial)"
+                },
+                "mineralogy": {
+                    "type": "text",
+                    "value": "Olivina, carbonatos e argilas em um delta lacustre",
+                    "source": "NASA MRO / CRISM"
+                }
+            }
+        }
+    ]
+}

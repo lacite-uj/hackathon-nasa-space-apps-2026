@@ -4,7 +4,7 @@ A geospatial intelligence platform for identifying, analyzing, and comparing ter
 
 **Members:**
 
-Danilo Bomfim Moreira Junio
+Danilo Bomfim Moreira Junior
 Leonardo Pimentel Santos de Araujo
 Luan Morais Galdino
 Lucas Oliveira Duarte

@@ -4,7 +4,7 @@ Plataforma de inteligência geoespacial para identificar, analisar e comparar am
 
 **Membros:**
 
-Danilo Bomfim Moreira Junio
+Danilo Bomfim Moreira Junior
 Leonardo Pimentel Santos de Araujo
 Luan Morais Galdino
 Lucas Oliveira Duarte
